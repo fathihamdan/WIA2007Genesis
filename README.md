@@ -1,6 +1,6 @@
 # WIA2007Genesis
 Mobile Application Developement
-Team Member
+/nTeam Member
 1. Faris Dinie [Leader]
 2. Fahim Jaafar
 3. Hasan Basri
