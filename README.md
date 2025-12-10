@@ -8,5 +8,4 @@ Team Member
 4. Irfan Fathi
 5. Zhang Yuzhe
 
-![Uploading image.png…]()
 
