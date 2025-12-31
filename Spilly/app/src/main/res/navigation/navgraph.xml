@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraph"
+    app:startDestination="@id/starterPage">
+
+    <fragment
+        android:id="@+id/starterPage"
+        android:name="com.example.spilly.StarterPage"
+        android:label="fragment_starter_page"
+        tools:layout="@layout/fragment_starter_page" />
+    <fragment
+        android:id="@+id/studentLoginPage"
+        android:name="com.example.spilly.StudentLoginPage"
+        android:label="fragment_student_login_page"
+        tools:layout="@layout/fragment_student_login_page" />
+    <fragment
+        android:id="@+id/teacherLoginPage"
+        android:name="com.example.spilly.TeacherLoginPage"
+        android:label="fragment_teacher_login_page"
+        tools:layout="@layout/fragment_teacher_login_page" />
+    <fragment
+        android:id="@+id/parentLoginPage"
+        android:name="com.example.spilly.ParentLoginPage"
+        android:label="fragment_parent_login_page"
+        tools:layout="@layout/fragment_parent_login_page" />
+</navigation>
