@@ -105,7 +105,7 @@
         android:id="@+id/TVForgotPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="68dp"
         android:text="Forgot Password?"
         android:textColor="#9C27B0"
