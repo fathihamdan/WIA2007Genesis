@@ -5,9 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.spilly"
-    compileSdk {
-        version = release(36)
-    }
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.example.spilly"
@@ -28,6 +26,7 @@ android {
             )
         }
     }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
@@ -44,17 +43,18 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+
     // Firebase BoM (Bill of Materials)
-    implementation platform('com.google.firebase:firebase-bom:32.7.0')
-    implementation('com.google.firebase:firebase-auth')
-    implementation ('com.google.firebase:firebase-firestore')
-    implementation ('com.google.firebase:firebase-storage')
+    implementation(platform("com.google.firebase:firebase-bom:32.7.0"))
+    implementation("com.google.firebase:firebase-auth")
+    implementation("com.google.firebase:firebase-firestore")
+    implementation("com.google.firebase:firebase-storage")
 
     // Room Database
-    implementation ('androidx.room:room-runtime:2.6.1')
-    annotationProcessor ('androidx.room:room-compiler:2.6.1')
+    implementation("androidx.room:room-runtime:2.6.1")
+    annotationProcessor("androidx.room:room-compiler:2.6.1") // keep this as-is, safe in Kotlin DSL
 
     // Lifecycle components
-    implementation ('androidx.lifecycle:lifecycle-livedata:2.7.0')
-    implementation ('androidx.lifecycle:lifecycle-viewmodel:2.7.0')
+    implementation("androidx.lifecycle:lifecycle-livedata:2.7.0")
+    implementation("androidx.lifecycle:lifecycle-viewmodel:2.7.0")
 }
