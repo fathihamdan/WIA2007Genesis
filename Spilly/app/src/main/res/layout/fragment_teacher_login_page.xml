@@ -1,14 +1,159 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".TeacherLoginPage">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
 
-</FrameLayout>
+    <TextView
+        android:id="@+id/TVSignInTeacher"
+        android:layout_width="95dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="108dp"
+        android:text="Sign In"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/IVShieldTeacher"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="168dp"
+        android:src="@drawable/shield"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVTeacherPortal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="160dp"
+        android:text="Teacher Portal"
+        android:textColor="#9C27B0"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVSignInTeacher" />
+
+    <TextView
+        android:id="@+id/TVCredentialTeacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="105dp"
+        android:text="Enter your Credentials"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVTeacherPortal" />
+
+    <TextView
+        android:id="@+id/TVEmailTeacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="296dp"
+        android:layout_marginEnd="308dp"
+        android:text="Email"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVPasswordTeacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="276dp"
+        android:text="Password"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVEmailTeacher" />
+
+    <TextView
+        android:id="@+id/TVForgotPassTeacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="68dp"
+        android:text="Forgot Password?"
+        android:textColor="#9C27B0"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ETPasswordTeacher" />
+
+    <TextView
+        android:id="@+id/TVDontHaceAccTeacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="24dp"
+        android:text="Dont have an account?"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ButtonSignInTeacher" />
+
+    <TextView
+        android:id="@+id/TVSignUpTeacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="112dp"
+        android:text="Sign Up"
+        android:textColor="#9C27B0"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ButtonSignInTeacher" />
+
+    <Button
+        android:id="@+id/ButtonSignInTeacher"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="68dp"
+        android:text="Sign In"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ETPasswordTeacher" />
+
+    <EditText
+        android:id="@+id/ETEmailTeacher"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="64dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="your.email.@school.edu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVEmailTeacher" />
+
+    <EditText
+        android:id="@+id/ETPasswordTeacher"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="68dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Enter your password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVPasswordTeacher" />
+
+    <TextView
+        android:id="@+id/TVBackTeacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="31dp"
+        android:text="Back"
+        android:textColor="#3F51B5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
