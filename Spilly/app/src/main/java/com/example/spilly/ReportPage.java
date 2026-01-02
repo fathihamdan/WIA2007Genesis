@@ -7,6 +7,9 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.LinearLayout;
+import android.widget.Spinner;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -59,6 +62,44 @@ public class ReportPage extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_report_page, container, false);
+        View view = inflater.inflate(R.layout.fragment_report_page, container, false);
+
+        LinearLayout lowBtn = view.findViewById(R.id.btn_low_severity);
+        LinearLayout mediumBtn = view.findViewById(R.id.btn_medium_severity);
+        LinearLayout highBtn = view.findViewById(R.id.btn_high_severity);
+
+        lowBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // This code runs when the box is clicked
+                // Example: Highlight the box or save the "Low" value
+                v.setSelected(true);
+            }
+        });
+
+        mediumBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                v.setSelected(true);
+            }
+        });
+
+        highBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                v.setSelected(true);
+            }
+        });
+
+        String[] bullyingTypes = {"Select type...", "Cyberbullying", "Physical", "Verbal", "Social", "Others"};
+
+        // 3. Find the Spinner using 'view.findViewById' (IMPORTANT: you must use 'view.')
+        Spinner spinner = view.findViewById(R.id.spinner_bullying_type);
+
+        // 4. Create and set the adapter
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(getContext(), android.R.layout.simple_spinner_dropdown_item, bullyingTypes);
+        spinner.setAdapter(adapter);
+
+        return view;
     }
 }

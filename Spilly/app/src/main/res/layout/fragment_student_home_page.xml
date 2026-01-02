@@ -29,11 +29,35 @@
             tools:layout_editor_absoluteY="0dp">
 
             <TextView
+                android:id="@+id/NeedHelpTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="16dp"
+                android:text="Need Immediate Help?"
+                android:textColor="#217624"
+                android:textSize="12sp"
+                app:layout_constraintStart_toEndOf="@+id/imageView4"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/NeedHelpDescription"
+                android:layout_width="212dp"
+                android:layout_height="29dp"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="8dp"
+                android:text="Contact your school counselor or use these resources for immediate assistance."
+                android:textColor="#217624"
+                android:textSize="11sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/NeedHelpTitle" />
+
+            <TextView
                 android:id="@+id/CounselorPhoneNum"
                 android:layout_width="213dp"
                 android:layout_height="17dp"
-                android:layout_marginStart="50dp"
-                android:layout_marginTop="11dp"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="12dp"
                 android:text="📞 School Counselor: (555) 123-4567"
                 android:textColor="#217624"
                 android:textSize="11sp"
@@ -41,76 +65,41 @@
                 app:layout_constraintTop_toBottomOf="@+id/NeedHelpDescription" />
 
             <TextView
-                android:id="@+id/NeedHelpTitle"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="48dp"
-                android:layout_marginTop="16dp"
-                android:text="Need Immediate Help?"
-                android:textColor="#217624"
-                android:textSize="12sp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
                 android:id="@+id/HotlineNumber"
                 android:layout_width="213dp"
                 android:layout_height="17dp"
-                android:layout_marginStart="50dp"
-                android:layout_marginTop="5dp"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="4dp"
                 android:text="🆘 Crisis Hotline: 988"
                 android:textColor="#217624"
                 android:textSize="11sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/CounselorPhoneNum" />
 
-            <TextView
-                android:id="@+id/NeedHelpDescription"
-                android:layout_width="212dp"
-                android:layout_height="29dp"
-                android:layout_marginStart="50dp"
-                android:layout_marginTop="10dp"
-                android:text="Contact your school counselor or use these resources for immediate assistance."
-                android:textColor="#217624"
-                android:textSize="11sp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/NeedHelpTitle" />
-
             <ImageView
-                android:id="@+id/HelpIcon"
-                android:layout_width="19dp"
+                android:id="@+id/imageView4"
+                android:layout_width="15dp"
                 android:layout_height="16dp"
+                android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
-                android:layout_marginEnd="13dp"
-                android:src="@drawable/HelpIcon"
-                app:layout_constraintEnd_toStartOf="@+id/NeedHelpTitle"
+                android:src="@drawable/help_icon"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
     </com.google.android.material.card.MaterialCardView>
-
-    <ImageView
-        android:id="@+id/SpillyLogo"
-        android:layout_width="120dp"
-        android:layout_height="126dp"
-        android:layout_marginStart="147dp"
-        android:layout_marginTop="67dp"
-        android:layout_marginEnd="146dp"
-        android:src="@drawable/SpillyLogo"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/ReportTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="23dp"
         android:text="Report Bullying"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/SpillyLogo" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <TextView
         android:id="@+id/ReportAnonymousDesc"
@@ -126,38 +115,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ReportTitle" />
 
-    <TextView
-        android:id="@+id/ReportLimitDesc"
-        android:layout_width="320dp"
-        android:layout_height="41dp"
-        android:layout_marginStart="58dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="58dp"
-        android:background="#789EF4"
-        android:background="@drawable/bg_box"
-        android:padding="10dp"
-        android:text="To ensure fairness, report submissions are limited."
-        android:textAlignment="center"
-        android:textColor="#20308A"
-        android:textSize="12sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.529"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ReportAnonymousDesc" />
-
     <Button
-        android:id="@+id/button"
+        android:id="@+id/ContinueButton"
         android:layout_width="320dp"
         android:layout_height="50dp"
         android:layout_marginStart="143dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="17dp"
         android:layout_marginEnd="143dp"
         android:backgroundTint="#155CFA"
         android:text="Start Report"
         app:cornerRadius="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ReportLimitDesc" />
+        app:layout_constraintTop_toBottomOf="@+id/LimitDescBox" />
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/MyReportsDetail"
@@ -169,7 +139,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/ContinueButton"
         app:strokeColor="#C1BABA"
         app:strokeWidth="2dp">
 
@@ -254,17 +224,7 @@
                 android:text="My Reports"
                 android:textSize="12sp"
                 android:textStyle="bold"
-                app:layout_constraintStart_toEndOf="@+id/MyReportsIcon"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <ImageView
-                android:id="@+id/MyReportsIcon"
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="12dp"
-                android:src="@drawable/ReportFileIcon"
-                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/MyReportIcon"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
@@ -289,15 +249,66 @@
                 app:layout_constraintTop_toBottomOf="@+id/MyReportsTitle" />
 
             <ImageView
-                android:id="@+id/imageView4"
-                android:layout_width="13dp"
-                android:layout_height="14dp"
-                android:layout_marginTop="16dp"
-                android:layout_marginEnd="19dp"
-                android:src="@drawable/Arrow"
-                app:layout_constraintEnd_toEndOf="parent"
+                android:id="@+id/MyReportIcon"
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/myreport_icon"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/LimitDescBox"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="46dp"
+        app:cardBackgroundColor="#E9F1FB"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ReportAnonymousDesc"
+        app:strokeColor="#72A5F0"
+        app:strokeWidth="1dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/LimitDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="23dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="22dp"
+                android:layout_marginBottom="12dp"
+                android:text="To ensure fairness, report submissions are limited."
+                android:textColor="#27316D"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="73dp"
+        android:layout_marginEnd="150dp"
+        android:src="@drawable/spilly_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
