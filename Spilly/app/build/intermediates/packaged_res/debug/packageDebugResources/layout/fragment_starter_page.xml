@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/StarterFrame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StarterPage">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/TVTitle"
+        android:layout_width="248dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="80dp"
+        android:text="Welcome to Spilly"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/IVSecure"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="171dp"
+        android:src="@drawable/shield"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVSubtitle"
+        android:layout_width="336dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="38dp"
+        android:text="A safe space for reporting and addressing bullying in schools"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVTitle" />
+
+    <TextView
+        android:id="@+id/TVsdg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:text="\t\t\tSupporting SDG 16: Peace, Justice and Strong Institutions"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVSubtitle" />
+
+    <TextView
+        android:id="@+id/TVInstructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="120dp"
+        android:text="Select your role to continue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVsdg" />
+
+    <Button
+        android:id="@+id/ButtonStudent"
+        android:layout_width="402dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="4dp"
+        android:text="\t\t\tStudent \n\t\t\tReport incidents anonymously and track your case"
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVInstructions"
+        app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.None" />
+
+    <Button
+        android:id="@+id/ButtonTeacher"
+        android:layout_width="402dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="4dp"
+        android:text="\t\t\tTeacher \n\t\t\tInvestigate assigned cases and support students"
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ButtonStudent"
+        app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.None" />
+
+    <Button
+        android:id="@+id/ButtonParent"
+        android:layout_width="402dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="4dp"
+        android:text="\t\t\tParent \n\t\t\tStay informed about school safety updates"
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ButtonTeacher"
+        app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.None" />
+
+    <TextView
+        android:id="@+id/TVquote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="85dp"
+        android:text="Your privacy and safety are our priority"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ButtonParent" />
+
+    <ImageView
+        android:id="@+id/IVHeart"
+        android:layout_width="22dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="76dp"
+        android:src="@drawable/like"
+        app:layout_constraintBottom_toTopOf="@+id/ButtonStudent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/IVStudent"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="31dp"
+        android:src="@drawable/mortarboard"
+        app:layout_constraintBottom_toTopOf="@+id/ButtonTeacher"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/IVTeacher"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="31dp"
+        android:src="@drawable/book"
+        app:layout_constraintBottom_toTopOf="@+id/ButtonParent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/IVParent"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="164dp"
+        android:src="@drawable/family"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

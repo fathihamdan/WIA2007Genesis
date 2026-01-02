@@ -52,39 +52,39 @@
         android:label="fragment_student_profile_page"
         tools:layout="@layout/fragment_student_profile_page" />
     <fragment
-        android:id="@+id/reportPage"
+        android:id="@+id/studentReportPage"
         android:name="com.example.spilly.StudentReportPage"
-        android:label="fragment_report_page"
+        android:label="fragment_student_report_page"
         tools:layout="@layout/fragment_student_report_page" />
     <fragment
-        android:id="@+id/evidencePage"
+        android:id="@+id/studentEvidencePage"
         android:name="com.example.spilly.StudentEvidencePage"
-        android:label="fragment_evidence_page"
+        android:label="fragment_student_evidence_page"
         tools:layout="@layout/fragment_student_evidence_page" />
     <fragment
-        android:id="@+id/viewReportPage"
-        android:name="com.example.spilly.ViewReportPage"
-        android:label="fragment_view_report_page"
-        tools:layout="@layout/fragment_view_report_page" />
+        android:id="@+id/studentViewReportPage"
+        android:name="com.example.spilly.StudentViewReportPage"
+        android:label="fragment_student_view_report_page"
+        tools:layout="@layout/fragment_student_view_report_page" />
     <fragment
-        android:id="@+id/changePasswordPage"
+        android:id="@+id/studentChangePasswordPage"
         android:name="com.example.spilly.StudentChangePasswordPage"
-        android:label="fragment_change_password_page"
+        android:label="fragment_Student_change_password_page"
         tools:layout="@layout/fragment_student_change_password_page" />
     <fragment
-        android:id="@+id/changeSchoolPage"
+        android:id="@+id/studentChangeSchoolPage"
         android:name="com.example.spilly.StudentChangeSchoolPage"
-        android:label="fragment_change_school_page"
+        android:label="fragment_Student_change_school_page"
         tools:layout="@layout/fragment_student_change_school_page" />
     <fragment
-        android:id="@+id/casesPage"
+        android:id="@+id/teacherCasesPage"
         android:name="com.example.spilly.TeacherCasesPage"
-        android:label="fragment_cases_page"
+        android:label="fragment_teacher_cases_page"
         tools:layout="@layout/fragment_teacher_cases_page" />
     <fragment
-        android:id="@+id/analyticsPage"
+        android:id="@+id/teacherAnalyticsPage"
         android:name="com.example.spilly.TeacherAnalyticsPage"
-        android:label="fragment_analytics_page"
+        android:label="fragment_teacher_analytics_page"
         tools:layout="@layout/fragment_teacher_analytics_page" />
     <fragment
         android:id="@+id/teacherProfilePage"
@@ -106,4 +106,19 @@
         android:name="com.example.spilly.ParentProfilePage"
         android:label="fragment_parent_profile_page"
         tools:layout="@layout/fragment_parent_profile_page" />
+    <fragment
+        android:id="@+id/teacherChangePassword"
+        android:name="com.example.spilly.TeacherChangePassword"
+        android:label="fragment_teacher_change_password"
+        tools:layout="@layout/fragment_teacher_change_password" />
+    <fragment
+        android:id="@+id/teacherChangeSchool"
+        android:name="com.example.spilly.TeacherChangeSchool"
+        android:label="fragment_teacher_change_school"
+        tools:layout="@layout/fragment_teacher_change_school" />
+    <fragment
+        android:id="@+id/parentChangePassword"
+        android:name="com.example.spilly.ParentChangePassword"
+        android:label="fragment_parent_change_password"
+        tools:layout="@layout/fragment_parent_change_password" />
 </navigation>
