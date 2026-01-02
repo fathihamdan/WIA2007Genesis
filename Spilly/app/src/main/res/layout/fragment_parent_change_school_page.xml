@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout14"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ParentChangeSchoolPage">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/TVBackChangeSchoolParent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="70dp"
+        android:text="Back"
+        android:textColor="#3F51B5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ETTypeNewSchoolParent"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Type new school"
+        app:layout_constraintBottom_toTopOf="@+id/TVReasonSchoolChangeParent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/TVCurrentSchoolParent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="12dp"
+        android:text="Current School (Read-Only)\nSK Bandar Utama"
+        android:textColor="#3F51B5"
+        app:layout_constraintBottom_toTopOf="@+id/TVRequestSchoolParent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/TVReasonSchoolChangeParent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="12dp"
+        android:text="Reason For Transfer"
+        app:layout_constraintBottom_toTopOf="@+id/ETMReasonTransferParent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/TVChangeSchoolParent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="175dp"
+        android:layout_marginBottom="10dp"
+        android:text="Request School Change"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/TVCurrentSchoolParent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVInfoChangeSchoolParent"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="16dp"
+        android:text="Your request will be reviewed by administration. Your current school assignment will remain active until the request is approved."
+        android:textColor="#8BC34A"
+        app:layout_constraintBottom_toTopOf="@+id/ButtonSubmitRequestParent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/ButtonSubmitRequestParent"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="120dp"
+        android:text="Submit Request"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/ETMReasonTransferParent"
+        android:layout_width="280dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:text="Please provide a reason for your school change request "
+        android:textColor="#7E7A7A"
+        app:layout_constraintBottom_toTopOf="@+id/TVInfoChangeSchoolParent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/TVRequestSchoolParent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="12dp"
+        android:text="Request School"
+        app:layout_constraintBottom_toTopOf="@+id/ETTypeNewSchoolParent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

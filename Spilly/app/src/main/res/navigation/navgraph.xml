@@ -121,4 +121,9 @@
         android:name="com.example.spilly.StudentViewReport"
         android:label="fragment_student_view_report"
         tools:layout="@layout/fragment_student_view_report" />
+    <fragment
+        android:id="@+id/parentChangeSchoolPage"
+        android:name="com.example.spilly.ParentChangeSchoolPage"
+        android:label="fragment_parent_change_school_page"
+        tools:layout="@layout/fragment_parent_change_school_page" />
 </navigation>
