@@ -46,7 +46,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="20dp"
-        android:text="\t\t\tSupporting SDG 16: Peace, Justice & Strong Institutions"
+        android:text="\t\t\tSupporting SDG 16: Peace, Justice and Strong Institutions"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/TVSubtitle" />
 
@@ -70,7 +70,7 @@
         android:textAlignment="viewStart"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/TVInstructions"
-        app:shapeAppearance="Rectangle" />
+        app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.None" />
 
     <Button
         android:id="@+id/ButtonTeacher"
@@ -82,7 +82,7 @@
         android:textAlignment="viewStart"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ButtonStudent"
-        app:shapeAppearance="Rectangle" />
+        app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.None" />
 
     <Button
         android:id="@+id/ButtonParent"
@@ -94,7 +94,7 @@
         android:textAlignment="viewStart"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ButtonTeacher"
-        app:shapeAppearance="Rectangle" />
+        app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.None" />
 
     <TextView
         android:id="@+id/TVquote"
@@ -110,7 +110,7 @@
         android:id="@+id/IVHeart"
         android:layout_width="22dp"
         android:layout_height="19dp"
-        android:layout_marginStart="22dp"
+        android:layout_marginStart="8dp"
         android:layout_marginBottom="76dp"
         android:src="@drawable/like"
         app:layout_constraintBottom_toTopOf="@+id/ButtonStudent"
