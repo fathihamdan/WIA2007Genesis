@@ -46,12 +46,12 @@
 
     <TextView
         android:id="@+id/ReportLimitDesc"
-        android:layout_width="312dp"
-        android:layout_height="36dp"
+        android:layout_width="320dp"
+        android:layout_height="41dp"
         android:layout_marginStart="58dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="58dp"
-        android:background="#2A69EF"
+        android:background="#789EF4"
         android:background="@drawable/bg_box"
         android:padding="10dp"
         android:text="To ensure fairness, report submissions are limited."
@@ -65,14 +65,14 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="323dp"
-        android:layout_height="41dp"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
         android:layout_marginStart="143dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="143dp"
         android:backgroundTint="#155CFA"
         android:text="Start Report"
-        app:cornerRadius="6dp"
+        app:cornerRadius="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ReportLimitDesc" />
