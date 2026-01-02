@@ -1,14 +1,165 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout15"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".StudentReportPage">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
 
-</FrameLayout>
+    <TextView
+        android:id="@+id/TVBackStudentReport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="35dp"
+        android:text="Back"
+        android:textColor="#3F51B5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioButton
+        android:id="@+id/RBLowSevere"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="4dp"
+        android:text="Low \nMinor incident, one-time occurrence"
+        app:layout_constraintBottom_toTopOf="@+id/RBMediumSevere"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RadioButton
+        android:id="@+id/RBHighSevere"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="20dp"
+        android:text="High \nSevere, threatening, or dangerous"
+        app:layout_constraintBottom_toTopOf="@+id/TVIncidentDescription"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/ButtonContinue"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="40dp"
+        android:text="Continue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/TVWhenHappen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="4dp"
+        android:text="When did this happen?"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/ETDate"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/ETTypeBully"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Cyberbullying/Verbal/Physical/Social"
+        app:layout_constraintBottom_toTopOf="@+id/TVSeverityLevel"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/ETMDescWhatHappen"
+        android:layout_width="320dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="Describe what happened..."
+        app:layout_constraintBottom_toTopOf="@+id/ButtonContinue"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/TVIncidentDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="4dp"
+        android:text="Incident Description"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/ETMDescWhatHappen"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/ETDate"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="mm/dd/yyyy"
+        app:layout_constraintBottom_toTopOf="@+id/TVTypeBully"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/TVTypeBully"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="4dp"
+        android:text="Type of Bullying"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/ETTypeBully"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/TVSeverityLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="4dp"
+        android:text="Severity Level"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/RBLowSevere"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RadioButton
+        android:id="@+id/RBMediumSevere"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="4dp"
+        android:text="Medium \nRepeated incidents, concerning behavior"
+        app:layout_constraintBottom_toTopOf="@+id/RBHighSevere"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/TVReportForm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="80dp"
+        android:text="Report Form"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVFillDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:text="Fill in the details below"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVReportForm" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
