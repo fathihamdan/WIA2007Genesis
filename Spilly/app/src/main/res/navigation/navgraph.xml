@@ -62,11 +62,6 @@
         android:label="fragment_student_evidence_page"
         tools:layout="@layout/fragment_student_evidence_page" />
     <fragment
-        android:id="@+id/studentViewReportPage"
-        android:name="com.example.spilly.StudentViewReportPage"
-        android:label="fragment_student_view_report_page"
-        tools:layout="@layout/fragment_student_view_report_page" />
-    <fragment
         android:id="@+id/studentChangePasswordPage"
         android:name="com.example.spilly.StudentChangePasswordPage"
         android:label="fragment_Student_change_password_page"
@@ -121,4 +116,9 @@
         android:name="com.example.spilly.ParentChangePassword"
         android:label="fragment_parent_change_password"
         tools:layout="@layout/fragment_parent_change_password" />
+    <fragment
+        android:id="@+id/studentViewReport"
+        android:name="com.example.spilly.StudentViewReport"
+        android:label="fragment_student_view_report"
+        tools:layout="@layout/fragment_student_view_report" />
 </navigation>

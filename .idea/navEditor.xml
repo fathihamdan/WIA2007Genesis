@@ -200,13 +200,13 @@
                       </LayoutPositions>
                     </value>
                   </entry>
-                  <entry key="studentViewReportPage">
+                  <entry key="studentViewReport">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="762" />
-                            <option name="y" value="256" />
+                            <option name="x" value="757" />
+                            <option name="y" value="253" />
                           </Point>
                         </option>
                       </LayoutPositions>
