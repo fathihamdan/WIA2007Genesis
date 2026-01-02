@@ -11,7 +11,7 @@
         android:id="@+id/HelpDetail"
         android:layout_width="317dp"
         android:layout_height="139dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="16dp"
         app:cardBackgroundColor="#E7F2E2"
         app:cardCornerRadius="10dp"
         app:cardElevation="0dp"
