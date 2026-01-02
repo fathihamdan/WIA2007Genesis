@@ -13,3 +13,6 @@ Team Member
 git add .
 git commit -m "Fix Gradle compatibility, update wrapper"
 git pull origin main --rebase
+
+
+git push origin main
