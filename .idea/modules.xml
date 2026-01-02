@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spilly.iml" filepath="$PROJECT_DIR$/.idea/modules/Spilly.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Spilly.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Spilly.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Spilly.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Spilly.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Spilly.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Spilly.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Spilly.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Spilly.app.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/WIA2007Genesis.iml" filepath="$PROJECT_DIR$/.idea/WIA2007Genesis.iml" />
     </modules>
   </component>

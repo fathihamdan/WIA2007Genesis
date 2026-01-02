@@ -1,14 +1,192 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout13"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".TeacherProfilePage">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+    <Button
+        android:id="@+id/ButtonRequestSchoolChangeTeacher"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="4dp"
+        android:text="Request School Change"
+        app:layout_constraintBottom_toTopOf="@+id/TVNotiPreferencesTeacher"
+        app:layout_constraintStart_toStartOf="parent" />
 
-</FrameLayout>
+    <TextView
+        android:id="@+id/TVNotiPreferencesTeacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="4dp"
+        android:text="Notifications Preferences"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/SWEmailNotiTeacher"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/TVRoleTeacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="4dp"
+        android:text="Role"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/TVSchoolInformation"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/TVUserInfoTeacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="4dp"
+        android:text="User Information"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/TVUsernameTeacher"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/ButtonChangePassTeacher"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="4dp"
+        android:text="Change Password"
+        app:layout_constraintBottom_toTopOf="@+id/ButtonLogOutTeacher"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/TVCurrentSchoolTeacherProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="2dp"
+        android:text="Current School \nSK Bandar Utama"
+        android:textColor="#009688"
+        app:layout_constraintBottom_toTopOf="@+id/ButtonRequestSchoolChangeTeacher"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Switch
+        android:id="@+id/SWEmergencyAlertsTeacher"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="4dp"
+        android:text="Emergency Alerts"
+        app:layout_constraintBottom_toTopOf="@+id/TVPrivacyTeacher"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Switch
+        android:id="@+id/SWEmailNotiTeacher"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="2dp"
+        android:text="Email Notifications"
+        app:layout_constraintBottom_toTopOf="@+id/SWStatusUpdateTeacher"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/TVUsernameTeacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="4dp"
+        android:text="Username \nuser.email@school.edu"
+        android:textColor="#3F51B5"
+        app:layout_constraintBottom_toTopOf="@+id/TVRoleTeacher"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/ButtonLogOutTeacher"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="28dp"
+        android:text="Log Out"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Switch
+        android:id="@+id/SWStatusUpdateTeacher"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="4dp"
+        android:text="Status Updates"
+        app:layout_constraintBottom_toTopOf="@+id/SWWeeklyDigestTeacher"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/TVShowRoleTeacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="126dp"
+        android:layout_marginEnd="60dp"
+        android:text="Teacher"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVAccountActionsTeacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="4dp"
+        android:text="Account Actions"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/ButtonChangePassTeacher"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Switch
+        android:id="@+id/SWWeeklyDigestTeacher"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="4dp"
+        android:text="Weekly Digest"
+        app:layout_constraintBottom_toTopOf="@+id/SWEmergencyAlertsTeacher"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/TVPrivacyTeacher"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="4dp"
+        android:text="Privacy and Confidentiality \nAll personal information is protected. Student identities are kept confidential and only revealed when absolutely necessary for their safety and wellbeing."
+        android:textColor="#E91E63"
+        app:layout_constraintBottom_toTopOf="@+id/TVAccountActionsTeacher"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/TVSchoolInformation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="4dp"
+        android:text="School Information"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/TVCurrentSchoolTeacherProfile"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/TVAccTeacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="26dp"
+        android:text="Account and Preferences"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
