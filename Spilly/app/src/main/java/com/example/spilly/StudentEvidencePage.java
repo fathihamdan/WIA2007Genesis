@@ -10,10 +10,10 @@ import android.view.ViewGroup;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link ChangePasswordPage#newInstance} factory method to
+ * Use the {@link StudentEvidencePage#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class ChangePasswordPage extends Fragment {
+public class StudentEvidencePage extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -24,7 +24,7 @@ public class ChangePasswordPage extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public ChangePasswordPage() {
+    public StudentEvidencePage() {
         // Required empty public constructor
     }
 
@@ -34,11 +34,11 @@ public class ChangePasswordPage extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment ChangePasswordPage.
+     * @return A new instance of fragment EvidencePage.
      */
     // TODO: Rename and change types and number of parameters
-    public static ChangePasswordPage newInstance(String param1, String param2) {
-        ChangePasswordPage fragment = new ChangePasswordPage();
+    public static StudentEvidencePage newInstance(String param1, String param2) {
+        StudentEvidencePage fragment = new StudentEvidencePage();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -59,6 +59,6 @@ public class ChangePasswordPage extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_change_password_page, container, false);
+        return inflater.inflate(R.layout.fragment_student_evidence_page, container, false);
     }
 }
