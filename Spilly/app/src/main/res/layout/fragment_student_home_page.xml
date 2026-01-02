@@ -1,14 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".StudentHomePage">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+    <ImageView
+        android:id="@+id/SpillyLogo"
+        android:layout_width="120dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginEnd="146dp"
+        android:src="@drawable/SpillyLogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-</FrameLayout>
+    <TextView
+        android:id="@+id/ReportTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Report Bullying"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SpillyLogo" />
+
+    <TextView
+        android:id="@+id/ReportAnonymousDesc"
+        android:layout_width="289dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="61dp"
+        android:text="Your report is safe and anonymous. We're here to help and support you."
+        android:textAlignment="center"
+        android:textColor="#616161"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ReportTitle" />
+
+    <TextView
+        android:id="@+id/ReportLimitDesc"
+        android:layout_width="312dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="58dp"
+        android:background="#2A69EF"
+        android:background="@drawable/bg_box"
+        android:padding="10dp"
+        android:text="To ensure fairness, report submissions are limited."
+        android:textAlignment="center"
+        android:textColor="#20308A"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ReportAnonymousDesc" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="323dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="143dp"
+        android:backgroundTint="#155CFA"
+        android:text="Start Report"
+        app:cornerRadius="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ReportLimitDesc" />
+</androidx.constraintlayout.widget.ConstraintLayout>
