@@ -50,40 +50,11 @@ app:startDestination="@id/starterPage" >
     android:label="fragment_student_profile_page"
     tools:layout="@layout/fragment_student_profile_page" />
 <fragment
-    android:id="@+id/reportPage"
-    android:name="com.example.spilly.ReportPage"
-    android:label="fragment_report_page"
-    tools:layout="@layout/fragment_report_page" />
 <fragment
-    android:id="@+id/evidencePage"
-    android:name="com.example.spilly.EvidencePage"
-    android:label="fragment_evidence_page"
-    tools:layout="@layout/fragment_evidence_page" />
 <fragment
-    android:id="@+id/viewReportPage"
-    android:name="com.example.spilly.ViewReportPage"
-    android:label="fragment_view_report_page"
-    tools:layout="@layout/fragment_view_report_page" />
 <fragment
-    android:id="@+id/changePasswordPage"
-    android:name="com.example.spilly.ChangePasswordPage"
-    android:label="fragment_change_password_page"
-    tools:layout="@layout/fragment_change_password_page" />
 <fragment
-    android:id="@+id/changeSchoolPage"
-    android:name="com.example.spilly.ChangeSchoolPage"
-    android:label="fragment_change_school_page"
-    tools:layout="@layout/fragment_change_school_page" />
 <fragment
-    android:id="@+id/casesPage"
-    android:name="com.example.spilly.CasesPage"
-    android:label="fragment_cases_page"
-    tools:layout="@layout/fragment_cases_page" />
-<fragment
-    android:id="@+id/analyticsPage"
-    android:name="com.example.spilly.AnalyticsPage"
-    android:label="fragment_analytics_page"
-    tools:layout="@layout/fragment_analytics_page" />
 <fragment
     android:id="@+id/teacherProfilePage"
     android:name="com.example.spilly.TeacherProfilePage"

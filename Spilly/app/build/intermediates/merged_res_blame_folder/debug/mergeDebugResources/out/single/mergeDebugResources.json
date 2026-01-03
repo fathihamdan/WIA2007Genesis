@@ -1,0 +1,182 @@
+[
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\layout_fragment_parent_profile_page.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\layout\\fragment_parent_profile_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\layout_fragment_analytics_page.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\layout\\fragment_analytics_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\layout_fragment_student_home_page.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\layout\\fragment_student_home_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\layout_fragment_starter_page.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\layout\\fragment_starter_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.spilly.app-debug-47:/layout_activity_main.xml.flat",
+        "source": "com.example.spilly.app-main-49:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\layout_fragment_report_page.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\layout\\fragment_report_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\layout_fragment_student_login_page.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\layout\\fragment_student_login_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\layout_fragment_student_profile_page.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\layout\\fragment_student_profile_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\layout_fragment_parent_notification_page.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\layout\\fragment_parent_notification_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\drawable_family.png.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\drawable\\family.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\drawable_book.png.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\drawable\\book.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\layout_fragment_change_password_page.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\layout\\fragment_change_password_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\layout_fragment_student_notification_page.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\layout\\fragment_student_notification_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\layout_fragment_sign_up.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\layout\\fragment_sign_up.xml"
+    },
+    {
+        "merged": "com.example.spilly.app-debug-47:/layout_fragment_change_password_page.xml.flat",
+        "source": "com.example.spilly.app-main-49:/layout/fragment_change_password_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\layout_fragment_parent_home_page.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\layout\\fragment_parent_home_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\layout_fragment_view_report_page.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\layout\\fragment_view_report_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\layout_fragment_evidence_page.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\layout\\fragment_evidence_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\drawable_mortarboard.png.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\drawable\\mortarboard.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\layout_fragment_cases_page.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\layout\\fragment_cases_page.xml"
+    },
+    {
+        "merged": "com.example.spilly.app-debug-47:/layout_fragment_change_school_page.xml.flat",
+        "source": "com.example.spilly.app-main-49:/layout/fragment_change_school_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\layout_fragment_parent_login_page.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\layout\\fragment_parent_login_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\layout_fragment_teacher_profile_page.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\layout\\fragment_teacher_profile_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\drawable_shield.png.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\drawable\\shield.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\layout_fragment_forgot_password_page.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\layout\\fragment_forgot_password_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\drawable_like.png.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\drawable\\like.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\layout_fragment_teacher_login_page.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\layout\\fragment_teacher_login_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-debug-47:\\layout_fragment_change_school_page.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.13\\com.example.spilly.app-main-49:\\layout\\fragment_change_school_page.xml"
+    }
+]
