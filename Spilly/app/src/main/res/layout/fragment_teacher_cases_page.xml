@@ -321,7 +321,8 @@
                             android:layout_height="wrap_content"
                             android:text="Pending"
                             android:textColor="#7A4C00"
-                            android:textSize="13sp" />
+                            android:textSize="13sp"
+                            android:padding="4dp"/>
                     </LinearLayout>
                 </com.google.android.material.card.MaterialCardView>
             </LinearLayout>
@@ -416,7 +417,8 @@
                             android:layout_height="wrap_content"
                             android:text="Investigating"
                             android:textColor="#1746C8"
-                            android:textSize="13sp" />
+                            android:textSize="13sp"
+                            android:padding="4dp"/>
                     </LinearLayout>
                 </com.google.android.material.card.MaterialCardView>
             </LinearLayout>
@@ -509,7 +511,8 @@
                             android:layout_height="wrap_content"
                             android:text="Resolved"
                             android:textColor="#059669"
-                            android:textSize="13sp" />
+                            android:textSize="13sp"
+                            android:padding="4dp"/>
                     </LinearLayout>
                 </com.google.android.material.card.MaterialCardView>
             </LinearLayout>
@@ -603,7 +606,8 @@
                             android:layout_height="wrap_content"
                             android:text="Investigating"
                             android:textColor="#1746C8"
-                            android:textSize="13sp" />
+                            android:textSize="13sp"
+                            android:padding="4dp"/>
                     </LinearLayout>
                 </com.google.android.material.card.MaterialCardView>
             </LinearLayout>
@@ -690,7 +694,8 @@
                             android:layout_height="wrap_content"
                             android:text="Resolved"
                             android:textColor="#059669"
-                            android:textSize="13sp" />
+                            android:textSize="13sp"
+                            android:padding="4dp"/>
                     </LinearLayout>
                 </com.google.android.material.card.MaterialCardView>
             </LinearLayout>
