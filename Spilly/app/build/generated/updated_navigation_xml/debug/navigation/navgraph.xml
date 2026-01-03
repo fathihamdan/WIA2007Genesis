@@ -1,0 +1,107 @@
+<navigation
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/navgraph"
+app:startDestination="@id/starterPage" >
+<fragment
+    android:id="@+id/starterPage"
+    android:name="com.example.spilly.StarterPage"
+    android:label="fragment_starter_page"
+    tools:layout="@layout/fragment_starter_page" />
+<fragment
+    android:id="@+id/studentLoginPage"
+    android:name="com.example.spilly.StudentLoginPage"
+    android:label="fragment_student_login_page"
+    tools:layout="@layout/fragment_student_login_page" />
+<fragment
+    android:id="@+id/teacherLoginPage"
+    android:name="com.example.spilly.TeacherLoginPage"
+    android:label="fragment_teacher_login_page"
+    tools:layout="@layout/fragment_teacher_login_page" />
+<fragment
+    android:id="@+id/parentLoginPage"
+    android:name="com.example.spilly.ParentLoginPage"
+    android:label="fragment_parent_login_page"
+    tools:layout="@layout/fragment_parent_login_page" />
+<fragment
+    android:id="@+id/forgotPasswordPage"
+    android:name="com.example.spilly.ForgotPasswordPage"
+    android:label="fragment_forgot_password_page"
+    tools:layout="@layout/fragment_forgot_password_page" />
+<fragment
+    android:id="@+id/signUp"
+    android:name="com.example.spilly.SignUp"
+    android:label="fragment_sign_up"
+    tools:layout="@layout/fragment_sign_up" />
+<fragment
+    android:id="@+id/studentHomePage"
+    android:name="com.example.spilly.StudentHomePage"
+    android:label="fragment_student_home_page"
+    tools:layout="@layout/fragment_student_home_page" />
+<fragment
+    android:id="@+id/studentNotificationPage"
+    android:name="com.example.spilly.StudentNotificationPage"
+    android:label="fragment_student_notification_page"
+    tools:layout="@layout/fragment_student_notification_page" />
+<fragment
+    android:id="@+id/studentProfilePage"
+    android:name="com.example.spilly.StudentProfilePage"
+    android:label="fragment_student_profile_page"
+    tools:layout="@layout/fragment_student_profile_page" />
+<fragment
+    android:id="@+id/reportPage"
+    android:name="com.example.spilly.ReportPage"
+    android:label="fragment_report_page"
+    tools:layout="@layout/fragment_report_page" />
+<fragment
+    android:id="@+id/evidencePage"
+    android:name="com.example.spilly.EvidencePage"
+    android:label="fragment_evidence_page"
+    tools:layout="@layout/fragment_evidence_page" />
+<fragment
+    android:id="@+id/viewReportPage"
+    android:name="com.example.spilly.ViewReportPage"
+    android:label="fragment_view_report_page"
+    tools:layout="@layout/fragment_view_report_page" />
+<fragment
+    android:id="@+id/changePasswordPage"
+    android:name="com.example.spilly.ChangePasswordPage"
+    android:label="fragment_change_password_page"
+    tools:layout="@layout/fragment_change_password_page" />
+<fragment
+    android:id="@+id/changeSchoolPage"
+    android:name="com.example.spilly.ChangeSchoolPage"
+    android:label="fragment_change_school_page"
+    tools:layout="@layout/fragment_change_school_page" />
+<fragment
+    android:id="@+id/casesPage"
+    android:name="com.example.spilly.CasesPage"
+    android:label="fragment_cases_page"
+    tools:layout="@layout/fragment_cases_page" />
+<fragment
+    android:id="@+id/analyticsPage"
+    android:name="com.example.spilly.AnalyticsPage"
+    android:label="fragment_analytics_page"
+    tools:layout="@layout/fragment_analytics_page" />
+<fragment
+    android:id="@+id/teacherProfilePage"
+    android:name="com.example.spilly.TeacherProfilePage"
+    android:label="fragment_teacher_profile_page"
+    tools:layout="@layout/fragment_teacher_profile_page" />
+<fragment
+    android:id="@+id/parentHomePage"
+    android:name="com.example.spilly.ParentHomePage"
+    android:label="fragment_parent_home_page"
+    tools:layout="@layout/fragment_parent_home_page" />
+<fragment
+    android:id="@+id/parentNotificationPage"
+    android:name="com.example.spilly.ParentNotificationPage"
+    android:label="fragment_parent_notification_page"
+    tools:layout="@layout/fragment_parent_notification_page" />
+<fragment
+    android:id="@+id/parentProfilePage"
+    android:name="com.example.spilly.ParentProfilePage"
+    android:label="fragment_parent_profile_page"
+    tools:layout="@layout/fragment_parent_profile_page" />
+</navigation>
