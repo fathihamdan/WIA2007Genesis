@@ -32,12 +32,12 @@
                 android:id="@+id/NeedHelpTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="12dp"
+                android:layout_marginStart="8dp"
                 android:layout_marginTop="16dp"
                 android:text="Need Immediate Help?"
                 android:textColor="#217624"
                 android:textSize="12sp"
-                app:layout_constraintStart_toEndOf="@+id/imageView4"
+                app:layout_constraintStart_toEndOf="@+id/helpIcon"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
@@ -77,12 +77,12 @@
                 app:layout_constraintTop_toBottomOf="@+id/CounselorPhoneNum" />
 
             <ImageView
-                android:id="@+id/imageView4"
-                android:layout_width="15dp"
-                android:layout_height="16dp"
+                android:id="@+id/helpIcon"
+                android:layout_width="18dp"
+                android:layout_height="17dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
-                android:src="@drawable/help_icon"
+                android:src="@drawable/phone"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -93,13 +93,12 @@
         android:id="@+id/ReportTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="23dp"
         android:text="Report Bullying"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintTop_toBottomOf="@+id/spillylogo" />
 
     <TextView
         android:id="@+id/ReportAnonymousDesc"
@@ -218,13 +217,12 @@
                 android:id="@+id/MyReportsTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
                 android:layout_marginTop="16dp"
                 android:fontFamily="sans-serif-light"
                 android:text="My Reports"
                 android:textSize="12sp"
                 android:textStyle="bold"
-                app:layout_constraintStart_toEndOf="@+id/MyReportIcon"
+                app:layout_constraintStart_toEndOf="@+id/MyreportIcon"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
@@ -249,12 +247,12 @@
                 app:layout_constraintTop_toBottomOf="@+id/MyReportsTitle" />
 
             <ImageView
-                android:id="@+id/MyReportIcon"
-                android:layout_width="17dp"
-                android:layout_height="17dp"
-                android:layout_marginStart="19dp"
-                android:layout_marginTop="15dp"
-                android:src="@drawable/myreport_icon"
+                android:id="@+id/MyreportIcon"
+                android:layout_width="32dp"
+                android:layout_height="19dp"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="13dp"
+                android:src="@drawable/file"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -308,6 +306,16 @@
         android:layout_marginEnd="150dp"
         android:src="@drawable/spilly_logo"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/spillylogo"
+        android:layout_width="89dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="73dp"
+        android:src="@drawable/shield"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
