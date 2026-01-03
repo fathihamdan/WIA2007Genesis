@@ -40,6 +40,8 @@ dependencies {
     implementation(libs.constraintlayout)
     implementation("androidx.navigation:navigation-fragment:2.9.6")
     implementation("androidx.navigation:navigation-ui:2.9.6")
+    implementation("androidx.cardview:cardview:1.0.0")
+    implementation("com.android.support:cardview-v7:28.0.0")
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
