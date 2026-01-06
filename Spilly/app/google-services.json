@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "10409911302",
-    "project_id": "fsktm-29ed3",
-    "storage_bucket": "fsktm-29ed3.firebasestorage.app"
+    "project_number": "895494104188",
+    "project_id": "spilly-8f754",
+    "storage_bucket": "spilly-8f754.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:10409911302:android:8644b88a574f2e76ba8f87",
+        "mobilesdk_app_id": "1:895494104188:android:4e99dab73124126f6a95f9",
         "android_client_info": {
-          "package_name": "com.genesis.spilly"
+          "package_name": "com.example.spilly"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyClsyl31CoSnxEEffHII9gxEpr-EX1NmQA"
+          "current_key": "AIzaSyAOs06Q-rIS4LRDiluXFy07P9JQu86UGy0"
         }
       ],
       "services": {

@@ -3,7 +3,13 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">Spilly</string>
+    <string name="gcm_defaultSenderId" translatable="false">895494104188</string>
+    <string name="google_api_key" translatable="false">AIzaSyAOs06Q-rIS4LRDiluXFy07P9JQu86UGy0</string>
+    <string name="google_app_id" translatable="false">1:895494104188:android:4e99dab73124126f6a95f9</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAOs06Q-rIS4LRDiluXFy07P9JQu86UGy0</string>
+    <string name="google_storage_bucket" translatable="false">spilly-8f754.firebasestorage.app</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="project_id" translatable="false">spilly-8f754</string>
     <style name="Base.Theme.Spilly" parent="Theme.Material3.DayNight.NoActionBar">
         
         

@@ -1,14 +1,322 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:focusable="auto"
     tools:context=".StudentHomePage">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/HelpDetail"
+        android:layout_width="317dp"
+        android:layout_height="139dp"
+        android:layout_marginTop="16dp"
+        app:cardBackgroundColor="#E7F2E2"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MyReportsDetail"
+        app:strokeColor="#B4EF9E"
+        app:strokeWidth="2dp">
 
-</FrameLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="-1dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:id="@+id/NeedHelpTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:text="Need Immediate Help?"
+                android:textColor="#217624"
+                android:textSize="12sp"
+                app:layout_constraintStart_toEndOf="@+id/helpIcon"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/NeedHelpDescription"
+                android:layout_width="212dp"
+                android:layout_height="29dp"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="8dp"
+                android:text="Contact your school counselor or use these resources for immediate assistance."
+                android:textColor="#217624"
+                android:textSize="11sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/NeedHelpTitle" />
+
+            <TextView
+                android:id="@+id/CounselorPhoneNum"
+                android:layout_width="213dp"
+                android:layout_height="17dp"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="12dp"
+                android:text="📞 School Counselor: (555) 123-4567"
+                android:textColor="#217624"
+                android:textSize="11sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/NeedHelpDescription" />
+
+            <TextView
+                android:id="@+id/HotlineNumber"
+                android:layout_width="213dp"
+                android:layout_height="17dp"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="4dp"
+                android:text="🆘 Crisis Hotline: 988"
+                android:textColor="#217624"
+                android:textSize="11sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/CounselorPhoneNum" />
+
+            <ImageView
+                android:id="@+id/helpIcon"
+                android:layout_width="18dp"
+                android:layout_height="17dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/phone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/ReportTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Report Bullying"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spillylogo" />
+
+    <TextView
+        android:id="@+id/ReportAnonymousDesc"
+        android:layout_width="289dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="61dp"
+        android:text="Your report is safe and anonymous. We're here to help and support you."
+        android:textAlignment="center"
+        android:textColor="#616161"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ReportTitle" />
+
+    <Button
+        android:id="@+id/ContinueButton"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="143dp"
+        android:backgroundTint="#155CFA"
+        android:text="Start Report"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LimitDescBox" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/MyReportsDetail"
+        android:layout_width="320dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="28dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ContinueButton"
+        app:strokeColor="#C1BABA"
+        app:strokeWidth="2dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true">
+
+            <TextView
+                android:id="@+id/ResolvedCasesTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="33dp"
+                android:text="Resolved"
+                android:textSize="12sp"
+                app:layout_constraintStart_toEndOf="@+id/ActiveCasesTitle"
+                app:layout_constraintTop_toBottomOf="@+id/ResolvedCasesNumber" />
+
+            <TextView
+                android:id="@+id/ResolvedCasesNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="65dp"
+                android:layout_marginTop="47dp"
+                android:text="1"
+                android:textColor="#4CAF50"
+                android:textSize="16sp"
+                app:layout_constraintStart_toEndOf="@+id/ActiveCasesNumber"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/ActiveCasesTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="33dp"
+                android:text="Active"
+                android:textSize="12sp"
+                app:layout_constraintStart_toEndOf="@+id/PendingCasesTitle"
+                app:layout_constraintTop_toBottomOf="@+id/ActiveCasesNumber" />
+
+            <TextView
+                android:id="@+id/ActiveCasesNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="65dp"
+                android:layout_marginTop="47dp"
+                android:text="1"
+                android:textColor="#2196F3"
+                android:textSize="16sp"
+                app:layout_constraintStart_toEndOf="@+id/PendingCasesNumber"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/PendingCasesTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="33dp"
+                android:text="Pending"
+                android:textSize="12sp"
+                app:layout_constraintStart_toEndOf="@+id/TotalCasesTitle"
+                app:layout_constraintTop_toBottomOf="@+id/PendingCasesNumber" />
+
+            <TextView
+                android:id="@+id/PendingCasesNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="47dp"
+                android:text="1"
+                android:textColor="#FFC107"
+                android:textSize="16sp"
+                app:layout_constraintStart_toEndOf="@+id/TotalCasesNumber"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/MyReportsTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="sans-serif-light"
+                android:text="My Reports"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/MyreportIcon"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/TotalCasesTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="33dp"
+                android:text="Total"
+                android:textSize="12sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/TotalCasesNumber" />
+
+            <TextView
+                android:id="@+id/TotalCasesNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="41dp"
+                android:layout_marginTop="15dp"
+                android:text="3"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/MyReportsTitle" />
+
+            <ImageView
+                android:id="@+id/MyreportIcon"
+                android:layout_width="32dp"
+                android:layout_height="19dp"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="13dp"
+                android:src="@drawable/file"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/LimitDescBox"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="46dp"
+        app:cardBackgroundColor="#E9F1FB"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ReportAnonymousDesc"
+        app:strokeColor="#72A5F0"
+        app:strokeWidth="1dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/LimitDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="23dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="22dp"
+                android:layout_marginBottom="12dp"
+                android:text="To ensure fairness, report submissions are limited."
+                android:textColor="#27316D"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="73dp"
+        android:layout_marginEnd="150dp"
+        android:src="@drawable/spilly_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/spillylogo"
+        android:layout_width="89dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="73dp"
+        android:src="@drawable/shield"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

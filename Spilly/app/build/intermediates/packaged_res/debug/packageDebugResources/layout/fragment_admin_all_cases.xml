@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootAdminCases"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/btnBackFromAllCases"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textColor="#3F51B5"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/titleAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All School Cases (Discipline View)"
+        android:textSize="20sp"
+        android:textColor="#B71C1C"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginBottom="12dp" />
+
+    <LinearLayout
+        android:id="@+id/stats_row_admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginBottom="18dp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="#F5F5F5"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="0dp"
+            app:strokeColor="#DDDDDD"
+            app:strokeWidth="1dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:text="150"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:text="Total"
+                    android:textSize="12sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="#FFF3E0"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="0dp"
+            app:strokeColor="#FFE0B2"
+            app:strokeWidth="1dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:text="12"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#F57C00"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:text="Pending"
+                    android:textSize="12sp"
+                    android:textColor="#F57C00"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="#E8F5E9"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="0dp"
+            app:strokeColor="#C8E6C9"
+            app:strokeWidth="1dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:text="93"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#388E3C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:text="Resolved"
+                    android:textSize="12sp"
+                    android:textColor="#388E3C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All Cases List"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        app:cardCornerRadius="8dp"
+        app:strokeWidth="1dp"
+        app:strokeColor="#E0E0E0"
+        app:cardElevation="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/id_admin_12456"
+                    android:text="#12456"
+                    android:textColor="#3F51B5"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:text="Cyberbullying"
+                    android:textSize="14sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <TextView
+                android:text="Pending"
+                android:textColor="#F57C00"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StudentNotificationPage" >
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/backButton"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FCF5FD"
+        android:text="Back to Home"
+        android:textColor="#877F7F"
+
+        app:icon="@drawable/backarrow"
+        app:iconTint="#877F7F"
+        app:iconGravity="textStart"
+        app:iconPadding="4dp"/>
+
+    <TextView
+        android:id="@+id/MyReportPageTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="0dp"
+        android:text="My Reports"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TotalReports"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="6dp"
+        android:text="3 Total Reports" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/ReportBox1"
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="40dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:strokeColor="#A4A6A8">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/CaseID_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:text="Case ID #12456"
+                android:textColor="#000000"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/SubmitDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="2dp"
+                android:text="Submitted: Dec 15 2025"
+                android:textSize="11sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/CaseID_1" />
+
+            <TextView
+                android:id="@+id/ReportDesc1"
+                android:layout_width="216dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:text="Online harassment incident"
+                android:textColor="#000000"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/SubmitDate" />
+
+            <TextView
+                android:id="@+id/BullyType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="2dp"
+                android:text="Type: Cyberbullying"
+                android:textSize="11sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ReportDesc1" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="65dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#FFF6BF"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:strokeColor="#FADA3E">
+
+                <TextView
+                    android:id="@+id/PendingStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Pending"
+                    android:textColor="#AB8405"
+                    android:textSize="11sp" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/ReportBox2"
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="40dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:strokeColor="#A4A6A8">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/CaseID_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:text="Case ID #12453"
+                android:textColor="#000000"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/SubmitDate2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="2dp"
+                android:text="Submitted: Dec 13 2025"
+                android:textSize="11sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/CaseID_2" />
+
+            <TextView
+                android:id="@+id/ReportDesc2"
+                android:layout_width="216dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:text="Verbal harassment in hallway"
+                android:textColor="#000000"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/SubmitDate2" />
+
+            <TextView
+                android:id="@+id/BullyType2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="2dp"
+                android:text="Type: Verbal bullying"
+                android:textSize="11sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ReportDesc2" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="85dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#C7DFF0"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:strokeColor="#2196F3">
+
+                <TextView
+                    android:id="@+id/InvestigatingStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Investigating"
+                    android:textColor="#1250F0"
+                    android:textSize="11sp" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/ReportBox3"
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="40dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:strokeColor="#A4A6A8">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/CaseID_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:text="Case ID #12448"
+                android:textColor="#000000"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/SubmitDate3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="2dp"
+                android:text="Submitted: Dec 10 2025"
+                android:textSize="11sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/CaseID_3" />
+
+            <TextView
+                android:id="@+id/ReportDesc3"
+                android:layout_width="216dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:text="Social exclusion during lunch"
+                android:textColor="#000000"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/SubmitDate3" />
+
+            <TextView
+                android:id="@+id/BullyType3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="2dp"
+                android:text="Type: Social"
+                android:textSize="11sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ReportDesc3" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="70dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#D6F0B9"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:strokeColor="#4CAF50">
+
+                <TextView
+                    android:id="@+id/ResolvedStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Resolved"
+                    android:textColor="#2C9030"
+                    android:textSize="11sp" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

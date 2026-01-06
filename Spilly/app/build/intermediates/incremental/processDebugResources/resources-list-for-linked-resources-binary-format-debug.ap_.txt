@@ -1,1 +1,1 @@
-C:\Users\User\AndroidStudioProjects\WIA2007Genesis\Spilly\app\build\intermediates\compiled_navigation_res\debug\compileDebugNavigationResources\navigation_navgraph.xml.flat 
+C:\Users\Y2\StudioProjects\WIA2007Genesis\Spilly\app\build\intermediates\compiled_navigation_res\debug\compileDebugNavigationResources\navigation_navgraph.xml.flat 
