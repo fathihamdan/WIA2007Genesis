@@ -1,44 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.spilly.app-mergeDebugResources-54:/values-zh-rCN/values-zh-rCN.xml",
+            "outputFile": "com.example.spilly.app-mergeDebugResources-53:/values-zh-rCN/values-zh-rCN.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Y2\\.gradle\\caches\\9.0-milestone-1\\transforms\\9380f53411c3634021d317f0ed42a779\\transformed\\core-1.16.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "source": "C:\\Users\\farha\\.gradle\\caches\\9.0-milestone-1\\transforms\\d9983bda4e66be0c88b352ea1ee72d00\\transformed\\play-services-basement-18.1.0\\res\\values-zh-rCN\\values.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,147,248,342,436,529,623,719",
-                        "endColumns": "91,100,93,93,92,93,95,100",
-                        "endOffsets": "142,243,337,431,524,618,714,815"
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "199",
+                        "endColumns": "94",
+                        "endOffsets": "293"
                     },
                     "to": {
-                        "startLines": "37,38,39,40,41,42,43,145",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "3127,3219,3320,3414,3508,3601,3695,11544",
-                        "endColumns": "91,100,93,93,92,93,95,100",
-                        "endOffsets": "3214,3315,3409,3503,3596,3690,3786,11640"
+                        "startLines": "55",
+                        "startColumns": "4",
+                        "startOffsets": "4923",
+                        "endColumns": "98",
+                        "endOffsets": "5017"
                     }
                 },
                 {
-                    "source": "C:\\Users\\Y2\\.gradle\\caches\\9.0-milestone-1\\transforms\\6f6d802b7bada87a39bba3c71ad0367b\\transformed\\navigation-ui-2.9.6\\res\\values-zh-rCN\\values-zh-rCN.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,156",
-                        "endColumns": "100,102",
-                        "endOffsets": "151,254"
-                    },
-                    "to": {
-                        "startLines": "138,139",
-                        "startColumns": "4,4",
-                        "startOffsets": "10974,11075",
-                        "endColumns": "100,102",
-                        "endOffsets": "11070,11173"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Y2\\.gradle\\caches\\9.0-milestone-1\\transforms\\486d4fd19805784aa5c8f6aaea732ee1\\transformed\\appcompat-1.7.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "source": "C:\\Users\\farha\\.gradle\\caches\\9.0-milestone-1\\transforms\\4173488c9293eb48edcc3e52c270be90\\transformed\\appcompat-1.7.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Y2\\.gradle\\caches\\9.0-milestone-1\\transforms\\7cd0f003e67bbf6bf742b2c61c550097\\transformed\\play-services-base-18.0.1\\res\\values-zh-rCN\\values.xml",
+                    "source": "C:\\Users\\farha\\.gradle\\caches\\9.0-milestone-1\\transforms\\bd3c9323bafcc82296c9a6a8505eb8fd\\transformed\\play-services-base-18.0.1\\res\\values-zh-rCN\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -72,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Y2\\.gradle\\caches\\9.0-milestone-1\\transforms\\127a790c4ce0850e36aebf82ede8b888\\transformed\\browser-1.4.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "source": "C:\\Users\\farha\\.gradle\\caches\\9.0-milestone-1\\transforms\\1ebfcec26cbb5f10e870669c67b015ee\\transformed\\browser-1.4.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -89,7 +72,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Y2\\.gradle\\caches\\9.0-milestone-1\\transforms\\43ed2331089975b77deaa334d7d54fc7\\transformed\\material-1.13.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "source": "C:\\Users\\farha\\.gradle\\caches\\9.0-milestone-1\\transforms\\2a3705bf745a711b9a7c609e7f38e043\\transformed\\material-1.13.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -108,20 +91,37 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Y2\\.gradle\\caches\\9.0-milestone-1\\transforms\\44d7772fecf059fa8a22ce11b73ffd03\\transformed\\play-services-basement-18.1.0\\res\\values-zh-rCN\\values.xml",
+                    "source": "C:\\Users\\farha\\.gradle\\caches\\9.0-milestone-1\\transforms\\74890fe8f1b354914a2cc6ed0e0cae6e\\transformed\\core-1.16.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "199",
-                        "endColumns": "94",
-                        "endOffsets": "293"
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,147,248,342,436,529,623,719",
+                        "endColumns": "91,100,93,93,92,93,95,100",
+                        "endOffsets": "142,243,337,431,524,618,714,815"
                     },
                     "to": {
-                        "startLines": "55",
-                        "startColumns": "4",
-                        "startOffsets": "4923",
-                        "endColumns": "98",
-                        "endOffsets": "5017"
+                        "startLines": "37,38,39,40,41,42,43,145",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3127,3219,3320,3414,3508,3601,3695,11544",
+                        "endColumns": "91,100,93,93,92,93,95,100",
+                        "endOffsets": "3214,3315,3409,3503,3596,3690,3786,11640"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\farha\\.gradle\\caches\\9.0-milestone-1\\transforms\\ac67079e7694f25dc6bb27a036e432a9\\transformed\\navigation-ui-2.9.6\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,156",
+                        "endColumns": "100,102",
+                        "endOffsets": "151,254"
+                    },
+                    "to": {
+                        "startLines": "138,139",
+                        "startColumns": "4,4",
+                        "startOffsets": "10974,11075",
+                        "endColumns": "100,102",
+                        "endOffsets": "11070,11173"
                     }
                 }
             ]

@@ -10,22 +10,56 @@
         android:name="com.example.spilly.StarterPage"
         android:label="fragment_starter_page"
         tools:layout="@layout/fragment_starter_page"
-        app:startDestination="@id/starterPage"/>
+        app:startDestination="@id/starterPage">
+        <action
+            android:id="@+id/action_starterPage_to_signUp"
+            app:destination="@id/signUp" />
+        <action
+            android:id="@+id/action_starterPage_to_signUp2"
+            app:destination="@id/signUp" />
+        <action
+            android:id="@+id/action_starterPage_to_signUp3"
+            app:destination="@id/signUp" />
+        <action
+            android:id="@+id/action_starterPage_to_signUp4"
+            app:destination="@id/signUp" />
+        <action
+            android:id="@+id/action_starterPage_to_studentLoginPage"
+            app:destination="@id/studentLoginPage" />
+        <action
+            android:id="@+id/action_starterPage_to_teacherLoginPage"
+            app:destination="@id/teacherLoginPage" />
+        <action
+            android:id="@+id/action_starterPage_to_parentLoginPage"
+            app:destination="@id/parentLoginPage" />
+    </fragment>
     <fragment
         android:id="@+id/studentLoginPage"
         android:name="com.example.spilly.StudentLoginPage"
         android:label="fragment_student_login_page"
-        tools:layout="@layout/fragment_student_login_page" />
+        tools:layout="@layout/fragment_student_login_page" >
+        <action
+            android:id="@+id/action_studentLoginPage_to_starterPage"
+            app:destination="@id/starterPage" />
+    </fragment>
     <fragment
         android:id="@+id/teacherLoginPage"
         android:name="com.example.spilly.TeacherLoginPage"
         android:label="fragment_teacher_login_page"
-        tools:layout="@layout/fragment_teacher_login_page" />
+        tools:layout="@layout/fragment_teacher_login_page" >
+        <action
+            android:id="@+id/action_teacherLoginPage_to_starterPage"
+            app:destination="@id/starterPage" />
+    </fragment>
     <fragment
         android:id="@+id/parentLoginPage"
         android:name="com.example.spilly.ParentLoginPage"
         android:label="fragment_parent_login_page"
-        tools:layout="@layout/fragment_parent_login_page" />
+        tools:layout="@layout/fragment_parent_login_page" >
+        <action
+            android:id="@+id/action_parentLoginPage_to_starterPage"
+            app:destination="@id/starterPage" />
+    </fragment>
     <fragment
         android:id="@+id/forgotPasswordPage"
         android:name="com.example.spilly.ForgotPasswordPage"
