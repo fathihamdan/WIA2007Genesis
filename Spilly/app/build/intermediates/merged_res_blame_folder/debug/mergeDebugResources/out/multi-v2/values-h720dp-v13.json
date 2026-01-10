@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.spilly.app-mergeDebugResources-54:/values-h720dp-v13/values-h720dp-v13.xml",
+            "outputFile": "com.example.spilly.app-mergeDebugResources-53:/values-h720dp-v13/values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Y2\\.gradle\\caches\\9.0-milestone-1\\transforms\\486d4fd19805784aa5c8f6aaea732ee1\\transformed\\appcompat-1.7.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "source": "C:\\Users\\farha\\.gradle\\caches\\9.0-milestone-1\\transforms\\4173488c9293eb48edcc3e52c270be90\\transformed\\appcompat-1.7.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

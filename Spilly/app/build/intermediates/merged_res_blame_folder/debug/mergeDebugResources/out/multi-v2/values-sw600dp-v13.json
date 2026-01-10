@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.spilly.app-mergeDebugResources-54:/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "com.example.spilly.app-mergeDebugResources-53:/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Y2\\.gradle\\caches\\9.0-milestone-1\\transforms\\486d4fd19805784aa5c8f6aaea732ee1\\transformed\\appcompat-1.7.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\farha\\.gradle\\caches\\9.0-milestone-1\\transforms\\4173488c9293eb48edcc3e52c270be90\\transformed\\appcompat-1.7.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Y2\\.gradle\\caches\\9.0-milestone-1\\transforms\\43ed2331089975b77deaa334d7d54fc7\\transformed\\material-1.13.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\farha\\.gradle\\caches\\9.0-milestone-1\\transforms\\2a3705bf745a711b9a7c609e7f38e043\\transformed\\material-1.13.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",

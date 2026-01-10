@@ -16,7 +16,7 @@ import android.widget.Spinner;
  * Use the {@link ReportPage#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class ReportPage extends Fragment {
+public class StudentReportPage extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -27,7 +27,7 @@ public class ReportPage extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public ReportPage() {
+    public StudentReportPage() {
         // Required empty public constructor
     }
 
@@ -40,8 +40,8 @@ public class ReportPage extends Fragment {
      * @return A new instance of fragment ReportPage.
      */
     // TODO: Rename and change types and number of parameters
-    public static ReportPage newInstance(String param1, String param2) {
-        ReportPage fragment = new ReportPage();
+    public static StudentReportPage newInstance(String param1, String param2) {
+        StudentReportPage fragment = new StudentReportPage();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -62,11 +62,11 @@ public class ReportPage extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_report_page, container, false);
+        View view = inflater.inflate(R.layout.fragment_student_report_page, container, false);
 
-        LinearLayout lowBtn = view.findViewById(R.id.btn_low_severity);
-        LinearLayout mediumBtn = view.findViewById(R.id.btn_medium_severity);
-        LinearLayout highBtn = view.findViewById(R.id.btn_high_severity);
+        LinearLayout lowBtn = view.findViewById(R.id.RBLowSevere);
+        LinearLayout mediumBtn = view.findViewById(R.id.RBMediumSevere);
+        LinearLayout highBtn = view.findViewById(R.id.RBHighSevere);
 
         lowBtn.setOnClickListener(new View.OnClickListener() {
             @Override

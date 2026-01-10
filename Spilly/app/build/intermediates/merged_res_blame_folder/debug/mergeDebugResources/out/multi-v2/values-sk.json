@@ -1,44 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.spilly.app-mergeDebugResources-54:/values-sk/values-sk.xml",
+            "outputFile": "com.example.spilly.app-mergeDebugResources-53:/values-sk/values-sk.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Y2\\.gradle\\caches\\9.0-milestone-1\\transforms\\7cd0f003e67bbf6bf742b2c61c550097\\transformed\\play-services-base-18.0.1\\res\\values-sk\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "193,295,451,571,677,829,953,1062,1160,1325,1432,1598,1724,1883,2043,2107,2170",
-                        "endColumns": "101,155,119,105,151,123,108,97,164,106,165,125,158,159,63,62,82",
-                        "endOffsets": "294,450,570,676,828,952,1061,1159,1324,1431,1597,1723,1882,2042,2106,2169,2252"
-                    },
-                    "to": {
-                        "startLines": "49,50,51,52,53,54,55,56,58,59,60,61,62,63,64,65,66",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "4489,4595,4755,4879,4989,5145,5273,5386,5627,5796,5907,6077,6207,6370,6534,6602,6669",
-                        "endColumns": "105,159,123,109,155,127,112,101,168,110,169,129,162,163,67,66,86",
-                        "endOffsets": "4590,4750,4874,4984,5140,5268,5381,5483,5791,5902,6072,6202,6365,6529,6597,6664,6751"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Y2\\.gradle\\caches\\9.0-milestone-1\\transforms\\6f6d802b7bada87a39bba3c71ad0367b\\transformed\\navigation-ui-2.9.6\\res\\values-sk\\values-sk.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,161",
-                        "endColumns": "105,126",
-                        "endOffsets": "156,283"
-                    },
-                    "to": {
-                        "startLines": "140,141",
-                        "startColumns": "4,4",
-                        "startOffsets": "12600,12706",
-                        "endColumns": "105,126",
-                        "endOffsets": "12701,12828"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Y2\\.gradle\\caches\\9.0-milestone-1\\transforms\\486d4fd19805784aa5c8f6aaea732ee1\\transformed\\appcompat-1.7.1\\res\\values-sk\\values-sk.xml",
+                    "source": "C:\\Users\\farha\\.gradle\\caches\\9.0-milestone-1\\transforms\\4173488c9293eb48edcc3e52c270be90\\transformed\\appcompat-1.7.1\\res\\values-sk\\values-sk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Y2\\.gradle\\caches\\9.0-milestone-1\\transforms\\43ed2331089975b77deaa334d7d54fc7\\transformed\\material-1.13.0\\res\\values-sk\\values-sk.xml",
+                    "source": "C:\\Users\\farha\\.gradle\\caches\\9.0-milestone-1\\transforms\\ac67079e7694f25dc6bb27a036e432a9\\transformed\\navigation-ui-2.9.6\\res\\values-sk\\values-sk.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,161",
+                        "endColumns": "105,126",
+                        "endOffsets": "156,283"
+                    },
+                    "to": {
+                        "startLines": "140,141",
+                        "startColumns": "4,4",
+                        "startOffsets": "12600,12706",
+                        "endColumns": "105,126",
+                        "endOffsets": "12701,12828"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\farha\\.gradle\\caches\\9.0-milestone-1\\transforms\\2a3705bf745a711b9a7c609e7f38e043\\transformed\\material-1.13.0\\res\\values-sk\\values-sk.xml",
                     "from": {
                         "startLines": "2,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -74,24 +57,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Y2\\.gradle\\caches\\9.0-milestone-1\\transforms\\127a790c4ce0850e36aebf82ede8b888\\transformed\\browser-1.4.0\\res\\values-sk\\values-sk.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,162,265,380",
-                        "endColumns": "106,102,114,101",
-                        "endOffsets": "157,260,375,477"
-                    },
-                    "to": {
-                        "startLines": "67,71,72,73",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "6756,7088,7191,7306",
-                        "endColumns": "106,102,114,101",
-                        "endOffsets": "6858,7186,7301,7403"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Y2\\.gradle\\caches\\9.0-milestone-1\\transforms\\9380f53411c3634021d317f0ed42a779\\transformed\\core-1.16.0\\res\\values-sk\\values-sk.xml",
+                    "source": "C:\\Users\\farha\\.gradle\\caches\\9.0-milestone-1\\transforms\\74890fe8f1b354914a2cc6ed0e0cae6e\\transformed\\core-1.16.0\\res\\values-sk\\values-sk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -108,7 +74,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Y2\\.gradle\\caches\\9.0-milestone-1\\transforms\\44d7772fecf059fa8a22ce11b73ffd03\\transformed\\play-services-basement-18.1.0\\res\\values-sk\\values.xml",
+                    "source": "C:\\Users\\farha\\.gradle\\caches\\9.0-milestone-1\\transforms\\d9983bda4e66be0c88b352ea1ee72d00\\transformed\\play-services-basement-18.1.0\\res\\values-sk\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -122,6 +88,40 @@
                         "startOffsets": "5488",
                         "endColumns": "138",
                         "endOffsets": "5622"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\farha\\.gradle\\caches\\9.0-milestone-1\\transforms\\1ebfcec26cbb5f10e870669c67b015ee\\transformed\\browser-1.4.0\\res\\values-sk\\values-sk.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,162,265,380",
+                        "endColumns": "106,102,114,101",
+                        "endOffsets": "157,260,375,477"
+                    },
+                    "to": {
+                        "startLines": "67,71,72,73",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "6756,7088,7191,7306",
+                        "endColumns": "106,102,114,101",
+                        "endOffsets": "6858,7186,7301,7403"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\farha\\.gradle\\caches\\9.0-milestone-1\\transforms\\bd3c9323bafcc82296c9a6a8505eb8fd\\transformed\\play-services-base-18.0.1\\res\\values-sk\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "193,295,451,571,677,829,953,1062,1160,1325,1432,1598,1724,1883,2043,2107,2170",
+                        "endColumns": "101,155,119,105,151,123,108,97,164,106,165,125,158,159,63,62,82",
+                        "endOffsets": "294,450,570,676,828,952,1061,1159,1324,1431,1597,1723,1882,2042,2106,2169,2252"
+                    },
+                    "to": {
+                        "startLines": "49,50,51,52,53,54,55,56,58,59,60,61,62,63,64,65,66",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "4489,4595,4755,4879,4989,5145,5273,5386,5627,5796,5907,6077,6207,6370,6534,6602,6669",
+                        "endColumns": "105,159,123,109,155,127,112,101,168,110,169,129,162,163,67,66,86",
+                        "endOffsets": "4590,4750,4874,4984,5140,5268,5381,5483,5791,5902,6072,6202,6365,6529,6597,6664,6751"
                     }
                 }
             ]

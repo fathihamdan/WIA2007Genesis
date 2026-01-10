@@ -2,25 +2,25 @@ package com.example.spilly.models;
 
 import com.google.firebase.firestore.DocumentId;
 
-public class Teacher {
+public class Admin {
     @DocumentId
-    private String teacherId;
+    private String adminId;
     private String name;
     private String email;
     private String role; // e.g., "Counselor", "Class Teacher", "Principal"
 
     // Constructors
-    public Teacher() {}
+    public Admin() {}
 
-    public Teacher(String name, String email, String role) {
+    public Admin(String name, String email, String role) {
         this.name = name;
         this.email = email;
         this.role = role;
     }
 
     // Getters and Setters
-    public String getTeacherId() { return teacherId; }
-    public void setTeacherId(String teacherId) { this.teacherId = teacherId; }
+    public String getAdminId() { return adminId; }
+    public void setAdminId(String adminId) { this.adminId = adminId; }
 
     public String getName() { return name; }
     public void setName(String name) { this.name = name; }

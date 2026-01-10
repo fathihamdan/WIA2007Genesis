@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
+
     id("com.google.gms.google-services")
 }
 
@@ -31,6 +32,8 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
+
+
 }
 
 dependencies {
@@ -40,13 +43,15 @@ dependencies {
     implementation(libs.constraintlayout)
     implementation("androidx.navigation:navigation-fragment:2.9.6")
     implementation("androidx.navigation:navigation-ui:2.9.6")
+
+
     implementation("androidx.cardview:cardview:1.0.0")
-    implementation("com.android.support:cardview-v7:28.0.0")
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
 
-    // Firebase BoM (Bill of Materials)
+
     implementation(platform("com.google.firebase:firebase-bom:32.7.0"))
     implementation("com.google.firebase:firebase-auth")
     implementation("com.google.firebase:firebase-firestore")
@@ -54,9 +59,9 @@ dependencies {
 
     // Room Database
     implementation("androidx.room:room-runtime:2.6.1")
-    annotationProcessor("androidx.room:room-compiler:2.6.1") // keep this as-is, safe in Kotlin DSL
+    annotationProcessor("androidx.room:room-compiler:2.6.1")
 
-    // Lifecycle components
+    // Lifecycle
     implementation("androidx.lifecycle:lifecycle-livedata:2.7.0")
     implementation("androidx.lifecycle:lifecycle-viewmodel:2.7.0")
 }

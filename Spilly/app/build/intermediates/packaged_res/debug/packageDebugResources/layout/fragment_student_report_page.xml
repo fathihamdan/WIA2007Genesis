@@ -40,6 +40,13 @@
         app:layout_constraintBottom_toTopOf="@+id/TVIncidentDescription"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <Spinner
+        android:id="@+id/spinner_bullying_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+
+
     <Button
         android:id="@+id/ButtonContinue"
         android:layout_width="320dp"

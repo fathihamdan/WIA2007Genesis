@@ -82,7 +82,7 @@
                 android:layout_height="17dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
-                android:src="@drawable/phone"
+                android:src="@android:drawable/ic_menu_call"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -252,7 +252,7 @@
                 android:layout_height="19dp"
                 android:layout_marginStart="11dp"
                 android:layout_marginTop="13dp"
-                android:src="@drawable/file"
+                android:src="@android:drawable/ic_menu_save"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -304,7 +304,7 @@
         android:layout_marginStart="149dp"
         android:layout_marginTop="73dp"
         android:layout_marginEnd="150dp"
-        android:src="@drawable/spilly_logo"
+        android:src="@android:drawable/sym_def_app_icon"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
