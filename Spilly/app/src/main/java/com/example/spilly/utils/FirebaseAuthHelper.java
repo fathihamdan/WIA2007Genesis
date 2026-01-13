@@ -1,3 +1,5 @@
+//java/com.example.spilly/utils/firebaseAuthHelper
+
 package com.example.spilly.utils;
 
 import android.content.Context;

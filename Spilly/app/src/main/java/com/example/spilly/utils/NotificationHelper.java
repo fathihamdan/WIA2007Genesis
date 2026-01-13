@@ -45,7 +45,8 @@ public class NotificationHelper {
         );
 
         NotificationCompat.Builder builder = new NotificationCompat.Builder(context, CHANNEL_ID)
-                .setSmallIcon(R.drawable.ic_notification) // Add this icon to your drawable
+                .setSmallIcon(android.R.drawable.ic_dialog_info)
+                // Add this icon to your drawable
                 .setContentTitle(title)
                 .setContentText(message)
                 .setPriority(NotificationCompat.PRIORITY_DEFAULT)

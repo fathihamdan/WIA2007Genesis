@@ -11,7 +11,6 @@ drawable change_school_icon
 drawable family
 drawable ic_launcher_background
 drawable ic_launcher_foreground
-drawable ic_notification
 drawable like
 drawable lock_icon
 drawable mortarboard
@@ -221,7 +220,6 @@ id TVCurrentSchoolStudentProfile
 id TVCurrentSchoolTeacher
 id TVCurrentSchoolTeacherProfile
 id TVDontHaceAccTeacher
-id TVDontHaveAcc
 id TVDontHaveAccParent
 id TVEmail
 id TVEmailAdmin
@@ -235,7 +233,6 @@ id TVFillDetails
 id TVForgotPassAdmin
 id TVForgotPassParent
 id TVForgotPassTeacher
-id TVForgotPassword
 id TVFullNameSignUp
 id TVHaveAccSignUp
 id TVIncidentDescription
@@ -286,7 +283,6 @@ id TVSignIn
 id TVSignInAdmin
 id TVSignInParent
 id TVSignInTeacher
-id TVSignUp
 id TVSignUpPage
 id TVSignUpParent
 id TVSignUpTeacher
@@ -329,6 +325,7 @@ id action_starterPage_to_signUp4
 id action_starterPage_to_studentLoginPage
 id action_starterPage_to_teacherLoginPage
 id action_studentLoginPage_to_starterPage
+id action_studentLoginPage_to_studentHomePage
 id action_teacherLoginPage_to_starterPage
 id active_cases
 id active_count
@@ -424,6 +421,7 @@ id pendingNoti
 id pending_count
 id pending_percent
 id physical_percent
+id progressBar
 id resolved_cases
 id resolved_count
 id resolved_percent
@@ -534,6 +532,7 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 navigation navgraph
 string app_name
+string default_web_client_id
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id

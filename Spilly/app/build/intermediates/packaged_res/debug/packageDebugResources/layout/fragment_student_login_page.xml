@@ -7,17 +7,14 @@
     android:layout_height="match_parent"
     tools:context=".StudentLoginPage">
 
-    <!-- TODO: Update blank fragment layout -->
-
     <TextView
-        android:id="@+id/TVSignIn"
-        android:layout_width="95dp"
-        android:layout_height="41dp"
-        android:layout_marginStart="164dp"
-        android:layout_marginTop="108dp"
-        android:text="Sign In"
-        android:textSize="30sp"
-        android:textStyle="bold"
+        android:id="@+id/TVBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="31dp"
+        android:text="Back"
+        android:textColor="#3F51B5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -29,6 +26,18 @@
         android:layout_marginEnd="168dp"
         android:src="@drawable/shield"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVSignIn"
+        android:layout_width="95dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="108dp"
+        android:text="Sign In"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -66,6 +75,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <EditText
+        android:id="@+id/ETEmail"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="68dp"
+        android:ems="10"
+        android:hint="your.email@school.edu"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVEmail" />
+
     <TextView
         android:id="@+id/TVPassword"
         android:layout_width="wrap_content"
@@ -84,34 +105,10 @@
         android:layout_marginTop="12dp"
         android:layout_marginEnd="68dp"
         android:ems="10"
-        android:inputType="text"
-        android:text="Enter your password"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/TVPassword" />
-
-    <EditText
-        android:id="@+id/ETEmail"
-        android:layout_width="280dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="68dp"
-        android:ems="10"
-        android:inputType="text"
-        android:text="your.email@school.edu"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/TVEmail" />
-
-    <TextView
-        android:id="@+id/TVForgotPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="68dp"
-        android:text="Forgot Password?"
-        android:textColor="#9C27B0"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ETPassword" />
 
     <Button
         android:id="@+id/ButtonSubmit"
@@ -123,36 +120,24 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ETPassword" />
 
-    <TextView
-        android:id="@+id/TVSignUp"
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/ButtonSignUp"
+        android:layout_width="280dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="112dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="68dp"
         android:text="Sign Up"
-        android:textColor="#9C27B0"
-        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ButtonSubmit" />
 
-    <TextView
-        android:id="@+id/TVDontHaveAcc"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="104dp"
-        android:layout_marginTop="24dp"
-        android:text="Dont have an account?"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ButtonSubmit" />
 
-    <TextView
-        android:id="@+id/TVBack"
+    <ProgressBar
+        android:id="@+id/progressBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="31dp"
-        android:text="Back"
-        android:textColor="#3F51B5"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

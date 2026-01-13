@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.spilly.app-mergeDebugResources-53:/values-as/values-as.xml",
+            "outputFile": "com.example.spilly.app-mergeDebugResources-54:/values-as/values-as.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\farha\\.gradle\\caches\\9.0-milestone-1\\transforms\\2a3705bf745a711b9a7c609e7f38e043\\transformed\\material-1.13.0\\res\\values-as\\values-as.xml",
+                    "source": "C:\\Users\\gameboonz\\.gradle\\caches\\9.0-milestone-1\\transforms\\1ebfcec26cbb5f10e870669c67b015ee\\transformed\\browser-1.4.0\\res\\values-as\\values-as.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,163,269,377",
+                        "endColumns": "107,105,107,105",
+                        "endOffsets": "158,264,372,478"
+                    },
+                    "to": {
+                        "startLines": "65,69,70,71",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "6562,6884,6990,7098",
+                        "endColumns": "107,105,107,105",
+                        "endOffsets": "6665,6985,7093,7199"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\gameboonz\\.gradle\\caches\\9.0-milestone-1\\transforms\\2a3705bf745a711b9a7c609e7f38e043\\transformed\\material-1.13.0\\res\\values-as\\values-as.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,24 +40,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\farha\\.gradle\\caches\\9.0-milestone-1\\transforms\\74890fe8f1b354914a2cc6ed0e0cae6e\\transformed\\core-1.16.0\\res\\values-as\\values-as.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,156,259,367,472,576,676,805",
-                        "endColumns": "100,102,107,104,103,99,128,100",
-                        "endOffsets": "151,254,362,467,571,671,800,901"
-                    },
-                    "to": {
-                        "startLines": "37,38,39,40,41,42,43,145",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "3386,3487,3590,3698,3803,3907,4007,12860",
-                        "endColumns": "100,102,107,104,103,99,128,100",
-                        "endOffsets": "3482,3585,3693,3798,3902,4002,4131,12956"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\farha\\.gradle\\caches\\9.0-milestone-1\\transforms\\bd3c9323bafcc82296c9a6a8505eb8fd\\transformed\\play-services-base-18.0.1\\res\\values-as\\values.xml",
+                    "source": "C:\\Users\\gameboonz\\.gradle\\caches\\9.0-milestone-1\\transforms\\bd3c9323bafcc82296c9a6a8505eb8fd\\transformed\\play-services-base-18.0.1\\res\\values-as\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -57,24 +57,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\farha\\.gradle\\caches\\9.0-milestone-1\\transforms\\1ebfcec26cbb5f10e870669c67b015ee\\transformed\\browser-1.4.0\\res\\values-as\\values-as.xml",
+                    "source": "C:\\Users\\gameboonz\\.gradle\\caches\\9.0-milestone-1\\transforms\\74890fe8f1b354914a2cc6ed0e0cae6e\\transformed\\core-1.16.0\\res\\values-as\\values-as.xml",
                     "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,163,269,377",
-                        "endColumns": "107,105,107,105",
-                        "endOffsets": "158,264,372,478"
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,156,259,367,472,576,676,805",
+                        "endColumns": "100,102,107,104,103,99,128,100",
+                        "endOffsets": "151,254,362,467,571,671,800,901"
                     },
                     "to": {
-                        "startLines": "65,69,70,71",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "6562,6884,6990,7098",
-                        "endColumns": "107,105,107,105",
-                        "endOffsets": "6665,6985,7093,7199"
+                        "startLines": "37,38,39,40,41,42,43,145",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3386,3487,3590,3698,3803,3907,4007,12860",
+                        "endColumns": "100,102,107,104,103,99,128,100",
+                        "endOffsets": "3482,3585,3693,3798,3902,4002,4131,12956"
                     }
                 },
                 {
-                    "source": "C:\\Users\\farha\\.gradle\\caches\\9.0-milestone-1\\transforms\\d9983bda4e66be0c88b352ea1ee72d00\\transformed\\play-services-basement-18.1.0\\res\\values-as\\values.xml",
+                    "source": "C:\\Users\\gameboonz\\.gradle\\caches\\9.0-milestone-1\\transforms\\af72821df4af8c2634428870374dc948\\transformed\\play-services-basement-18.2.0\\res\\values-as\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -91,7 +91,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\farha\\.gradle\\caches\\9.0-milestone-1\\transforms\\ac67079e7694f25dc6bb27a036e432a9\\transformed\\navigation-ui-2.9.6\\res\\values-as\\values-as.xml",
+                    "source": "C:\\Users\\gameboonz\\.gradle\\caches\\9.0-milestone-1\\transforms\\ac67079e7694f25dc6bb27a036e432a9\\transformed\\navigation-ui-2.9.6\\res\\values-as\\values-as.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -108,7 +108,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\farha\\.gradle\\caches\\9.0-milestone-1\\transforms\\4173488c9293eb48edcc3e52c270be90\\transformed\\appcompat-1.7.1\\res\\values-as\\values-as.xml",
+                    "source": "C:\\Users\\gameboonz\\.gradle\\caches\\9.0-milestone-1\\transforms\\4173488c9293eb48edcc3e52c270be90\\transformed\\appcompat-1.7.1\\res\\values-as\\values-as.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

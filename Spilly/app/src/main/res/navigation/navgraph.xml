@@ -41,6 +41,9 @@
         <action
             android:id="@+id/action_studentLoginPage_to_starterPage"
             app:destination="@id/starterPage" />
+        <action
+            android:id="@+id/action_studentLoginPage_to_studentHomePage"
+            app:destination="@id/studentHomePage" />
     </fragment>
     <fragment
         android:id="@+id/teacherLoginPage"

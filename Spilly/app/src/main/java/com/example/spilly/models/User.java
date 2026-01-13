@@ -1,4 +1,8 @@
+//java/com.example.spilly/models/User
+
 package com.example.spilly.models;
+
+
 
 import com.google.firebase.firestore.DocumentId;
 import com.google.firebase.firestore.ServerTimestamp;
