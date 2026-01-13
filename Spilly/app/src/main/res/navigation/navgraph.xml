@@ -50,6 +50,12 @@
         <action
             android:id="@+id/action_teacherLoginPage_to_starterPage"
             app:destination="@id/starterPage" />
+        <action
+            android:id="@+id/action_teacherLoginPage_to_teacherCasesPage"
+            app:destination="@id/teacherCasesPage" />
+        <action
+            android:id="@+id/action_teacherLoginPage_to_adminHomeFragment"
+            app:destination="@id/adminHomeFragment" />
     </fragment>
     <fragment
         android:id="@+id/parentLoginPage"
@@ -109,7 +115,11 @@
         android:id="@+id/teacherCasesPage"
         android:name="com.example.spilly.TeacherCasesPage"
         android:label="fragment_teacher_cases_page"
-        tools:layout="@layout/fragment_teacher_cases_page" />
+        tools:layout="@layout/fragment_teacher_cases_page" >
+        <action
+            android:id="@+id/action_teacherCasesPage_to_teacherAnalyticsPage"
+            app:destination="@id/teacherAnalyticsPage" />
+    </fragment>
     <fragment
         android:id="@+id/teacherAnalyticsPage"
         android:name="com.example.spilly.TeacherAnalyticsPage"

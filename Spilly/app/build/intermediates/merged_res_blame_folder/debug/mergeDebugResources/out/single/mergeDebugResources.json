@@ -244,6 +244,10 @@
         "source": "com.example.spilly.app-main-57:/drawable/school_information_icon.png"
     },
     {
+        "merged": "com.example.spilly.app-debug-55:/drawable_spinner_background.xml.flat",
+        "source": "com.example.spilly.app-main-57:/drawable/spinner_background.xml"
+    },
+    {
         "merged": "com.example.spilly.app-debug-55:/layout_fragment_student_profile_page.xml.flat",
         "source": "com.example.spilly.app-main-57:/layout/fragment_student_profile_page.xml"
     },

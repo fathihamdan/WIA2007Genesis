@@ -26,6 +26,7 @@ drawable rounded_left_purple
 drawable rounded_left_yellow
 drawable school_information_icon
 drawable shield
+drawable spinner_background
 drawable status_pending
 drawable timeclock
 drawable updatenoti
@@ -212,7 +213,6 @@ id TVConfirmPassChangeParent
 id TVConfirmPassChangeStudent
 id TVConfirmPassChangeTeacher
 id TVCredentialAdmin
-id TVCredentialTeacher
 id TVCredentialsParent
 id TVCurrentSchoolParent
 id TVCurrentSchoolParentProfile
@@ -220,9 +220,9 @@ id TVCurrentSchoolStudent
 id TVCurrentSchoolStudentProfile
 id TVCurrentSchoolTeacher
 id TVCurrentSchoolTeacherProfile
-id TVDontHaceAccTeacher
 id TVDontHaveAcc
 id TVDontHaveAccParent
+id TVDontHaveAccTeacher
 id TVEmail
 id TVEmailAdmin
 id TVEmailForgotPass
@@ -276,6 +276,7 @@ id TVRoleTeacher
 id TVSafetyInfo
 id TVSchoolInformation
 id TVSearchSchool
+id TVSelectPortal
 id TVSeverityLevel
 id TVShowEvidence
 id TVShowRoleAdmin
@@ -329,7 +330,10 @@ id action_starterPage_to_signUp4
 id action_starterPage_to_studentLoginPage
 id action_starterPage_to_teacherLoginPage
 id action_studentLoginPage_to_starterPage
+id action_teacherCasesPage_to_teacherAnalyticsPage
+id action_teacherLoginPage_to_adminHomeFragment
 id action_teacherLoginPage_to_starterPage
+id action_teacherLoginPage_to_teacherCasesPage
 id active_cases
 id active_count
 id adminAllCasesFragment
@@ -441,6 +445,7 @@ id signUp
 id social_percent
 id spillylogo
 id spinner_bullying_type
+id spinner_portal
 id starterPage
 id stats_row
 id status_12452
