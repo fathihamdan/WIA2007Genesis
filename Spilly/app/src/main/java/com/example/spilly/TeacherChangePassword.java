@@ -2,11 +2,18 @@ package com.example.spilly;
 
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.navigation.Navigation;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+import android.widget.Toast;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -61,4 +68,41 @@ public class TeacherChangePassword extends Fragment {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_teacher_change_password, container, false);
     }
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+
+
+        TextView btnBack = view.findViewById(R.id.TVBackChangePassTeacher);
+        if (btnBack != null) {
+            btnBack.setOnClickListener(v -> Navigation.findNavController(v).navigateUp());
+        }
+
+
+        EditText etNewPass = view.findViewById(R.id.ETChangePassTeacher);
+        EditText etConfirmPass = view.findViewById(R.id.ETConfirmPasswordChangeTeacher);
+
+
+        Button btnUpdate = view.findViewById(R.id.ButtonUpdatePassTeacher);
+        if (btnUpdate != null) {
+            btnUpdate.setOnClickListener(v -> {
+
+                //what does etNewPass reffering to??
+                String newPass = etNewPass.getText().toString();
+                String confirmPass = etConfirmPass.getText().toString();
+
+                if (newPass.isEmpty() || confirmPass.isEmpty()) {
+                    Toast.makeText(getContext(), "Please fill in all fields", Toast.LENGTH_SHORT).show();
+                } else if (!newPass.equals(confirmPass)) {
+                    Toast.makeText(getContext(), "Passwords do not match", Toast.LENGTH_SHORT).show();
+                } else {
+
+                    Toast.makeText(getContext(), "Password Updated Successfully!", Toast.LENGTH_SHORT).show();
+                    Navigation.findNavController(v).navigateUp();
+                }
+            });
+        }
+    }
+
 }
