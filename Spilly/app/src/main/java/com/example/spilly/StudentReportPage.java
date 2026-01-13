@@ -1,105 +1,196 @@
 package com.example.spilly;
 
+import android.app.DatePickerDialog;
 import android.os.Bundle;
-
-import androidx.fragment.app.Fragment;
-
+import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.LinearLayout;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.Spinner;
+import android.widget.TextView;
+import android.widget.Toast;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link ReportPage#newInstance} factory method to
- * create an instance of this fragment.
- */
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.navigation.NavController;
+import androidx.navigation.Navigation;
+
+import com.example.spilly.models.BullyingReport;
+import com.example.spilly.utils.Constants;
+import com.example.spilly.utils.FirebaseAuthHelper;
+import com.example.spilly.utils.FirestoreHelper;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Locale;
+
 public class StudentReportPage extends Fragment {
 
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
+    private TextView tvBack;
+    private EditText etDate, etDescription;
+    private Spinner spinnerBullyingType;
+    private RadioButton rbLow, rbMedium, rbHigh;
+    private Button btnContinue;
 
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
+    private FirebaseAuthHelper authHelper;
+    private FirestoreHelper firestoreHelper;
+    private NavController navController;
+
+    private Calendar selectedDate;
+    private String selectedSeverity = "";
 
     public StudentReportPage() {
-        // Required empty public constructor
-    }
-
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment ReportPage.
-     */
-    // TODO: Rename and change types and number of parameters
-    public static StudentReportPage newInstance(String param1, String param2) {
-        StudentReportPage fragment = new StudentReportPage();
-        Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
-        return fragment;
     }
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
+    public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
+        authHelper = FirebaseAuthHelper.getInstance(requireContext());
+        firestoreHelper = FirestoreHelper.getInstance();
+        selectedDate = Calendar.getInstance();
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_student_report_page, container, false);
+        return inflater.inflate(R.layout.fragment_student_report_page, container, false);
+    }
 
-        LinearLayout lowBtn = view.findViewById(R.id.RBLowSevere);
-        LinearLayout mediumBtn = view.findViewById(R.id.RBMediumSevere);
-        LinearLayout highBtn = view.findViewById(R.id.RBHighSevere);
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
 
-        lowBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // This code runs when the box is clicked
-                // Example: Highlight the box or save the "Low" value
-                v.setSelected(true);
-            }
-        });
+        navController = Navigation.findNavController(view);
 
-        mediumBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                v.setSelected(true);
-            }
-        });
+        // Initialize views
+        tvBack = view.findViewById(R.id.TVBackStudentReport);
+        etDate = view.findViewById(R.id.ETDate);
+        etDescription = view.findViewById(R.id.ETMDescWhatHappen);
+        spinnerBullyingType = view.findViewById(R.id.spinner_bullying_type);
+        rbLow = view.findViewById(R.id.RBLowSevere);
+        rbMedium = view.findViewById(R.id.RBMediumSevere);
+        rbHigh = view.findViewById(R.id.RBHighSevere);
+        btnContinue = view.findViewById(R.id.ButtonContinue);
 
-        highBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                v.setSelected(true);
-            }
-        });
+        // Setup spinner
+        String[] bullyingTypes = {
+                "Select type...",
+                "Cyberbullying",
+                "Physical",
+                "Verbal",
+                "Social",
+                "Others"
+        };
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(
+                requireContext(),
+                android.R.layout.simple_spinner_dropdown_item,
+                bullyingTypes
+        );
+        spinnerBullyingType.setAdapter(adapter);
 
-        String[] bullyingTypes = {"Select type...", "Cyberbullying", "Physical", "Verbal", "Social", "Others"};
+        // Setup date picker
+        etDate.setFocusable(false);
+        etDate.setOnClickListener(v -> showDatePicker());
 
-        // 3. Find the Spinner using 'view.findViewById' (IMPORTANT: you must use 'view.')
-        Spinner spinner = view.findViewById(R.id.spinner_bullying_type);
+        // Setup severity radio buttons
+        rbLow.setOnClickListener(v -> selectedSeverity = "Low");
+        rbMedium.setOnClickListener(v -> selectedSeverity = "Medium");
+        rbHigh.setOnClickListener(v -> selectedSeverity = "High");
 
-        // 4. Create and set the adapter
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(getContext(), android.R.layout.simple_spinner_dropdown_item, bullyingTypes);
-        spinner.setAdapter(adapter);
+        // Back button
+        tvBack.setOnClickListener(v -> navController.popBackStack());
 
-        return view;
+        // Submit button
+        btnContinue.setOnClickListener(v -> submitReport());
+    }
+
+    private void showDatePicker() {
+        int year = selectedDate.get(Calendar.YEAR);
+        int month = selectedDate.get(Calendar.MONTH);
+        int day = selectedDate.get(Calendar.DAY_OF_MONTH);
+
+        DatePickerDialog datePickerDialog = new DatePickerDialog(
+                requireContext(),
+                (view, year1, month1, dayOfMonth) -> {
+                    selectedDate.set(year1, month1, dayOfMonth);
+                    SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yyyy", Locale.US);
+                    etDate.setText(sdf.format(selectedDate.getTime()));
+                },
+                year, month, day
+        );
+        datePickerDialog.show();
+    }
+
+    private void submitReport() {
+        // Get values
+        String date = etDate.getText().toString().trim();
+        String bullyingType = spinnerBullyingType.getSelectedItem().toString();
+        String description = etDescription.getText().toString().trim();
+
+        // Validate
+        if (TextUtils.isEmpty(date) || date.equals("mm/dd/yyyy")) {
+            Toast.makeText(requireContext(), "Please select a date", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        if (bullyingType.equals("Select type...")) {
+            Toast.makeText(requireContext(), "Please select bullying type", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        if (TextUtils.isEmpty(selectedSeverity)) {
+            Toast.makeText(requireContext(), "Please select severity level", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        if (TextUtils.isEmpty(description) || description.equals("Describe what happened...")) {
+            Toast.makeText(requireContext(), "Please describe the incident", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        // Create report
+        String studentId = authHelper.getCurrentUserId();
+        if (studentId == null) {
+            Toast.makeText(requireContext(), "User not logged in", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        // Disable button
+        btnContinue.setEnabled(false);
+        btnContinue.setText("Submitting...");
+
+        // Create report object
+        BullyingReport report = new BullyingReport(
+                studentId,
+                "", // teacherId will be assigned later
+                bullyingType,
+                selectedSeverity,
+                description,
+                Constants.STATUS_PENDING
+        );
+
+        // Save to Firestore
+        firestoreHelper.getReportsCollection().add(report)
+                .addOnSuccessListener(documentReference -> {
+                    Toast.makeText(requireContext(),
+                            "Report submitted successfully!",
+                            Toast.LENGTH_LONG).show();
+
+                    // Navigate back or to view reports
+                    navController.popBackStack();
+                })
+                .addOnFailureListener(e -> {
+                    btnContinue.setEnabled(true);
+                    btnContinue.setText("Continue");
+                    Toast.makeText(requireContext(),
+                            "Failed to submit report: " + e.getMessage(),
+                            Toast.LENGTH_LONG).show();
+                });
     }
 }

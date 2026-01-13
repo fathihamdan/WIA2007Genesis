@@ -31,8 +31,6 @@ drawable updatenoti
 id ActiveCasesNumber
 id ActiveCasesTitle
 id BullyType
-id BullyType2
-id BullyType3
 id ButtonChangePassAdmin
 id ButtonChangePassParent
 id ButtonChangePassStudent
@@ -51,6 +49,7 @@ id ButtonSignInAdmin
 id ButtonSignInParent
 id ButtonSignInTeacher
 id ButtonSignUp
+id ButtonSignUpTeacher
 id ButtonSkipThisStep
 id ButtonStudent
 id ButtonSubmit
@@ -71,8 +70,6 @@ id CaseID2
 id CaseID3
 id CaseID4
 id CaseID_1
-id CaseID_2
-id CaseID_3
 id CasePendingIcon
 id CaseResolvedIcon
 id CaseUpdateIcon
@@ -119,7 +116,6 @@ id IVShieldParent
 id IVShieldTeacher
 id IVStudent
 id IVTeacher
-id InvestigatingStatus
 id LimitDesc
 id LimitDescBox
 id MyReportPageTitle
@@ -146,21 +142,15 @@ id NotificationBox4
 id NotificationIcon
 id PendingCasesNumber
 id PendingCasesTitle
-id PendingStatus
 id RBHighSevere
 id RBLowSevere
 id RBMediumSevere
 id ReportAnonymousDesc
 id ReportBox1
-id ReportBox2
-id ReportBox3
 id ReportDesc1
-id ReportDesc2
-id ReportDesc3
 id ReportTitle
 id ResolvedCasesNumber
 id ResolvedCasesTitle
-id ResolvedStatus
 id SWEmailNotiAdmin
 id SWEmailNotiParent
 id SWEmailNotiStudent
@@ -177,9 +167,6 @@ id SWWeeklyDigestStudent
 id SWWeeklyDigestTeacher
 id Shield
 id StarterFrame
-id SubmitDate
-id SubmitDate2
-id SubmitDate3
 id TVAccAdmin
 id TVAccParent
 id TVAccStudent
@@ -219,7 +206,6 @@ id TVCurrentSchoolStudent
 id TVCurrentSchoolStudentProfile
 id TVCurrentSchoolTeacher
 id TVCurrentSchoolTeacherProfile
-id TVDontHaceAccTeacher
 id TVDontHaveAccParent
 id TVEmail
 id TVEmailAdmin
@@ -285,7 +271,6 @@ id TVSignInParent
 id TVSignInTeacher
 id TVSignUpPage
 id TVSignUpParent
-id TVSignUpTeacher
 id TVStudentPortal
 id TVSubtitle
 id TVTeacherPortal
@@ -324,9 +309,13 @@ id action_starterPage_to_signUp3
 id action_starterPage_to_signUp4
 id action_starterPage_to_studentLoginPage
 id action_starterPage_to_teacherLoginPage
+id action_studentHomePage_to_studentReportPage
+id action_studentHomePage_to_studentViewReport
 id action_studentLoginPage_to_starterPage
 id action_studentLoginPage_to_studentHomePage
+id action_teacherAnalyticsPage_to_studentViewReport
 id action_teacherLoginPage_to_starterPage
+id action_teacherLoginPage_to_teacherAnalyticsPage
 id active_cases
 id active_count
 id adminAllCasesFragment
@@ -340,6 +329,7 @@ id adminManageUsersFragment
 id adminProfileFragment
 id backButton
 id btnBackFromAllCases
+id btnViewReports
 id btn_add_school
 id btn_all_cases
 id btn_analytics
@@ -356,6 +346,7 @@ id btn_manage_schools
 id btn_manage_users
 id btn_mark_resolved
 id btn_update_pass_admin
+id cardTotalReports
 id card_case_example
 id case_id_12453
 id case_id_12456
@@ -422,6 +413,8 @@ id pending_count
 id pending_percent
 id physical_percent
 id progressBar
+id reportCard
+id reportsContainer
 id resolved_cases
 id resolved_count
 id resolved_percent
@@ -441,6 +434,7 @@ id spillylogo
 id spinner_bullying_type
 id starterPage
 id stats_row
+id statusCard
 id status_12452
 id status_12453
 id status_12454
@@ -470,6 +464,11 @@ id title
 id total_cases_count
 id total_count
 id total_reports
+id tvBullyType
+id tvCaseId
+id tvDescription
+id tvStatus
+id tvSubmitDate
 id tv_admin_subtitle
 id tv_admin_title
 id tv_case_date
@@ -526,6 +525,7 @@ layout fragment_teacher_change_school
 layout fragment_teacher_login_page
 layout fragment_teacher_profile_page
 layout item_case_card
+layout item_report_card
 layout item_school_card
 layout item_user_card
 mipmap ic_launcher

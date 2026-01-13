@@ -53,6 +53,10 @@
         <action
             android:id="@+id/action_teacherLoginPage_to_starterPage"
             app:destination="@id/starterPage" />
+        <!-- ADD THIS ACTION - Navigate to Analytics after login -->
+        <action
+            android:id="@+id/action_teacherLoginPage_to_teacherAnalyticsPage"
+            app:destination="@id/teacherAnalyticsPage" />
     </fragment>
     <fragment
         android:id="@+id/parentLoginPage"
@@ -77,7 +81,16 @@
         android:id="@+id/studentHomePage"
         android:name="com.example.spilly.StudentHomePage"
         android:label="fragment_student_home_page"
-        tools:layout="@layout/fragment_student_home_page" />
+        tools:layout="@layout/fragment_student_home_page">
+
+        <!-- ADD THIS -->
+        <action
+            android:id="@+id/action_studentHomePage_to_studentReportPage"
+            app:destination="@id/studentReportPage" />
+        <action
+            android:id="@+id/action_studentHomePage_to_studentViewReport"
+            app:destination="@id/studentViewReport" />
+    </fragment>
     <fragment
         android:id="@+id/studentNotificationPage"
         android:name="com.example.spilly.StudentNotificationPage"
@@ -93,6 +106,7 @@
         android:name="com.example.spilly.StudentReportPage"
         android:label="fragment_student_report_page"
         tools:layout="@layout/fragment_student_report_page" />
+
     <fragment
         android:id="@+id/studentEvidencePage"
         android:name="com.example.spilly.StudentEvidencePage"
@@ -117,7 +131,12 @@
         android:id="@+id/teacherAnalyticsPage"
         android:name="com.example.spilly.TeacherAnalyticsPage"
         android:label="fragment_teacher_analytics_page"
-        tools:layout="@layout/fragment_teacher_analytics_page" />
+        tools:layout="@layout/fragment_teacher_analytics_page">
+
+    <action
+        android:id="@+id/action_teacherAnalyticsPage_to_studentViewReport"
+        app:destination="@id/studentViewReport" />
+    </fragment>
     <fragment
         android:id="@+id/teacherProfilePage"
         android:name="com.example.spilly.TeacherProfilePage"

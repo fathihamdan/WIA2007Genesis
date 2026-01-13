@@ -3773,8 +3773,6 @@ id ActiveCasesTitle
 id BOTTOM_END
 id BOTTOM_START
 id BullyType
-id BullyType2
-id BullyType3
 id ButtonChangePassAdmin
 id ButtonChangePassParent
 id ButtonChangePassStudent
@@ -3793,6 +3791,7 @@ id ButtonSignInAdmin
 id ButtonSignInParent
 id ButtonSignInTeacher
 id ButtonSignUp
+id ButtonSignUpTeacher
 id ButtonSkipThisStep
 id ButtonStudent
 id ButtonSubmit
@@ -3814,8 +3813,6 @@ id CaseID2
 id CaseID3
 id CaseID4
 id CaseID_1
-id CaseID_2
-id CaseID_3
 id CasePendingIcon
 id CaseResolvedIcon
 id CaseUpdateIcon
@@ -3863,7 +3860,6 @@ id IVShieldParent
 id IVShieldTeacher
 id IVStudent
 id IVTeacher
-id InvestigatingStatus
 id LimitDesc
 id LimitDescBox
 id META
@@ -3892,21 +3888,15 @@ id NotificationBox4
 id NotificationIcon
 id PendingCasesNumber
 id PendingCasesTitle
-id PendingStatus
 id RBHighSevere
 id RBLowSevere
 id RBMediumSevere
 id ReportAnonymousDesc
 id ReportBox1
-id ReportBox2
-id ReportBox3
 id ReportDesc1
-id ReportDesc2
-id ReportDesc3
 id ReportTitle
 id ResolvedCasesNumber
 id ResolvedCasesTitle
-id ResolvedStatus
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -3928,9 +3918,6 @@ id SWWeeklyDigestTeacher
 id SYM
 id Shield
 id StarterFrame
-id SubmitDate
-id SubmitDate2
-id SubmitDate3
 id TOP_END
 id TOP_START
 id TVAccAdmin
@@ -3972,7 +3959,6 @@ id TVCurrentSchoolStudent
 id TVCurrentSchoolStudentProfile
 id TVCurrentSchoolTeacher
 id TVCurrentSchoolTeacherProfile
-id TVDontHaceAccTeacher
 id TVDontHaveAccParent
 id TVEmail
 id TVEmailAdmin
@@ -4038,7 +4024,6 @@ id TVSignInParent
 id TVSignInTeacher
 id TVSignUpPage
 id TVSignUpParent
-id TVSignUpTeacher
 id TVStudentPortal
 id TVSubtitle
 id TVTeacherPortal
@@ -4131,9 +4116,13 @@ id action_starterPage_to_signUp3
 id action_starterPage_to_signUp4
 id action_starterPage_to_studentLoginPage
 id action_starterPage_to_teacherLoginPage
+id action_studentHomePage_to_studentReportPage
+id action_studentHomePage_to_studentViewReport
 id action_studentLoginPage_to_starterPage
 id action_studentLoginPage_to_studentHomePage
+id action_teacherAnalyticsPage_to_studentViewReport
 id action_teacherLoginPage_to_starterPage
+id action_teacherLoginPage_to_teacherAnalyticsPage
 id action_text
 id actions
 id active_cases
@@ -4192,6 +4181,7 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id btnBackFromAllCases
+id btnViewReports
 id btn_add_school
 id btn_all_cases
 id btn_analytics
@@ -4212,6 +4202,7 @@ id buttonPanel
 id cache_measures
 id callMeasure
 id cancel_button
+id cardTotalReports
 id card_case_example
 id carryVelocity
 id case_id_12453
@@ -4550,7 +4541,9 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id reportCard
 id report_drawn
+id reportsContainer
 id resolved_cases
 id resolved_count
 id resolved_percent
@@ -4638,6 +4631,7 @@ id starterPage
 id staticLayout
 id staticPostLayout
 id stats_row
+id statusCard
 id status_12452
 id status_12453
 id status_12454
@@ -4723,6 +4717,11 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvBullyType
+id tvCaseId
+id tvDescription
+id tvStatus
+id tvSubmitDate
 id tv_admin_subtitle
 id tv_admin_title
 id tv_case_date
@@ -4945,6 +4944,7 @@ layout fragment_teacher_profile_page
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout item_case_card
+layout item_report_card
 layout item_school_card
 layout item_user_card
 layout m3_alert_dialog

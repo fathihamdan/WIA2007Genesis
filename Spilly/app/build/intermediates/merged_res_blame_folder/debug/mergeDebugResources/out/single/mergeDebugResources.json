@@ -68,6 +68,10 @@
         "source": "C:\\Users\\gameboonz\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-main-58:\\drawable\\account_icon.png"
     },
     {
+        "merged": "com.example.spilly.app-debug-56:/layout_fragment_teacher_analytics_page.xml.flat",
+        "source": "com.example.spilly.app-main-58:/layout/fragment_teacher_analytics_page.xml"
+    },
+    {
         "merged": "C:\\Users\\gameboonz\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-debug-56:\\layout_fragment_sign_up.xml.flat",
         "source": "C:\\Users\\gameboonz\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-main-58:\\layout\\fragment_sign_up.xml"
     },
@@ -128,10 +132,6 @@
         "source": "C:\\Users\\gameboonz\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-main-58:\\drawable\\status_pending.xml"
     },
     {
-        "merged": "com.example.spilly.app-debug-56:/layout_fragment_student_login_page.xml.flat",
-        "source": "com.example.spilly.app-main-58:/layout/fragment_student_login_page.xml"
-    },
-    {
         "merged": "C:\\Users\\gameboonz\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-debug-56:\\drawable_school_information_icon.png.flat",
         "source": "C:\\Users\\gameboonz\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-main-58:\\drawable\\school_information_icon.png"
     },
@@ -178,6 +178,10 @@
     {
         "merged": "C:\\Users\\gameboonz\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-debug-56:\\layout_fragment_student_home_page.xml.flat",
         "source": "C:\\Users\\gameboonz\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-main-58:\\layout\\fragment_student_home_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\gameboonz\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-debug-56:\\layout_item_report_card.xml.flat",
+        "source": "C:\\Users\\gameboonz\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-main-58:\\layout\\item_report_card.xml"
     },
     {
         "merged": "C:\\Users\\gameboonz\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-debug-56:\\drawable_rounded_left_green.xml.flat",
