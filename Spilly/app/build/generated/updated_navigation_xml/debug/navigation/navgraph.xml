@@ -71,6 +71,9 @@ app:startDestination="@id/starterPage" >
     <action
         android:id="@+id/action_parentLoginPage_to_starterPage"
         app:destination="@id/starterPage" />
+    <action
+        android:id="@+id/action_parentLoginPage_to_parentHomePage"
+        app:destination="@id/parentHomePage" />
 
 </fragment>
 <fragment
@@ -143,17 +146,44 @@ app:startDestination="@id/starterPage" >
     android:id="@+id/parentHomePage"
     android:name="com.example.spilly.ParentHomePage"
     android:label="fragment_parent_home_page"
-    tools:layout="@layout/fragment_parent_home_page" />
+    tools:layout="@layout/fragment_parent_home_page" >
+
+    <action
+        android:id="@+id/action_parentHomePage_to_parentNotificationPage"
+        app:destination="@id/parentNotificationPage" />
+    <action
+        android:id="@+id/action_parentHomePage_to_parentProfilePage"
+        app:destination="@id/parentProfilePage" />
+
+</fragment>
 <fragment
     android:id="@+id/parentNotificationPage"
     android:name="com.example.spilly.ParentNotificationPage"
     android:label="fragment_parent_notification_page"
-    tools:layout="@layout/fragment_parent_notification_page" />
+    tools:layout="@layout/fragment_parent_notification_page" >
+
+    <action
+        android:id="@+id/action_parentNotificationPage_to_parentHomePage"
+        app:destination="@id/parentHomePage" />
+    <action
+        android:id="@+id/action_parentNotificationPage_to_parentProfilePage"
+        app:destination="@id/parentProfilePage" />
+
+</fragment>
 <fragment
     android:id="@+id/parentProfilePage"
     android:name="com.example.spilly.ParentProfilePage"
     android:label="fragment_parent_profile_page"
-    tools:layout="@layout/fragment_parent_profile_page" />
+    tools:layout="@layout/fragment_parent_profile_page" >
+
+    <action
+        android:id="@+id/action_parentProfilePage_to_parentHomePage"
+        app:destination="@id/parentHomePage" />
+    <action
+        android:id="@+id/action_parentProfilePage_to_parentNotificationPage"
+        app:destination="@id/parentNotificationPage" />
+
+</fragment>
 <fragment
     android:id="@+id/teacherChangePassword"
     android:name="com.example.spilly.TeacherChangePassword"

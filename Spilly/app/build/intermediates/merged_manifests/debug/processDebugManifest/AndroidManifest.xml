@@ -31,6 +31,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Spilly" >
         <activity
+            android:name="com.example.spilly.parentActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.spilly.MainActivity"
             android:exported="true" >
             <intent-filter>

@@ -1,446 +1,365 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".StudentNotificationPage" >
+    tools:context=".StudentNotificationPage">
 
-    <TextView
-        android:id="@+id/MyReportPageTitle"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="20dp"
-        android:text="Notification Center"
-        android:textSize="16sp"
-        android:textStyle="bold" />
+        android:layout_height="match_parent"
+        android:layout_above="@+id/parent_bottom_navigation">
 
-    <TextView
-        android:id="@+id/TotalReports"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="6dp"
-        android:text="3 unread notifications" />
-
-    <com.google.android.material.card.MaterialCardView
-        android:id="@+id/ReportBox1"
-        android:layout_width="match_parent"
-        android:layout_height="126dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="40dp"
-        app:cardBackgroundColor="#FDF6F6"
-        app:strokeColor="#F4031B">
-
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
             <TextView
-                android:id="@+id/CaseID_1"
-                android:layout_width="wrap_content"
+                android:id="@+id/MyReportPageTitle"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="12dp"
-                android:layout_marginTop="16dp"
-                android:text="New Report Filed"
-                android:textColor="#0659D5"
-                app:layout_constraintStart_toEndOf="@+id/CaseUpdateIcon"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <ImageView
-                android:id="@+id/CaseUpdateIcon"
-                android:layout_width="22dp"
-                android:layout_height="25dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
-                android:src="@drawable/updatenoti"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:text="Notification Center"
+                android:textSize="16sp"
+                android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/ReportDesc1"
-                android:layout_width="214dp"
-                android:layout_height="41dp"
-                android:layout_marginStart="50dp"
+                android:id="@+id/TotalReports"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
                 android:layout_marginTop="6dp"
-                android:text="A report has been submitted. School staff are investigating."
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/CaseID_1" />
+                android:text="3 unread notifications" />
 
-            <TextView
-                android:id="@+id/BullyType"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="50dp"
-                android:layout_marginBottom="20dp"
-                android:text="2 hours ago"
-                android:textSize="11sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
-
-            <TextView
-                android:id="@+id/CaseID1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="30dp"
-                android:layout_marginBottom="20dp"
-                android:text="#12456"
-                android:textColor="#673AB7"
-                android:textSize="11sp"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent" />
-
-            <ImageView
-                android:id="@+id/NotiDot1"
-                android:layout_width="12dp"
-                android:layout_height="16dp"
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/ReportBox1"
+                android:layout_width="match_parent"
+                android:layout_height="126dp"
+                android:layout_marginStart="40dp"
                 android:layout_marginTop="16dp"
-                android:layout_marginEnd="16dp"
-                android:src="@drawable/notidot"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                android:layout_marginEnd="40dp"
+                app:cardBackgroundColor="#FDF6F6"
+                app:strokeColor="#F4031B">
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
-    </com.google.android.material.card.MaterialCardView>
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
 
-    <com.google.android.material.card.MaterialCardView
-        android:id="@+id/NotificationBox2"
+                    <TextView
+                        android:id="@+id/CaseID_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="16dp"
+                        android:text="New Report Filed"
+                        android:textColor="#0659D5"
+                        app:layout_constraintStart_toEndOf="@+id/CaseUpdateIcon"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/CaseUpdateIcon"
+                        android:layout_width="22dp"
+                        android:layout_height="25dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:src="@drawable/updatenoti"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/ReportDesc1"
+                        android:layout_width="214dp"
+                        android:layout_height="41dp"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginTop="6dp"
+                        android:text="A report has been submitted. School staff are investigating."
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/CaseID_1" />
+
+                    <TextView
+                        android:id="@+id/BullyType"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginBottom="20dp"
+                        android:text="2 hours ago"
+                        android:textSize="11sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <TextView
+                        android:id="@+id/CaseID1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="30dp"
+                        android:layout_marginBottom="20dp"
+                        android:text="#12456"
+                        android:textColor="#673AB7"
+                        android:textSize="11sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/NotiDot1"
+                        android:layout_width="12dp"
+                        android:layout_height="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:src="@drawable/notidot"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/NotificationBox2"
+                android:layout_width="match_parent"
+                android:layout_height="126dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="40dp"
+                app:cardBackgroundColor="#FDF6F6"
+                app:strokeColor="#F40303">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/NotiTitle2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="9dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Case Status Update"
+                        android:textColor="#0659D5"
+                        app:layout_constraintStart_toEndOf="@+id/NotificationIcon"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/NotiDesc2"
+                        android:layout_width="253dp"
+                        android:layout_height="41dp"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Case #12453 status has been updates to &quot;Investigating &quot;."
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/NotiTitle2" />
+
+                    <TextView
+                        android:id="@+id/NotiTime2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginBottom="20dp"
+                        android:text="1 day ago"
+                        android:textSize="11sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <TextView
+                        android:id="@+id/CaseID2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="30dp"
+                        android:layout_marginBottom="20dp"
+                        android:text="#12448"
+                        android:textColor="#673AB7"
+                        android:textSize="11sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/NotiDot2"
+                        android:layout_width="12dp"
+                        android:layout_height="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:src="@drawable/notidot"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/NotificationIcon"
+                        android:layout_width="25dp"
+                        android:layout_height="22dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:src="@drawable/notification_icon"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/NotificationBox3"
+                android:layout_width="match_parent"
+                android:layout_height="126dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="40dp"
+                app:cardBackgroundColor="#FDF6F6"
+                app:strokeColor="#F40303">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/NotiTitle3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="9dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Case Resolved"
+                        android:textColor="#0659D5"
+                        app:layout_constraintStart_toEndOf="@+id/CaseResolvedIcon"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/NotiDesc3"
+                        android:layout_width="253dp"
+                        android:layout_height="41dp"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Your report #12448 has been resolved. Appropriate action has been taken."
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/NotiTitle3" />
+
+                    <TextView
+                        android:id="@+id/NotiTime3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginBottom="20dp"
+                        android:text="1 day ago"
+                        android:textSize="11sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <TextView
+                        android:id="@+id/CaseID3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="30dp"
+                        android:layout_marginBottom="20dp"
+                        android:text="#12448"
+                        android:textColor="#673AB7"
+                        android:textSize="11sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/NotiDot3"
+                        android:layout_width="12dp"
+                        android:layout_height="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:src="@drawable/notidot"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/CaseResolvedIcon"
+                        android:layout_width="25dp"
+                        android:layout_height="22dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:src="@drawable/case_done_noti"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/NotificationBox4"
+                android:layout_width="match_parent"
+                android:layout_height="126dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="40dp"
+                app:cardBackgroundColor="#FFFFFF"
+                app:strokeColor="#C0C2C3">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/NotiTitle4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Report Received"
+                        android:textColor="#000205"
+                        app:layout_constraintStart_toEndOf="@+id/pendingNoti"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/NotiDesc4"
+                        android:layout_width="253dp"
+                        android:layout_height="41dp"
+                        android:layout_marginStart="48dp"
+                        android:layout_marginTop="7dp"
+                        android:text="We have received your report #12453 and will review it shortly."
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/NotiTitle4" />
+
+                    <TextView
+                        android:id="@+id/NotiTime4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginBottom="20dp"
+                        android:text="2 days ago"
+                        android:textSize="11sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <TextView
+                        android:id="@+id/CaseID4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="30dp"
+                        android:layout_marginBottom="20dp"
+                        android:text="#12453"
+                        android:textColor="#673AB7"
+                        android:textSize="11sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/pendingNoti"
+                        android:layout_width="26dp"
+                        android:layout_height="20dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:src="@drawable/timeclock"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/parent_bottom_navigation"
         android:layout_width="match_parent"
-        android:layout_height="126dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="40dp"
-        app:cardBackgroundColor="#FDF6F6"
-        app:strokeColor="#F40303">
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/parent_bottom_nav_menu" />
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <TextView
-                android:id="@+id/NotiTitle2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="9dp"
-                android:layout_marginTop="16dp"
-                android:text="Case Status Update"
-                android:textColor="#0659D5"
-                app:layout_constraintStart_toEndOf="@+id/NotificationIcon"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/NotiDesc2"
-                android:layout_width="253dp"
-                android:layout_height="41dp"
-                android:layout_marginStart="50dp"
-                android:layout_marginTop="8dp"
-                android:text="Case #12453 status has been updates to &quot;Investigating &quot;."
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/NotiTitle2" />
-
-            <TextView
-                android:id="@+id/NotiTime2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="50dp"
-                android:layout_marginBottom="20dp"
-                android:text="1 day ago"
-                android:textSize="11sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
-
-            <TextView
-                android:id="@+id/CaseID2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="30dp"
-                android:layout_marginBottom="20dp"
-                android:text="#12448"
-                android:textColor="#673AB7"
-                android:textSize="11sp"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent" />
-
-            <ImageView
-                android:id="@+id/NotiDot2"
-                android:layout_width="12dp"
-                android:layout_height="16dp"
-                android:layout_marginTop="16dp"
-                android:layout_marginEnd="16dp"
-                android:src="@drawable/notidot"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <ImageView
-                android:id="@+id/NotificationIcon"
-                android:layout_width="25dp"
-                android:layout_height="22dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
-                android:src="@drawable/notification_icon"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-    </com.google.android.material.card.MaterialCardView>
-    <com.google.android.material.card.MaterialCardView
-        android:id="@+id/NotificationBox3"
-        android:layout_width="match_parent"
-        android:layout_height="126dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="40dp"
-        app:cardBackgroundColor="#FDF6F6"
-        app:strokeColor="#F40303">
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <TextView
-                android:id="@+id/NotiTitle3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="9dp"
-                android:layout_marginTop="16dp"
-                android:text="Case Resolved"
-                android:textColor="#0659D5"
-                app:layout_constraintStart_toEndOf="@+id/CaseResolvedIcon"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/NotiDesc3"
-                android:layout_width="253dp"
-                android:layout_height="41dp"
-                android:layout_marginStart="50dp"
-                android:layout_marginTop="8dp"
-                android:text="Your report #12448 has been resolved. Appropriate action has been taken."
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/NotiTitle3" />
-
-            <TextView
-                android:id="@+id/NotiTime3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="50dp"
-                android:layout_marginBottom="20dp"
-                android:text="1 day ago"
-                android:textSize="11sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
-
-            <TextView
-                android:id="@+id/CaseID3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="30dp"
-                android:layout_marginBottom="20dp"
-                android:text="#12448"
-                android:textColor="#673AB7"
-                android:textSize="11sp"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent" />
-
-            <ImageView
-                android:id="@+id/NotiDot3"
-                android:layout_width="12dp"
-                android:layout_height="16dp"
-                android:layout_marginTop="16dp"
-                android:layout_marginEnd="16dp"
-                android:src="@drawable/notidot"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <ImageView
-                android:id="@+id/CaseResolvedIcon"
-                android:layout_width="25dp"
-                android:layout_height="22dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
-                android:src="@drawable/case_done_noti"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-    </com.google.android.material.card.MaterialCardView>
-
-    <com.google.android.material.card.MaterialCardView
-        android:id="@+id/NotificationBox4"
-        android:layout_width="match_parent"
-        android:layout_height="126dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="40dp"
-        app:cardBackgroundColor="#FFFFFF"
-        app:strokeColor="#C0C2C3">
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <TextView
-                android:id="@+id/NotiTitle4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="16dp"
-                android:text="Report Received"
-                android:textColor="#000205"
-                app:layout_constraintStart_toEndOf="@+id/pendingNoti"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/NotiDesc4"
-                android:layout_width="253dp"
-                android:layout_height="41dp"
-                android:layout_marginStart="48dp"
-                android:layout_marginTop="7dp"
-                android:text="We have received your report #12453 and will review it shortly."
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/NotiTitle4" />
-
-            <TextView
-                android:id="@+id/NotiTime4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="50dp"
-                android:layout_marginBottom="20dp"
-                android:text="2 days ago"
-                android:textSize="11sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
-
-            <TextView
-                android:id="@+id/CaseID4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="30dp"
-                android:layout_marginBottom="20dp"
-                android:text="#12453"
-                android:textColor="#673AB7"
-                android:textSize="11sp"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent" />
-
-            <ImageView
-                android:id="@+id/pendingNoti"
-                android:layout_width="26dp"
-                android:layout_height="20dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
-                android:src="@drawable/timeclock"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-    </com.google.android.material.card.MaterialCardView>
-
-</LinearLayout>
-<!--<?xml version="1.0" encoding="utf-8"?>-->
-<!--<LinearLayout-->
-<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
-<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
-<!--    android:layout_width="match_parent"-->
-<!--    android:layout_height="wrap_content"-->
-<!--    android:orientation="vertical"-->
-<!--    android:padding="16dp"-->
-<!--    android:background="#FFFFFF">-->
-
-<!--    &lt;!&ndash; Notification Item &ndash;&gt;-->
-<!--    <com.google.android.material.card.MaterialCardView-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginBottom="12dp"-->
-<!--        app:cardCornerRadius="12dp"-->
-<!--        app:cardElevation="0dp"-->
-<!--        app:strokeWidth="1dp"-->
-<!--        app:strokeColor="#FF5FA2">-->
-
-<!--        <androidx.constraintlayout.widget.ConstraintLayout-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:padding="12dp">-->
-
-<!--            &lt;!&ndash; Icon &ndash;&gt;-->
-<!--            <ImageView-->
-<!--                android:id="@+id/icon"-->
-<!--                android:layout_width="36dp"-->
-<!--                android:layout_height="36dp"-->
-<!--                android:background="@drawable/bg_icon_circle"-->
-<!--                android:padding="8dp"-->
-<!--                android:src="@drawable/ic_notification"-->
-<!--                app:layout_constraintStart_toStartOf="parent"-->
-<!--                app:layout_constraintTop_toTopOf="parent" />-->
-
-<!--            &lt;!&ndash; Unread Dot &ndash;&gt;-->
-<!--            <View-->
-<!--                android:id="@+id/unreadDot"-->
-<!--                android:layout_width="8dp"-->
-<!--                android:layout_height="8dp"-->
-<!--                android:background="@drawable/bg_dot"-->
-<!--                app:layout_constraintEnd_toEndOf="parent"-->
-<!--                app:layout_constraintTop_toTopOf="parent" />-->
-
-<!--            &lt;!&ndash; Title &ndash;&gt;-->
-<!--            <TextView-->
-<!--                android:id="@+id/title"-->
-<!--                android:layout_width="0dp"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:text="New Report Filed"-->
-<!--                android:textColor="#FF007A"-->
-<!--                android:textStyle="bold"-->
-<!--                android:textSize="14sp"-->
-<!--                android:layout_marginStart="12dp"-->
-<!--                app:layout_constraintStart_toEndOf="@id/icon"-->
-<!--                app:layout_constraintTop_toTopOf="@id/icon"-->
-<!--                app:layout_constraintEnd_toStartOf="@id/unreadDot" />-->
-
-<!--            &lt;!&ndash; Message &ndash;&gt;-->
-<!--            <TextView-->
-<!--                android:id="@+id/message"-->
-<!--                android:layout_width="0dp"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:text="A report has been submitted. School staff are investigating."-->
-<!--                android:textColor="#6B7280"-->
-<!--                android:textSize="13sp"-->
-<!--                android:layout_marginTop="4dp"-->
-<!--                app:layout_constraintStart_toStartOf="@id/title"-->
-<!--                app:layout_constraintTop_toBottomOf="@id/title"-->
-<!--                app:layout_constraintEnd_toEndOf="@id/title" />-->
-
-<!--            &lt;!&ndash; Time &ndash;&gt;-->
-<!--            <TextView-->
-<!--                android:id="@+id/time"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:text="2h ago"-->
-<!--                android:textColor="#9CA3AF"-->
-<!--                android:textSize="11sp"-->
-<!--                android:layout_marginTop="8dp"-->
-<!--                app:layout_constraintStart_toStartOf="@id/title"-->
-<!--                app:layout_constraintTop_toBottomOf="@id/message" />-->
-
-<!--            &lt;!&ndash; Case ID &ndash;&gt;-->
-<!--            <TextView-->
-<!--                android:id="@+id/caseId"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:text="#12456"-->
-<!--                android:textColor="#6366F1"-->
-<!--                android:textSize="11sp"-->
-<!--                app:layout_constraintEnd_toEndOf="parent"-->
-<!--                app:layout_constraintBottom_toBottomOf="@id/time" />-->
-
-<!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
-
-<!--    </com.google.android.material.card.MaterialCardView>-->
-
-<!--</LinearLayout>-->
+</RelativeLayout>

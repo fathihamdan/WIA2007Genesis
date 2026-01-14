@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\farha\REAL SPILLY\Spilly\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\farha\REAL SPILLY\Spilly\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\farha\REAL SPILLY\Spilly\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\farha\REAL SPILLY\Spilly\app\src\main\AndroidManifest.xml:2:1-25:12
+ADDED from C:\Users\farha\REAL SPILLY\Spilly\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\farha\REAL SPILLY\Spilly\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\farha\REAL SPILLY\Spilly\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\farha\REAL SPILLY\Spilly\app\src\main\AndroidManifest.xml:2:1-28:12
 MERGED from [androidx.navigation:navigation-runtime-android:2.9.6] C:\Users\farha\.gradle\caches\9.0-milestone-1\transforms\99900a20886907a469d8d40004fdc45f\transformed\navigation-runtime-release\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common-android:2.9.6] C:\Users\farha\.gradle\caches\9.0-milestone-1\transforms\b1491549fc7209be764fe9dffb341f2a\transformed\navigation-common-release\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-fragment:2.9.6] C:\Users\farha\.gradle\caches\9.0-milestone-1\transforms\21ec0ee329da3bad1f88beed3ee077c6\transformed\navigation-fragment-2.9.6\AndroidManifest.xml:17:1-22:12
@@ -92,8 +92,8 @@ MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\far
 	xmlns:android
 		ADDED from C:\Users\farha\REAL SPILLY\Spilly\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\farha\REAL SPILLY\Spilly\app\src\main\AndroidManifest.xml:5:5-23:19
-INJECTED from C:\Users\farha\REAL SPILLY\Spilly\app\src\main\AndroidManifest.xml:5:5-23:19
+ADDED from C:\Users\farha\REAL SPILLY\Spilly\app\src\main\AndroidManifest.xml:5:5-26:19
+INJECTED from C:\Users\farha\REAL SPILLY\Spilly\app\src\main\AndroidManifest.xml:5:5-26:19
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\farha\.gradle\caches\9.0-milestone-1\transforms\2a3705bf745a711b9a7c609e7f38e043\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\farha\.gradle\caches\9.0-milestone-1\transforms\2a3705bf745a711b9a7c609e7f38e043\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\farha\.gradle\caches\9.0-milestone-1\transforms\1650881a8c975f18aae49b5ab120c6c6\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
@@ -158,22 +158,28 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\fa
 		ADDED from C:\Users\farha\REAL SPILLY\Spilly\app\src\main\AndroidManifest.xml:13:9-44
 	android:dataExtractionRules
 		ADDED from C:\Users\farha\REAL SPILLY\Spilly\app\src\main\AndroidManifest.xml:7:9-65
-activity#com.example.spilly.MainActivity
-ADDED from C:\Users\farha\REAL SPILLY\Spilly\app\src\main\AndroidManifest.xml:14:9-22:20
+activity#com.example.spilly.parentActivity
+ADDED from C:\Users\farha\REAL SPILLY\Spilly\app\src\main\AndroidManifest.xml:14:9-16:40
 	android:exported
-		ADDED from C:\Users\farha\REAL SPILLY\Spilly\app\src\main\AndroidManifest.xml:16:13-36
+		ADDED from C:\Users\farha\REAL SPILLY\Spilly\app\src\main\AndroidManifest.xml:16:13-37
 	android:name
-		ADDED from C:\Users\farha\REAL SPILLY\Spilly\app\src\main\AndroidManifest.xml:15:13-41
+		ADDED from C:\Users\farha\REAL SPILLY\Spilly\app\src\main\AndroidManifest.xml:15:13-43
+activity#com.example.spilly.MainActivity
+ADDED from C:\Users\farha\REAL SPILLY\Spilly\app\src\main\AndroidManifest.xml:17:9-25:20
+	android:exported
+		ADDED from C:\Users\farha\REAL SPILLY\Spilly\app\src\main\AndroidManifest.xml:19:13-36
+	android:name
+		ADDED from C:\Users\farha\REAL SPILLY\Spilly\app\src\main\AndroidManifest.xml:18:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\farha\REAL SPILLY\Spilly\app\src\main\AndroidManifest.xml:17:13-21:29
+ADDED from C:\Users\farha\REAL SPILLY\Spilly\app\src\main\AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\farha\REAL SPILLY\Spilly\app\src\main\AndroidManifest.xml:18:17-69
+ADDED from C:\Users\farha\REAL SPILLY\Spilly\app\src\main\AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from C:\Users\farha\REAL SPILLY\Spilly\app\src\main\AndroidManifest.xml:18:25-66
+		ADDED from C:\Users\farha\REAL SPILLY\Spilly\app\src\main\AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\farha\REAL SPILLY\Spilly\app\src\main\AndroidManifest.xml:20:17-77
+ADDED from C:\Users\farha\REAL SPILLY\Spilly\app\src\main\AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from C:\Users\farha\REAL SPILLY\Spilly\app\src\main\AndroidManifest.xml:20:27-74
+		ADDED from C:\Users\farha\REAL SPILLY\Spilly\app\src\main\AndroidManifest.xml:23:27-74
 uses-sdk
 INJECTED from C:\Users\farha\REAL SPILLY\Spilly\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\farha\REAL SPILLY\Spilly\app\src\main\AndroidManifest.xml

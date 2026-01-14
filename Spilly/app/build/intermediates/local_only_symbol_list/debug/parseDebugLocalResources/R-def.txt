@@ -9,9 +9,11 @@ drawable card_bg
 drawable case_done_noti
 drawable change_school_icon
 drawable family
+drawable ic_home
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_notification
+drawable ic_person
 drawable like
 drawable lock_icon
 drawable mortarboard
@@ -214,6 +216,7 @@ id TVConfirmPassChangeStudent
 id TVConfirmPassChangeTeacher
 id TVCredentialAdmin
 id TVCredentialsParent
+id TVCurrentSchoolLabel
 id TVCurrentSchoolParent
 id TVCurrentSchoolParentProfile
 id TVCurrentSchoolStudent
@@ -321,7 +324,14 @@ id action_adminHomeFragment_to_adminManageUsersFragment
 id action_adminHomeFragment_to_adminProfileFragment
 id action_adminLoginFragment_to_adminHomeFragment
 id action_adminProfileFragment_to_adminChangePasswordFragment
+id action_parentHomePage_to_parentNotificationPage
+id action_parentHomePage_to_parentProfilePage
+id action_parentLoginPage_to_parentHomePage
 id action_parentLoginPage_to_starterPage
+id action_parentNotificationPage_to_parentHomePage
+id action_parentNotificationPage_to_parentProfilePage
+id action_parentProfilePage_to_parentHomePage
+id action_parentProfilePage_to_parentNotificationPage
 id action_starterPage_to_parentLoginPage
 id action_starterPage_to_signUp
 id action_starterPage_to_signUp2
@@ -346,6 +356,7 @@ id adminManageSchoolsFragment3
 id adminManageUsersFragment
 id adminProfileFragment
 id backButton
+id bottom_navigation
 id btnBackFromAllCases
 id btn_add_school
 id btn_all_cases
@@ -383,10 +394,10 @@ id et_new_pass_admin
 id fab_add_user
 id filter_container
 id forgotPasswordPage
+id fragment_container
 id frameLayout
 id frameLayout10
 id frameLayout11
-id frameLayout12
 id frameLayout13
 id frameLayout14
 id frameLayout15
@@ -411,7 +422,10 @@ id investigating_percent
 id iv_user_avatar
 id list_title
 id main
+id nav_alerts
+id nav_home
 id nav_host_fragment
+id nav_profile
 id navgraph
 id outcome_label_12453
 id outcome_label_12456
@@ -424,6 +438,7 @@ id parentHomePage
 id parentLoginPage
 id parentNotificationPage
 id parentProfilePage
+id parent_bottom_navigation
 id pendingNoti
 id pending_count
 id pending_percent
@@ -499,6 +514,7 @@ id type_12455
 id type_12456
 id verbal_percent
 layout activity_main
+layout activity_parent
 layout fragment_admin_all_cases
 layout fragment_admin_analytics
 layout fragment_admin_case_details
@@ -535,6 +551,9 @@ layout fragment_teacher_profile_page
 layout item_case_card
 layout item_school_card
 layout item_user_card
+menu bottom_nav_menu
+menu parent_bottom_nav_menu
+menu student_bottom_nav_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation navgraph

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/parentHomePage"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="Home" />
+    <item
+        android:id="@+id/parentNotificationPage"
+        android:icon="@android:drawable/ic_menu_recent_history"
+        android:title="Notifications" />
+    <item
+        android:id="@+id/parentProfilePage"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="Profile" />
+</menu>
