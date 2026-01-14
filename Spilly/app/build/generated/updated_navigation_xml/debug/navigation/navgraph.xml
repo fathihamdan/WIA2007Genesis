@@ -1,0 +1,321 @@
+<navigation
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/navgraph"
+app:startDestination="@id/starterPage" >
+<fragment
+    android:id="@+id/starterPage"
+    android:name="com.example.spilly.StarterPage"
+    android:label="fragment_starter_page"
+    app:startDestination="@id/starterPage"
+    tools:layout="@layout/fragment_starter_page" >
+
+    <action
+        android:id="@+id/action_starterPage_to_signUp"
+        app:destination="@id/signUp" />
+    <action
+        android:id="@+id/action_starterPage_to_signUp2"
+        app:destination="@id/signUp" />
+    <action
+        android:id="@+id/action_starterPage_to_signUp3"
+        app:destination="@id/signUp" />
+    <action
+        android:id="@+id/action_starterPage_to_signUp4"
+        app:destination="@id/signUp" />
+    <action
+        android:id="@+id/action_starterPage_to_studentLoginPage"
+        app:destination="@id/studentLoginPage" />
+    <action
+        android:id="@+id/action_starterPage_to_teacherLoginPage"
+        app:destination="@id/teacherLoginPage" />
+    <action
+        android:id="@+id/action_starterPage_to_parentLoginPage"
+        app:destination="@id/parentLoginPage" />
+
+</fragment>
+<fragment
+    android:id="@+id/studentLoginPage"
+    android:name="com.example.spilly.StudentLoginPage"
+    android:label="fragment_student_login_page"
+    tools:layout="@layout/fragment_student_login_page" >
+
+    <action
+        android:id="@+id/action_studentLoginPage_to_starterPage"
+        app:destination="@id/starterPage" />
+    <action
+        android:id="@+id/action_studentLoginPage_to_studentMainContainer"
+        app:destination="@id/studentMainContainer" />
+
+</fragment>
+<!-- In StudentLoginPage -->
+
+
+<!-- Add container fragment -->
+<fragment
+    android:id="@+id/studentMainContainer"
+    android:name="com.example.spilly.StudentMainContainer"
+    android:label="Student"
+    tools:layout="@layout/fragment_student_main_container" />
+<fragment
+    android:id="@+id/teacherLoginPage"
+    android:name="com.example.spilly.TeacherLoginPage"
+    android:label="fragment_teacher_login_page"
+    tools:layout="@layout/fragment_teacher_login_page" >
+
+    <action
+        android:id="@+id/action_teacherLoginPage_to_starterPage"
+        app:destination="@id/starterPage" />
+    <!-- ADD THIS ACTION - Navigate to Analytics after login -->
+    <action
+        android:id="@+id/action_teacherLoginPage_to_teacherCasesPage"
+        app:destination="@id/teacherCasesPage" />
+    <action
+        android:id="@+id/action_teacherLoginPage_to_signUp"
+        app:destination="@id/signUp" />
+    <action
+        android:id="@+id/action_teacherLoginPage_to_adminHomeFragment"
+        app:destination="@id/adminHomeFragment" />
+    <action
+        android:id="@+id/action_teacherLoginPage_to_teacherCasesPage2"
+        app:destination="@id/teacherCasesPage" />
+    <action
+        android:id="@+id/action_teacherLoginPage_to_teacherMainContainer"
+        app:destination="@id/teacherMainContainer" />
+
+</fragment>
+<fragment
+    android:id="@+id/parentLoginPage"
+    android:name="com.example.spilly.ParentLoginPage"
+    android:label="fragment_parent_login_page"
+    tools:layout="@layout/fragment_parent_login_page" >
+
+    <action
+        android:id="@+id/action_parentLoginPage_to_starterPage"
+        app:destination="@id/starterPage" />
+
+</fragment>
+<fragment
+    android:id="@+id/forgotPasswordPage"
+    android:name="com.example.spilly.ForgotPasswordPage"
+    android:label="fragment_forgot_password_page"
+    tools:layout="@layout/fragment_forgot_password_page" />
+<fragment
+    android:id="@+id/signUp"
+    android:name="com.example.spilly.SignUp"
+    android:label="fragment_sign_up"
+    tools:layout="@layout/fragment_sign_up" >
+
+    <action
+        android:id="@+id/action_signUp_to_studentHomePage"
+        app:destination="@id/studentHomePage" />
+    <action
+        android:id="@+id/action_signUp_to_teacherCasesPage"
+        app:destination="@id/teacherCasesPage" />
+    <action
+        android:id="@+id/action_signUp_to_adminHomeFragment"
+        app:destination="@id/adminHomeFragment" />
+
+</fragment>
+<fragment
+    android:id="@+id/studentHomePage"
+    android:name="com.example.spilly.StudentHomePage"
+    android:label="fragment_student_home_page"
+    tools:layout="@layout/fragment_student_home_page" >
+
+    <!-- ADD THIS -->
+    <action
+        android:id="@+id/action_studentHomePage_to_studentReportPage"
+        app:destination="@id/studentReportPage" />
+    <action
+        android:id="@+id/action_studentHomePage_to_studentViewReport"
+        app:destination="@id/studentViewReport" />
+
+</fragment>
+<fragment
+    android:id="@+id/studentNotificationPage"
+    android:name="com.example.spilly.StudentNotificationPage"
+    android:label="fragment_student_notification_page"
+    tools:layout="@layout/fragment_student_notification_page" />
+<fragment
+    android:id="@+id/studentProfilePage"
+    android:name="com.example.spilly.StudentProfilePage"
+    android:label="fragment_student_profile_page"
+    tools:layout="@layout/fragment_student_profile_page" />
+<fragment
+    android:id="@+id/studentReportPage"
+    android:name="com.example.spilly.StudentReportPage"
+    android:label="fragment_student_report_page"
+    tools:layout="@layout/fragment_student_report_page" />
+<fragment
+    android:id="@+id/studentEvidencePage"
+    android:name="com.example.spilly.StudentEvidencePage"
+    android:label="fragment_student_evidence_page"
+    tools:layout="@layout/fragment_student_evidence_page" />
+<fragment
+    android:id="@+id/studentChangePasswordPage"
+    android:name="com.example.spilly.StudentChangePasswordPage"
+    android:label="fragment_Student_change_password_page"
+    tools:layout="@layout/fragment_student_change_password_page" />
+<fragment
+    android:id="@+id/studentChangeSchoolPage"
+    android:name="com.example.spilly.StudentChangeSchoolPage"
+    android:label="fragment_Student_change_school_page"
+    tools:layout="@layout/fragment_student_change_school_page" />
+<fragment
+    android:id="@+id/teacherCasesPage"
+    android:name="com.example.spilly.TeacherCasesPage"
+    android:label="fragment_teacher_cases_page"
+    tools:layout="@layout/fragment_teacher_cases_page" >
+
+    <action
+        android:id="@+id/action_teacherCasesPage_to_teacherCaseDetailsFragment"
+        app:destination="@id/teacherCaseDetailsFragment" />
+
+</fragment>
+<fragment
+    android:id="@+id/teacherAnalyticsPage"
+    android:name="com.example.spilly.TeacherAnalyticsPage"
+    android:label="fragment_teacher_analytics_page"
+    tools:layout="@layout/fragment_teacher_analytics_page" >
+
+    <action
+        android:id="@+id/action_teacherAnalyticsPage_to_studentViewReport"
+        app:destination="@id/studentViewReport" />
+
+</fragment>
+<fragment
+    android:id="@+id/teacherProfilePage"
+    android:name="com.example.spilly.TeacherProfilePage"
+    android:label="fragment_teacher_profile_page"
+    tools:layout="@layout/fragment_teacher_profile_page" />
+<fragment
+    android:id="@+id/parentHomePage"
+    android:name="com.example.spilly.ParentHomePage"
+    android:label="fragment_parent_home_page"
+    tools:layout="@layout/fragment_parent_home_page" />
+<fragment
+    android:id="@+id/parentNotificationPage"
+    android:name="com.example.spilly.ParentNotificationPage"
+    android:label="fragment_parent_notification_page"
+    tools:layout="@layout/fragment_parent_notification_page" />
+<fragment
+    android:id="@+id/parentProfilePage"
+    android:name="com.example.spilly.ParentProfilePage"
+    android:label="fragment_parent_profile_page"
+    tools:layout="@layout/fragment_parent_profile_page" />
+<fragment
+    android:id="@+id/teacherChangePassword"
+    android:name="com.example.spilly.TeacherChangePassword"
+    android:label="fragment_teacher_change_password"
+    tools:layout="@layout/fragment_teacher_change_password" />
+<fragment
+    android:id="@+id/teacherChangeSchool"
+    android:name="com.example.spilly.TeacherChangeSchool"
+    android:label="fragment_teacher_change_school"
+    tools:layout="@layout/fragment_teacher_change_school" />
+<fragment
+    android:id="@+id/parentChangePassword"
+    android:name="com.example.spilly.ParentChangePassword"
+    android:label="fragment_parent_change_password"
+    tools:layout="@layout/fragment_parent_change_password" />
+<fragment
+    android:id="@+id/studentViewReport"
+    android:name="com.example.spilly.StudentViewReport"
+    android:label="fragment_student_view_report"
+    tools:layout="@layout/fragment_student_view_report" />
+<fragment
+    android:id="@+id/parentChangeSchoolPage"
+    android:name="com.example.spilly.ParentChangeSchoolPage"
+    android:label="fragment_parent_change_school_page"
+    tools:layout="@layout/fragment_parent_change_school_page" />
+<fragment
+    android:id="@+id/adminHomeFragment"
+    android:name="com.example.spilly.AdminHomeFragment"
+    android:label="fragment_admin_home_page"
+    tools:layout="@layout/fragment_admin_home_page" >
+
+    <action
+        android:id="@+id/action_adminHomeFragment_to_adminManageUsersFragment"
+        app:destination="@id/adminManageUsersFragment" />
+    <action
+        android:id="@+id/action_adminHomeFragment_to_adminManageSchoolsFragment3"
+        app:destination="@id/adminManageSchoolsFragment3" />
+    <action
+        android:id="@+id/action_adminHomeFragment_to_adminAllCasesFragment"
+        app:destination="@id/adminAllCasesFragment" />
+    <action
+        android:id="@+id/action_adminHomeFragment_to_adminProfileFragment"
+        app:destination="@id/adminProfileFragment" />
+    <action
+        android:id="@+id/action_adminHomeFragment_to_adminAnalyticsFragment"
+        app:destination="@id/adminAnalyticsFragment" />
+
+</fragment>
+<fragment
+    android:id="@+id/adminLoginFragment"
+    android:name="com.example.spilly.AdminLoginFragment"
+    android:label="fragment_admin_login_page"
+    tools:layout="@layout/fragment_admin_login_page" >
+
+    <action
+        android:id="@+id/action_adminLoginFragment_to_adminHomeFragment"
+        app:destination="@id/adminHomeFragment" />
+
+</fragment>
+<fragment
+    android:id="@+id/adminManageUsersFragment"
+    android:name="com.example.spilly.AdminManageUsersFragment"
+    android:label="fragment_admin_manage_users"
+    tools:layout="@layout/fragment_admin_manage_users" />
+<fragment
+    android:id="@+id/adminManageSchoolsFragment3"
+    android:name="com.example.spilly.AdminManageSchoolsFragment"
+    android:label="AdminManageSchoolsFragment"
+    tools:layout="@layout/fragment_admin_manage_schools" />
+<fragment
+    android:id="@+id/adminProfileFragment"
+    android:name="com.example.spilly.AdminProfileFragment"
+    android:label="fragment_admin_profile"
+    tools:layout="@layout/fragment_admin_profile" >
+
+    <action
+        android:id="@+id/action_adminProfileFragment_to_adminChangePasswordFragment"
+        app:destination="@id/adminChangePasswordFragment" />
+
+</fragment>
+<fragment
+    android:id="@+id/adminChangePasswordFragment"
+    android:name="com.example.spilly.AdminChangePasswordFragment"
+    android:label="fragment_admin_change_password"
+    tools:layout="@layout/fragment_admin_change_password" />
+<fragment
+    android:id="@+id/adminAllCasesFragment"
+    android:name="com.example.spilly.AdminAllCasesFragment"
+    android:label="AdminAllCasesFragment"
+    tools:layout="@layout/fragment_admin_all_cases" >
+
+    <action
+        android:id="@+id/action_adminAllCasesFragment_to_adminCaseDetailsFragment"
+        app:destination="@id/adminCaseDetailsFragment" />
+
+</fragment>
+<fragment
+    android:id="@+id/adminAnalyticsFragment"
+    android:name="com.example.spilly.AdminAnalyticsFragment"
+    android:label="fragment_admin_analytics"
+    tools:layout="@layout/fragment_admin_analytics" />
+<fragment
+    android:id="@+id/adminCaseDetailsFragment"
+    android:name="com.example.spilly.AdminCaseDetailsFragment"
+    android:label="AdminCaseDetailsFragment"
+    tools:layout="@layout/fragment_admin_case_details" />
+<fragment
+    android:id="@+id/teacherCaseDetailsFragment"
+    android:name="com.example.spilly.TeacherCaseDetailsFragment"
+    android:label="TeacherCaseDetailsFragment" />
+<fragment
+    android:id="@+id/teacherMainContainer"
+    android:name="com.example.spilly.TeacherMainContainer"
+    android:label="TeacherMainContainer" />
+</navigation>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout16"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentEvidencePage">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/TVAddEvidence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="80dp"
+        android:text="Add Evidence (Optional) \nUpload photos or videos to support your report"
+        android:textColor="#131314"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ButtonSubmitWithoutEvidence"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="10dp"
+        android:text="Submit Without Evidence"
+        app:layout_constraintBottom_toTopOf="@+id/ButtonSkipThisStep"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/TVShowEvidence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="46dp"
+        android:text="No evidence added yet  \nUse the buttons above to upload or capture media"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/ButtonSubmitWithoutEvidence"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/ButtonTakePhoto"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="22dp"
+        android:text="Take Photo \nUse Camera"
+        app:layout_constraintBottom_toTopOf="@+id/TVShowEvidence"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/ButtonUploadPhoto"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginBottom="22dp"
+        android:text="Upload From Gallery \nPhotos and Videos"
+        app:layout_constraintBottom_toTopOf="@+id/TVShowEvidence"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/ButtonSkipThisStep"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="197dp"
+        android:text="Skip This Step"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/TVSafetyInfo"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginBottom="22dp"
+        android:text="Privacy and Safety \nEvidence helps us take action. Only school officials will see your uploads. They are stored securely and will be deleted after the case is resolved."
+        android:textColor="#3F51B5"
+        app:layout_constraintBottom_toTopOf="@+id/ButtonTakePhoto"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

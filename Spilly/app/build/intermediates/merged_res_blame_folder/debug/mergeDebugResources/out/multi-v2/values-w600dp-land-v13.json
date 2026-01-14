@@ -1,10 +1,17 @@
 {
     "logs": [
         {
+<<<<<<< Updated upstream
             "outputFile": "com.example.spilly.app-mergeDebugResources-34:/values-w600dp-land-v13/values-w600dp-land-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\irfan\\.gradle\\caches\\8.13\\transforms\\e674da648620b2a49a2872bc90c40308\\transformed\\material-1.13.0\\res\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
+=======
+            "outputFile": "com.example.spilly.app-mergeDebugResources-54:/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\irfan\\.gradle\\caches\\9.0-milestone-1\\transforms\\2a3705bf745a711b9a7c609e7f38e043\\transformed\\material-1.13.0\\res\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
+>>>>>>> Stashed changes
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

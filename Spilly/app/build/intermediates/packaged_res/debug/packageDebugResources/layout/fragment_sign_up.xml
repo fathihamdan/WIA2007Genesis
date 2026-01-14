@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/TVSignUpPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="75dp"
+        android:text="Sign Up"
+        android:textColor="#009688"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVBackSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="31dp"
+        android:text="Back"
+        android:textColor="#3F51B5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVHaveAccSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="20dp"
+        android:text="Already have an account?"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ButtonSignUp" />
+
+    <TextView
+        android:id="@+id/TVLogInSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="115dp"
+        android:text="Log In"
+        android:textColor="#9C27B0"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ButtonSignUp" />
+
+    <Button
+        android:id="@+id/ButtonSignUp"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="29dp"
+        android:text="Sign Up"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ETSearchSchool" />
+
+    <EditText
+        android:id="@+id/ETNameSignUp"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="65dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Enter your name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVFullNameSignUp" />
+
+    <EditText
+        android:id="@+id/ETSearchSchool"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="66dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Type your school"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVSearchSchool" />
+
+    <TextView
+        android:id="@+id/TVFullNameSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="129dp"
+        android:text="Full Name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVEmailSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:text="Email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ETNameSignUp" />
+
+    <TextView
+        android:id="@+id/TVSearchSchool"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="20dp"
+        android:text="Search your school"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVInfoSignUp" />
+
+    <EditText
+        android:id="@+id/ETEmailSignUp"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="65dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Enter your email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVEmailSignUp" />
+
+    <EditText
+        android:id="@+id/ETPasswordSignUp"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="65dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Enter password"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVPasswordSignUp" />
+
+    <TextView
+        android:id="@+id/TVInfoSignUp"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="23dp"
+        android:text="You will only see and submit reports related to your selected school."
+        android:textColor="#E91E63"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ETConfirmPass" />
+
+    <TextView
+        android:id="@+id/TVPasswordSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:text="Password"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ETEmailSignUp" />
+
+    <EditText
+        android:id="@+id/ETConfirmPass"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="65dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Confirm password"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVConfirmPass" />
+
+    <TextView
+        android:id="@+id/TVConfirmPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:text="Confirm Password"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ETPasswordSignUp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
