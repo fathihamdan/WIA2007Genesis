@@ -25,17 +25,17 @@ public class AdminChangePasswordFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
 
-        TextView btnBack = view.findViewById(R.id.btn_back_admin_change_pass);
+        TextView btnBack = view.findViewById(R.id.TVBackChangePassTeacher);
         if (btnBack != null) {
             btnBack.setOnClickListener(v -> Navigation.findNavController(v).navigateUp());
         }
 
 
-        EditText etNewPass = view.findViewById(R.id.et_new_pass_admin);
-        EditText etConfirmPass = view.findViewById(R.id.et_confirm_pass_admin);
+        EditText etNewPass = view.findViewById(R.id.ETChangePassTeacher);
+        EditText etConfirmPass = view.findViewById(R.id.ETConfirmPasswordChangeTeacher);
 
 
-        Button btnUpdate = view.findViewById(R.id.btn_update_pass_admin);
+        Button btnUpdate = view.findViewById(R.id.ButtonUpdatePassTeacher);
         if (btnUpdate != null) {
             btnUpdate.setOnClickListener(v -> {
                 String newPass = etNewPass.getText().toString();

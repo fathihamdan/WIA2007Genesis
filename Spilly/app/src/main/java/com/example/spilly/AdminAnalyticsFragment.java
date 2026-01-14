@@ -23,11 +23,6 @@ public class AdminAnalyticsFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
 
-        TextView btnBack = view.findViewById(R.id.btn_back_analytics);
-        if (btnBack != null) {
-            btnBack.setOnClickListener(v -> {
-                Navigation.findNavController(v).navigateUp();
-            });
-        }
+
     }
 }

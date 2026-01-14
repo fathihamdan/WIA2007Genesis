@@ -11,15 +11,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Spilly">
+
+        <!-- 1. MainActivity: This is the LAUNCHER (Starts the app) -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- 2. AdminActivity: Opened only after Admin Login -->
+        <activity
+            android:name=".AdminActivity"
+            android:exported="false" />
+
     </application>
 
 </manifest>

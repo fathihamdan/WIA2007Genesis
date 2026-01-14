@@ -8,7 +8,6 @@ app:startDestination="@id/starterPage" >
     android:id="@+id/starterPage"
     android:name="com.example.spilly.StarterPage"
     android:label="fragment_starter_page"
-    app:startDestination="@id/starterPage"
     tools:layout="@layout/fragment_starter_page" >
 
     <action
@@ -65,9 +64,7 @@ app:startDestination="@id/starterPage" >
     android:label="fragment_parent_login_page"
     tools:layout="@layout/fragment_parent_login_page" >
 
-    <action
-        android:id="@+id/action_parentLoginPage_to_starterPage"
-        app:destination="@id/starterPage" />
+    <action android:id="@+id/action_parentLoginPage_to_starterPage" />
 
 </fragment>
 <fragment
@@ -177,15 +174,6 @@ app:startDestination="@id/starterPage" >
     tools:layout="@layout/fragment_admin_home_page" >
 
     <action
-        android:id="@+id/action_adminHomeFragment_to_adminManageUsersFragment"
-        app:destination="@id/adminManageUsersFragment" />
-    <action
-        android:id="@+id/action_adminHomeFragment_to_adminManageSchoolsFragment3"
-        app:destination="@id/adminManageSchoolsFragment3" />
-    <action
-        android:id="@+id/action_adminHomeFragment_to_adminAllCasesFragment"
-        app:destination="@id/adminAllCasesFragment" />
-    <action
         android:id="@+id/action_adminHomeFragment_to_adminProfileFragment"
         app:destination="@id/adminProfileFragment" />
     <action
@@ -205,16 +193,6 @@ app:startDestination="@id/starterPage" >
 
 </fragment>
 <fragment
-    android:id="@+id/adminManageUsersFragment"
-    android:name="com.example.spilly.AdminManageUsersFragment"
-    android:label="fragment_admin_manage_users"
-    tools:layout="@layout/fragment_admin_manage_users" />
-<fragment
-    android:id="@+id/adminManageSchoolsFragment3"
-    android:name="com.example.spilly.AdminManageSchoolsFragment"
-    android:label="AdminManageSchoolsFragment"
-    tools:layout="@layout/fragment_admin_manage_schools" />
-<fragment
     android:id="@+id/adminProfileFragment"
     android:name="com.example.spilly.AdminProfileFragment"
     android:label="fragment_admin_profile"
@@ -231,17 +209,6 @@ app:startDestination="@id/starterPage" >
     android:label="fragment_admin_change_password"
     tools:layout="@layout/fragment_admin_change_password" />
 <fragment
-    android:id="@+id/adminAllCasesFragment"
-    android:name="com.example.spilly.AdminAllCasesFragment"
-    android:label="AdminAllCasesFragment"
-    tools:layout="@layout/fragment_admin_all_cases" >
-
-    <action
-        android:id="@+id/action_adminAllCasesFragment_to_adminCaseDetailsFragment"
-        app:destination="@id/adminCaseDetailsFragment" />
-
-</fragment>
-<fragment
     android:id="@+id/adminAnalyticsFragment"
     android:name="com.example.spilly.AdminAnalyticsFragment"
     android:label="fragment_admin_analytics"
@@ -251,4 +218,9 @@ app:startDestination="@id/starterPage" >
     android:name="com.example.spilly.AdminCaseDetailsFragment"
     android:label="AdminCaseDetailsFragment"
     tools:layout="@layout/fragment_admin_case_details" />
+<fragment
+    android:id="@+id/adminChangeSchool"
+    android:name="com.example.spilly.adminChangeSchool"
+    android:label="fragment_admin_change_school"
+    tools:layout="@layout/fragment_admin_change_school" />
 </navigation>

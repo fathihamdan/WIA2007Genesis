@@ -8,20 +8,20 @@
         "source": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-main-58:\\layout\\fragment_admin_manage_users.xml"
     },
     {
-        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-debug-56:\\layout_fragment_teacher_change_password.xml.flat",
-        "source": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-main-58:\\layout\\fragment_teacher_change_password.xml"
-    },
-    {
-        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-debug-56:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-main-58:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-debug-56:\\drawable_rounded_left_green.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-main-58:\\drawable\\rounded_left_green.xml"
     },
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-debug-56:\\layout_fragment_parent_home_page.xml.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-main-58:\\layout\\fragment_parent_home_page.xml"
     },
     {
-        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-debug-56:\\drawable_rounded_left_green.xml.flat",
-        "source": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-main-58:\\drawable\\rounded_left_green.xml"
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-debug-56:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-main-58:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-debug-56:\\layout_fragment_teacher_change_password.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-main-58:\\layout\\fragment_teacher_change_password.xml"
     },
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-debug-56:\\layout_fragment_student_notification_page.xml.flat",
@@ -30,6 +30,10 @@
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-debug-56:\\drawable_like.png.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-main-58:\\drawable\\like.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-debug-56:\\drawable_ic_profile.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-main-58:\\drawable\\ic_profile.xml"
     },
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-debug-56:\\layout_fragment_parent_login_page.xml.flat",
@@ -52,8 +56,20 @@
         "source": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-main-58:\\drawable\\shield.png"
     },
     {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-debug-56:\\drawable_ic_analytics.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-main-58:\\drawable\\ic_analytics.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-debug-56:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-main-58:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-debug-56:\\menu_bottom_nav_admin.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-main-58:\\menu\\bottom_nav_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-debug-56:\\layout_fragment_activity_admin.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-main-58:\\layout\\fragment_activity_admin.xml"
     },
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-debug-56:\\drawable_rounded_left_orange.xml.flat",
@@ -108,12 +124,32 @@
         "source": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-main-58:\\layout\\fragment_admin_manage_schools.xml"
     },
     {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-debug-56:\\drawable_ic_cases.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-main-58:\\drawable\\ic_cases.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-debug-56:\\layout_fragment_forgot_password_page.xml.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-main-58:\\layout\\fragment_forgot_password_page.xml"
     },
     {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-debug-56:\\menu_admin_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-main-58:\\menu\\admin_bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.example.spilly.app-debug-56:/drawable_badge_red.xml.flat",
+        "source": "com.example.spilly.app-main-58:/drawable/badge_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-debug-56:\\layout_fragment_admin_change_school.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-main-58:\\layout\\fragment_admin_change_school.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-debug-56:\\layout_fragment_admin_login_page.xml.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-main-58:\\layout\\fragment_admin_login_page.xml"
+    },
+    {
+        "merged": "com.example.spilly.app-debug-56:/drawable_border_rounded_gray.xml.flat",
+        "source": "com.example.spilly.app-main-58:/drawable/border_rounded_gray.xml"
     },
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-debug-56:\\layout_fragment_admin_profile.xml.flat",
@@ -244,6 +280,10 @@
         "source": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-main-58:\\drawable\\ic_launcher_foreground.xml"
     },
     {
+        "merged": "com.example.spilly.app-debug-56:/layout_fragment_admin_case_details.xml.flat",
+        "source": "com.example.spilly.app-main-58:/layout/fragment_admin_case_details.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-debug-56:\\drawable_mortarboard.png.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-main-58:\\drawable\\mortarboard.png"
     },
@@ -260,10 +300,6 @@
         "source": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-main-58:\\layout\\fragment_teacher_login_page.xml"
     },
     {
-        "merged": "com.example.spilly.app-debug-56:/layout_activity_main.xml.flat",
-        "source": "com.example.spilly.app-main-58:/layout/activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-debug-56:\\drawable_family.png.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-main-58:\\drawable\\family.png"
     },
@@ -278,6 +314,10 @@
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-debug-56:\\drawable_change_school_icon.png.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-main-58:\\drawable\\change_school_icon.png"
+    },
+    {
+        "merged": "com.example.spilly.app-debug-56:/drawable_badge_purple.xml.flat",
+        "source": "com.example.spilly.app-main-58:/drawable/badge_purple.xml"
     },
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-debug-56:\\layout_fragment_student_home_page.xml.flat",
@@ -302,6 +342,10 @@
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-debug-56:\\layout_item_case_card.xml.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-main-58:\\layout\\item_case_card.xml"
+    },
+    {
+        "merged": "com.example.spilly.app-debug-56:/drawable_dot_purple.xml.flat",
+        "source": "com.example.spilly.app-main-58:/drawable/dot_purple.xml"
     },
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\9.0-milestone-1\\com.example.spilly.app-debug-56:\\layout_fragment_student_change_password_page.xml.flat",

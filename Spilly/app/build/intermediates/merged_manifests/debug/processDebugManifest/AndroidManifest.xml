@@ -30,6 +30,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Spilly" >
+
+        <!-- 1. MainActivity: This is the LAUNCHER (Starts the app) -->
         <activity
             android:name="com.example.spilly.MainActivity"
             android:exported="true" >
@@ -39,6 +41,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- 2. AdminActivity: Opened only after Admin Login -->
+        <activity
+            android:name="com.example.spilly.AdminActivity"
+            android:exported="false" />
         <activity
             android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
             android:excludeFromRecents="true"

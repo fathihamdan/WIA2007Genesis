@@ -5,7 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.TextView;
 import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -23,21 +22,27 @@ public class AdminCaseDetailsFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
+        // Back Button
+        View btnBack = view.findViewById(R.id.btn_back_case_details);
+        if (btnBack != null) {
+            btnBack.setOnClickListener(v -> Navigation.findNavController(v).navigateUp());
+        }
 
-        view.findViewById(R.id.btn_back_case_details).setOnClickListener(v ->
-                Navigation.findNavController(v).navigateUp()
-        );
-
-
+        // Resolve Button
         Button btnResolve = view.findViewById(R.id.btn_mark_resolved);
-        btnResolve.setOnClickListener(v -> {
-            Toast.makeText(getContext(), "Case marked as Resolved!", Toast.LENGTH_SHORT).show();
-            Navigation.findNavController(v).navigateUp(); // 处理完返回列表
-        });
+        if (btnResolve != null) {
+            btnResolve.setOnClickListener(v -> {
+                Toast.makeText(getContext(), "Case marked as Resolved!", Toast.LENGTH_SHORT).show();
+                Navigation.findNavController(v).navigateUp();
+            });
+        }
 
-
-        view.findViewById(R.id.btn_contact_student).setOnClickListener(v ->
-                Toast.makeText(getContext(), "Opening chat with student...", Toast.LENGTH_SHORT).show()
-        );
+        // Contact Button
+        View btnContact = view.findViewById(R.id.btn_contact_student);
+        if (btnContact != null) {
+            btnContact.setOnClickListener(v ->
+                    Toast.makeText(getContext(), "Opening chat with student...", Toast.LENGTH_SHORT).show()
+            );
+        }
     }
 }

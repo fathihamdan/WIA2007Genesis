@@ -24,13 +24,7 @@ public class AdminProfileFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
 
-        TextView btnBack = view.findViewById(R.id.btn_back_admin_profile);
-        if (btnBack != null) {
-            btnBack.setOnClickListener(v -> Navigation.findNavController(v).navigateUp());
-        }
-
-
-        Button btnChangePass = view.findViewById(R.id.ButtonChangePassAdmin);
+        Button btnChangePass = view.findViewById(R.id.ButtonChangePassTeacher);
         if (btnChangePass != null) {
             btnChangePass.setOnClickListener(v -> {
 
@@ -39,7 +33,7 @@ public class AdminProfileFragment extends Fragment {
         }
 
 
-        Button btnLogout = view.findViewById(R.id.ButtonLogOutAdmin);
+        Button btnLogout = view.findViewById(R.id.ButtonLogOutTeacher);
         if (btnLogout != null) {
             btnLogout.setOnClickListener(v -> {
                 Toast.makeText(getContext(), "Logged out successfully", Toast.LENGTH_SHORT).show();
