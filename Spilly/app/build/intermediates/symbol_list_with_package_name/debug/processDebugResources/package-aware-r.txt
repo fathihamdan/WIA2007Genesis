@@ -43,13 +43,10 @@ anim m3_side_sheet_exit_to_right
 anim mtrl_bottom_sheet_slide_in
 anim mtrl_bottom_sheet_slide_out
 anim mtrl_card_lowers_interpolator
-<<<<<<< Updated upstream
-=======
 anim nav_default_enter_anim
 anim nav_default_exit_anim
 anim nav_default_pop_enter_anim
 anim nav_default_pop_exit_anim
->>>>>>> Stashed changes
 animator chevron_checked_unchecked
 animator chevron_unchecked_checked
 animator design_appbar_state_list_animator
@@ -90,10 +87,6 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
-<<<<<<< Updated upstream
-attr SharedValue
-attr SharedValueId
-=======
 animator nav_default_enter_anim
 animator nav_default_exit_anim
 animator nav_default_pop_enter_anim
@@ -101,7 +94,6 @@ animator nav_default_pop_exit_anim
 attr SharedValue
 attr SharedValueId
 attr action
->>>>>>> Stashed changes
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -139,13 +131,9 @@ attr actionProviderClass
 attr actionTextColorAlpha
 attr actionViewClass
 attr activeIndicatorLabelPadding
-<<<<<<< Updated upstream
-attr activityChooserViewStyle
-=======
 attr activityAction
 attr activityChooserViewStyle
 attr activityName
->>>>>>> Stashed changes
 attr addElevationShadow
 attr alertDialogButtonGroupStyle
 attr alertDialogCenterButtons
@@ -155,10 +143,7 @@ attr allowStacking
 attr alpha
 attr alphabeticModifiers
 attr altSrc
-<<<<<<< Updated upstream
-=======
 attr alwaysExpand
->>>>>>> Stashed changes
 attr animateCircleAngleTo
 attr animateMenuItems
 attr animateNavigationIcon
@@ -167,10 +152,7 @@ attr animationMode
 attr appBarLayoutStyle
 attr applyMotionScene
 attr arcMode
-<<<<<<< Updated upstream
-=======
 attr argType
->>>>>>> Stashed changes
 attr arrowHeadLength
 attr arrowShaftLength
 attr attributeName
@@ -266,10 +248,7 @@ attr buttonIconDimen
 attr buttonIconTint
 attr buttonIconTintMode
 attr buttonPanelSideLayout
-<<<<<<< Updated upstream
-=======
 attr buttonSize
->>>>>>> Stashed changes
 attr buttonSizeChange
 attr buttonStyle
 attr buttonStyleSmall
@@ -332,10 +311,7 @@ attr chipStrokeColor
 attr chipStrokeWidth
 attr chipStyle
 attr chipSurfaceColor
-<<<<<<< Updated upstream
-=======
 attr circleCrop
->>>>>>> Stashed changes
 attr circleRadius
 attr circularProgressIndicatorStyle
 attr circularflow_angles
@@ -343,10 +319,7 @@ attr circularflow_defaultAngle
 attr circularflow_defaultRadius
 attr circularflow_radiusInDP
 attr circularflow_viewCenter
-<<<<<<< Updated upstream
-=======
 attr clearTop
->>>>>>> Stashed changes
 attr clearsTag
 attr clickAction
 attr clockFaceBackgroundColor
@@ -420,10 +393,7 @@ attr colorPrimaryFixedDim
 attr colorPrimaryInverse
 attr colorPrimarySurface
 attr colorPrimaryVariant
-<<<<<<< Updated upstream
-=======
 attr colorScheme
->>>>>>> Stashed changes
 attr colorSecondary
 attr colorSecondaryContainer
 attr colorSecondaryFixed
@@ -524,31 +494,22 @@ attr customPixelDimension
 attr customReference
 attr customStringValue
 attr damping
-<<<<<<< Updated upstream
-=======
 attr data
 attr dataPattern
->>>>>>> Stashed changes
 attr dayInvalidStyle
 attr daySelectedStyle
 attr dayStyle
 attr dayTodayStyle
 attr defaultDuration
 attr defaultMarginsEnabled
-<<<<<<< Updated upstream
-=======
 attr defaultNavHost
->>>>>>> Stashed changes
 attr defaultQueryHint
 attr defaultScrollFlagsEnabled
 attr defaultState
 attr deltaPolarAngle
 attr deltaPolarRadius
 attr deriveConstraintsFrom
-<<<<<<< Updated upstream
-=======
 attr destination
->>>>>>> Stashed changes
 attr dialogCornerRadius
 attr dialogPreferredPadding
 attr dialogTheme
@@ -605,10 +566,7 @@ attr endInsetScrimEnabled
 attr enforceMaterialTheme
 attr enforceTextAppearance
 attr ensureMinTouchTargetSize
-<<<<<<< Updated upstream
-=======
 attr enterAnim
->>>>>>> Stashed changes
 attr errorAccessibilityLabel
 attr errorAccessibilityLiveRegion
 attr errorContentDescription
@@ -619,10 +577,7 @@ attr errorIconTintMode
 attr errorShown
 attr errorTextAppearance
 attr errorTextColor
-<<<<<<< Updated upstream
-=======
 attr exitAnim
->>>>>>> Stashed changes
 attr expandActivityOverflowButtonDrawable
 attr expanded
 attr expandedActiveIndicatorPaddingBottom
@@ -672,11 +627,8 @@ attr fastScrollHorizontalThumbDrawable
 attr fastScrollHorizontalTrackDrawable
 attr fastScrollVerticalThumbDrawable
 attr fastScrollVerticalTrackDrawable
-<<<<<<< Updated upstream
-=======
 attr finishPrimaryWithSecondary
 attr finishSecondaryWithPrimary
->>>>>>> Stashed changes
 attr firstBaselineToTopHeight
 attr floatingActionButtonLargePrimaryStyle
 attr floatingActionButtonLargeSecondaryStyle
@@ -735,10 +687,7 @@ attr framePosition
 attr gapBetweenBars
 attr gestureInsetBottomIgnored
 attr goIcon
-<<<<<<< Updated upstream
-=======
 attr graph
->>>>>>> Stashed changes
 attr grid_columnWeights
 attr grid_columns
 attr grid_horizontalGaps
@@ -790,11 +739,8 @@ attr iconTintMode
 attr iconifiedByDefault
 attr ifTagNotSet
 attr ifTagSet
-<<<<<<< Updated upstream
-=======
 attr imageAspectRatio
 attr imageAspectRatioAdjust
->>>>>>> Stashed changes
 attr imageButtonStyle
 attr imagePanX
 attr imagePanY
@@ -863,10 +809,7 @@ attr labelVisibilityMode
 attr largeFontVerticalOffsetAdjustment
 attr lastBaselineToBottomHeight
 attr lastItemDecorated
-<<<<<<< Updated upstream
-=======
 attr launchSingleTop
->>>>>>> Stashed changes
 attr layout
 attr layoutDescription
 attr layoutDuringTransition
@@ -1044,10 +987,7 @@ attr menu
 attr menuAlignmentMode
 attr menuGravity
 attr methodName
-<<<<<<< Updated upstream
-=======
 attr mimeType
->>>>>>> Stashed changes
 attr minHeight
 attr minHideDelay
 attr minSeparation
@@ -1112,10 +1052,7 @@ attr motion_postLayoutCollision
 attr motion_triggerOnCollision
 attr moveWhenScrollAtTop
 attr multiChoiceItemLayout
-<<<<<<< Updated upstream
-=======
 attr navGraph
->>>>>>> Stashed changes
 attr navigationContentDescription
 attr navigationIcon
 attr navigationIconTint
@@ -1125,10 +1062,7 @@ attr navigationViewStyle
 attr nestedScrollFlags
 attr nestedScrollViewStyle
 attr nestedScrollable
-<<<<<<< Updated upstream
-=======
 attr nullable
->>>>>>> Stashed changes
 attr number
 attr numericModifiers
 attr offsetAlignmentMode
@@ -1167,23 +1101,17 @@ attr percentX
 attr percentY
 attr perpendicularPath_percent
 attr pivotAnchor
-<<<<<<< Updated upstream
-=======
 attr placeholderActivityName
->>>>>>> Stashed changes
 attr placeholderText
 attr placeholderTextAppearance
 attr placeholderTextColor
 attr placeholder_emptyVisibility
 attr polarRelativeTo
-<<<<<<< Updated upstream
-=======
 attr popEnterAnim
 attr popExitAnim
 attr popUpTo
 attr popUpToInclusive
 attr popUpToSaveState
->>>>>>> Stashed changes
 attr popupMenuBackground
 attr popupMenuStyle
 attr popupTheme
@@ -1193,10 +1121,7 @@ attr prefixTextAppearance
 attr prefixTextColor
 attr preserveIconSpacing
 attr pressedTranslationZ
-<<<<<<< Updated upstream
-=======
 attr primaryActivityName
->>>>>>> Stashed changes
 attr progressBarPadding
 attr progressBarStyle
 attr quantizeMotionInterpolator
@@ -1220,24 +1145,16 @@ attr region_heightMoreThan
 attr region_widthLessThan
 attr region_widthMoreThan
 attr removeEmbeddedFabElevation
-<<<<<<< Updated upstream
-=======
 attr restoreState
->>>>>>> Stashed changes
 attr reverseLayout
 attr rippleColor
 attr rotationCenterId
 attr round
 attr roundPercent
-<<<<<<< Updated upstream
-attr saturation
-attr scaleFromTextSize
-=======
 attr route
 attr saturation
 attr scaleFromTextSize
 attr scopeUris
->>>>>>> Stashed changes
 attr scrimAnimationDuration
 attr scrimBackground
 attr scrimVisibleHeightTrigger
@@ -1246,11 +1163,8 @@ attr searchHintIcon
 attr searchIcon
 attr searchPrefixText
 attr searchViewStyle
-<<<<<<< Updated upstream
-=======
 attr secondaryActivityAction
 attr secondaryActivityName
->>>>>>> Stashed changes
 attr seekBarStyle
 attr selectableItemBackground
 attr selectableItemBackgroundBorderless
@@ -1309,13 +1223,10 @@ attr spanCount
 attr spinBars
 attr spinnerDropDownItemStyle
 attr spinnerStyle
-<<<<<<< Updated upstream
-=======
 attr splitLayoutDirection
 attr splitMinSmallestWidth
 attr splitMinWidth
 attr splitRatio
->>>>>>> Stashed changes
 attr splitTrack
 attr springBoundary
 attr springDamping
@@ -1325,10 +1236,7 @@ attr springStopThreshold
 attr srcCompat
 attr stackFromEnd
 attr staggered
-<<<<<<< Updated upstream
-=======
 attr startDestination
->>>>>>> Stashed changes
 attr startIconCheckable
 attr startIconContentDescription
 attr startIconDrawable
@@ -1404,10 +1312,7 @@ attr tabTextAppearance
 attr tabTextColor
 attr tabUnboundedRipple
 attr targetId
-<<<<<<< Updated upstream
-=======
 attr targetPackage
->>>>>>> Stashed changes
 attr telltales_tailColor
 attr telltales_tailScale
 attr telltales_velocityMode
@@ -1586,10 +1491,7 @@ attr triggerReceiver
 attr triggerSlack
 attr ttcIndex
 attr upDuration
-<<<<<<< Updated upstream
-=======
 attr uri
->>>>>>> Stashed changes
 attr useCompatPadding
 attr useDrawerArrowDrawable
 attr useMaterialThemeColors
@@ -1672,13 +1574,10 @@ color bright_foreground_inverse_material_dark
 color bright_foreground_inverse_material_light
 color bright_foreground_material_dark
 color bright_foreground_material_light
-<<<<<<< Updated upstream
-=======
 color browser_actions_bg_grey
 color browser_actions_divider_color
 color browser_actions_text_color
 color browser_actions_title_color
->>>>>>> Stashed changes
 color button_material_dark
 color button_material_light
 color call_notification_answer_color
@@ -1687,8 +1586,6 @@ color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
-<<<<<<< Updated upstream
-=======
 color common_google_signin_btn_text_dark
 color common_google_signin_btn_text_dark_default
 color common_google_signin_btn_text_dark_disabled
@@ -1700,7 +1597,6 @@ color common_google_signin_btn_text_light_disabled
 color common_google_signin_btn_text_light_focused
 color common_google_signin_btn_text_light_pressed
 color common_google_signin_btn_tint
->>>>>>> Stashed changes
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
 color design_dark_default_color_background
@@ -2681,11 +2577,8 @@ dimen abc_text_size_subtitle_material_toolbar
 dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
 dimen appcompat_dialog_background_inset
-<<<<<<< Updated upstream
-=======
 dimen browser_actions_context_menu_max_width
 dimen browser_actions_context_menu_min_padding
->>>>>>> Stashed changes
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
 dimen cardview_default_radius
@@ -3627,10 +3520,7 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
-<<<<<<< Updated upstream
-=======
 dimen sliding_pane_detail_pane_width
->>>>>>> Stashed changes
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -3718,16 +3608,11 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
-<<<<<<< Updated upstream
-drawable avd_hide_password
-drawable avd_show_password
-=======
 drawable account_icon
 drawable avd_hide_password
 drawable avd_show_password
 drawable backarrow
 drawable book
->>>>>>> Stashed changes
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -3736,8 +3621,6 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
-<<<<<<< Updated upstream
-=======
 drawable card_bg
 drawable case_done_noti
 drawable change_school_icon
@@ -3760,18 +3643,14 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
->>>>>>> Stashed changes
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
-<<<<<<< Updated upstream
-=======
 drawable family
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
->>>>>>> Stashed changes
 drawable ic_arrow_back_black_24
 drawable ic_call_answer
 drawable ic_call_answer_low
@@ -3783,10 +3662,7 @@ drawable ic_clear_black_24
 drawable ic_clock_black_24dp
 drawable ic_expand_less_22px
 drawable ic_expand_more_22px
-<<<<<<< Updated upstream
-=======
 drawable ic_home
->>>>>>> Stashed changes
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -3799,11 +3675,8 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
-<<<<<<< Updated upstream
-=======
 drawable like
 drawable lock_icon
->>>>>>> Stashed changes
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
 drawable m3_bottom_sheet_drag_handle
@@ -3826,10 +3699,7 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
-<<<<<<< Updated upstream
-=======
 drawable mortarboard
->>>>>>> Stashed changes
 drawable mtrl_bottomsheet_drag_handle
 drawable mtrl_checkbox_button
 drawable mtrl_checkbox_button_checked_unchecked
@@ -3868,10 +3738,7 @@ drawable mtrl_switch_track
 drawable mtrl_switch_track_decoration
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
-<<<<<<< Updated upstream
-=======
 drawable notidot
->>>>>>> Stashed changes
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -3879,28 +3746,13 @@ drawable notification_bg_low_normal
 drawable notification_bg_low_pressed
 drawable notification_bg_normal
 drawable notification_bg_normal_pressed
-<<<<<<< Updated upstream
-=======
 drawable notification_icon
->>>>>>> Stashed changes
 drawable notification_icon_background
 drawable notification_oversize_large_icon_bg
 drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
-<<<<<<< Updated upstream
-drawable test_level_drawable
-drawable tooltip_frame_dark
-drawable tooltip_frame_light
-id ALT
-id BOTTOM_END
-id BOTTOM_START
-id CTRL
-id FUNCTION
-id META
-id NO_DEBUG
-=======
 drawable pending_icon
 drawable rounded_left_blue
 drawable rounded_left_green
@@ -4044,16 +3896,10 @@ id ReportDesc1
 id ReportTitle
 id ResolvedCasesNumber
 id ResolvedCasesTitle
->>>>>>> Stashed changes
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
-<<<<<<< Updated upstream
-id SYM
-id TOP_END
-id TOP_START
-=======
 id SWEmailNotiAdmin
 id SWEmailNotiParent
 id SWEmailNotiStudent
@@ -4201,7 +4047,6 @@ id TVsdg
 id TotalCasesNumber
 id TotalCasesTitle
 id TotalReports
->>>>>>> Stashed changes
 id above
 id accelerate
 id accessibility_action_clickable_span
@@ -4240,8 +4085,6 @@ id accessibility_custom_action_9
 id actionDown
 id actionDownUp
 id actionUp
-<<<<<<< Updated upstream
-=======
 id action_adminAllCasesFragment_to_adminCaseDetailsFragment
 id action_adminHomeFragment_to_adminAllCasesFragment
 id action_adminHomeFragment_to_adminAnalyticsFragment
@@ -4250,7 +4093,6 @@ id action_adminHomeFragment_to_adminManageUsersFragment
 id action_adminHomeFragment_to_adminProfileFragment
 id action_adminLoginFragment_to_adminHomeFragment
 id action_adminProfileFragment_to_adminChangePasswordFragment
->>>>>>> Stashed changes
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -4267,12 +4109,6 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
-<<<<<<< Updated upstream
-id action_text
-id actions
-id activity_chooser_view_content
-id add
-=======
 id action_parentLoginPage_to_starterPage
 id action_signUp_to_adminHomeFragment
 id action_signUp_to_studentHomePage
@@ -4313,17 +4149,13 @@ id adminLoginFragment
 id adminManageSchoolsFragment3
 id adminManageUsersFragment
 id adminProfileFragment
->>>>>>> Stashed changes
 id advance
 id alertTitle
 id aligned
 id all
 id allStates
 id always
-<<<<<<< Updated upstream
-=======
 id androidx_window_activity_scope
->>>>>>> Stashed changes
 id animateToEnd
 id animateToStart
 id antiClockwise
@@ -4339,10 +4171,7 @@ id autoHide
 id autoLimit
 id availableSpace
 id axisRelative
-<<<<<<< Updated upstream
-=======
 id backButton
->>>>>>> Stashed changes
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -4351,16 +4180,11 @@ id below
 id bestChoice
 id blocking
 id bottom
-<<<<<<< Updated upstream
-=======
 id bottom_navigation
->>>>>>> Stashed changes
 id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-<<<<<<< Updated upstream
-=======
 id browser_actions_header_text
 id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
@@ -4384,21 +4208,16 @@ id btn_manage_schools
 id btn_manage_users
 id btn_mark_resolved
 id btn_update_pass_admin
->>>>>>> Stashed changes
 id buttonPanel
 id cache_measures
 id callMeasure
 id cancel_button
-<<<<<<< Updated upstream
-id carryVelocity
-=======
 id cardTotalReports
 id card_case_example
 id carryVelocity
 id case_id_12453
 id case_id_12456
 id cases_list
->>>>>>> Stashed changes
 id center
 id centerCrop
 id centerInside
@@ -4433,13 +4252,10 @@ id currentState
 id custom
 id customPanel
 id cut
-<<<<<<< Updated upstream
-=======
 id cyber_percent
 id dark
 id dashboard_title
 id date_12456
->>>>>>> Stashed changes
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -4447,11 +4263,8 @@ id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
-<<<<<<< Updated upstream
-=======
 id desc_12453
 id desc_12456
->>>>>>> Stashed changes
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -4489,11 +4302,6 @@ id enterAlways
 id enterAlwaysCollapsed
 id entireSpace
 id escape
-<<<<<<< Updated upstream
-id exitUntilCollapsed
-id expand_activities_button
-id expanded_menu
-=======
 id etSearchCase
 id etSearchUser
 id et_confirm_pass_admin
@@ -4502,16 +4310,12 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id fab_add_user
->>>>>>> Stashed changes
 id fade
 id fill
 id fill_horizontal
 id fill_vertical
 id filled
-<<<<<<< Updated upstream
-=======
 id filter_container
->>>>>>> Stashed changes
 id fitCenter
 id fitEnd
 id fitStart
@@ -4521,9 +4325,6 @@ id fixed
 id flip
 id floating
 id forever
-<<<<<<< Updated upstream
-id fragment_container_view_tag
-=======
 id forgotPasswordPage
 id fragment_container_view_tag
 id frameLayout
@@ -4543,7 +4344,6 @@ id frameLayout7
 id frameLayout8
 id frameLayout9
 id frameLayoutAdmin
->>>>>>> Stashed changes
 id frost
 id fullscreen_header
 id ghost_view
@@ -4555,10 +4355,7 @@ id group_divider
 id grouping
 id groups
 id header_title
-<<<<<<< Updated upstream
-=======
 id helpIcon
->>>>>>> Stashed changes
 id hidden
 id hide_ime_id
 id hideable
@@ -4569,35 +4366,23 @@ id horizontal
 id horizontal_only
 id icon
 id icon_group
-<<<<<<< Updated upstream
-=======
 id icon_only
 id id_12456
->>>>>>> Stashed changes
 id ifRoom
 id ignore
 id ignoreRequest
 id image
-<<<<<<< Updated upstream
-=======
 id imageView2
->>>>>>> Stashed changes
 id immediateStop
 id included
 id indeterminate
 id info
-<<<<<<< Updated upstream
-=======
 id investigating_percent
->>>>>>> Stashed changes
 id invisible
 id inward
 id italic
 id item_touch_helper_previous_elevation
-<<<<<<< Updated upstream
-=======
 id iv_user_avatar
->>>>>>> Stashed changes
 id jumpToEnd
 id jumpToStart
 id labeled
@@ -4605,21 +4390,15 @@ id layout
 id left
 id leftToRight
 id legacy
-<<<<<<< Updated upstream
-=======
 id light
->>>>>>> Stashed changes
 id line1
 id line3
 id linear
 id listMode
 id list_item
-<<<<<<< Updated upstream
-=======
 id list_title
 id locale
 id ltr
->>>>>>> Stashed changes
 id m3_side_sheet
 id main
 id marquee
@@ -4680,13 +4459,10 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
-<<<<<<< Updated upstream
-=======
 id nav_controller_view_tag
 id nav_host_fragment
 id nav_host_fragment_container
 id navgraph
->>>>>>> Stashed changes
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_content_container
 id navigation_bar_item_icon_container
@@ -4728,23 +4504,17 @@ id open_search_view_status_bar_spacer
 id open_search_view_text_container
 id open_search_view_toolbar
 id open_search_view_toolbar_container
-<<<<<<< Updated upstream
-=======
 id outcome_label_12453
 id outcome_label_12456
 id outcome_pill_12453
 id outcome_pill_12456
 id outcomes_title
->>>>>>> Stashed changes
 id outline
 id outward
 id overshoot
 id packed
 id parallax
 id parent
-<<<<<<< Updated upstream
-id parentPanel
-=======
 id parentChangePassword
 id parentChangeSchoolPage
 id parentHomePage
@@ -4752,55 +4522,39 @@ id parentLoginPage
 id parentNotificationPage
 id parentPanel
 id parentProfilePage
->>>>>>> Stashed changes
 id parentRelative
 id parent_matrix
 id password_toggle
 id path
 id pathRelative
 id peekHeight
-<<<<<<< Updated upstream
-id percent
-=======
 id pendingNoti
 id pending_count
 id pending_percent
 id percent
 id physical_percent
->>>>>>> Stashed changes
 id pin
 id position
 id postLayout
 id pressed
-<<<<<<< Updated upstream
-=======
 id progressBar
->>>>>>> Stashed changes
 id progress_circular
 id progress_horizontal
 id radio
 id ratio
 id rectangles
-<<<<<<< Updated upstream
-id report_drawn
-=======
 id reportCard
 id report_drawn
 id reportsContainer
 id resolved_cases
 id resolved_count
 id resolved_percent
->>>>>>> Stashed changes
 id retreat
 id reverseSawtooth
 id right
 id rightToLeft
 id right_icon
 id right_side
-<<<<<<< Updated upstream
-id rounded
-id row_index_key
-=======
 id root
 id root_dashboard
 id root_reporting
@@ -4812,7 +4566,6 @@ id rtl
 id rvCaseList
 id rvUserList
 id rv_school_list
->>>>>>> Stashed changes
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -4833,11 +4586,8 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
-<<<<<<< Updated upstream
-=======
 id section_title_status
 id section_title_types
->>>>>>> Stashed changes
 id select_dialog_listview
 id selected
 id selection_type
@@ -4847,28 +4597,17 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
-<<<<<<< Updated upstream
-=======
 id signUp
->>>>>>> Stashed changes
 id sin
 id skipCollapsed
 id skipped
 id slide
-<<<<<<< Updated upstream
-=======
 id sliding_pane_detail_container
 id sliding_pane_layout
->>>>>>> Stashed changes
 id snackbar_action
 id snackbar_text
 id snap
 id snapMargins
-<<<<<<< Updated upstream
-id south
-id spacer
-id special_effects_controller_view_tag
-=======
 id social_percent
 id south
 id spacer
@@ -4876,7 +4615,6 @@ id special_effects_controller_view_tag
 id spillylogo
 id spinner_bullying_type
 id spinner_portal
->>>>>>> Stashed changes
 id spline
 id split_action_bar
 id spread
@@ -4892,14 +4630,6 @@ id startHorizontal
 id startToEnd
 id startVertical
 id start_center
-<<<<<<< Updated upstream
-id staticLayout
-id staticPostLayout
-id stop
-id stretch
-id submenuarrow
-id submit_area
-=======
 id starterPage
 id staticLayout
 id staticPostLayout
@@ -4927,7 +4657,6 @@ id submit_area
 id submitted_12453
 id submitted_12456
 id subtitle
->>>>>>> Stashed changes
 id supportScrollUp
 id tabMode
 id tag_accessibility_actions
@@ -4945,8 +4674,6 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
-<<<<<<< Updated upstream
-=======
 id teacherAnalyticsPage
 id teacherCaseDetailsFragment
 id teacherCasesPage
@@ -4957,7 +4684,6 @@ id teacherMainContainer
 id teacherProfilePage
 id teacher_nav_graph
 id teacher_nav_host
->>>>>>> Stashed changes
 id text
 id text2
 id textEnd
@@ -4982,12 +4708,9 @@ id toggle
 id top
 id topPanel
 id top_center
-<<<<<<< Updated upstream
-=======
 id total_cases_count
 id total_count
 id total_reports
->>>>>>> Stashed changes
 id touch_outside
 id transitionToEnd
 id transitionToStart
@@ -5000,8 +4723,6 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
-<<<<<<< Updated upstream
-=======
 id tvBullyType
 id tvCaseId
 id tvDescription
@@ -5023,16 +4744,12 @@ id tv_user_email
 id tv_user_name
 id tv_user_role
 id type_12456
->>>>>>> Stashed changes
 id unchecked
 id uniform
 id unlabeled
 id up
 id useLogo
-<<<<<<< Updated upstream
-=======
 id verbal_percent
->>>>>>> Stashed changes
 id vertical
 id vertical_only
 id view_offset_helper
@@ -5046,10 +4763,7 @@ id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
 id west
-<<<<<<< Updated upstream
-=======
 id wide
->>>>>>> Stashed changes
 id withText
 id with_icon
 id withinBounds
@@ -5063,17 +4777,11 @@ integer abc_config_activityShortDur
 integer app_bar_elevation_anim_duration
 integer bottom_sheet_slide_duration
 integer cancel_button_image_alpha
-<<<<<<< Updated upstream
-integer config_tooltipAnimTime
-integer design_snackbar_text_max_lines
-integer design_tab_indicator_anim_duration_ms
-=======
 integer config_navAnimTime
 integer config_tooltipAnimTime
 integer design_snackbar_text_max_lines
 integer design_tab_indicator_anim_duration_ms
 integer google_play_services_version
->>>>>>> Stashed changes
 integer hide_password_duration
 integer m3_badge_max_number
 integer m3_btn_anim_delay_ms
@@ -5184,11 +4892,8 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
-<<<<<<< Updated upstream
-=======
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
->>>>>>> Stashed changes
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -5205,10 +4910,6 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
-<<<<<<< Updated upstream
-layout ime_base_split_test_activity
-layout ime_secondary_split_test_activity
-=======
 layout fragment_admin_all_cases
 layout fragment_admin_analytics
 layout fragment_admin_case_details
@@ -5251,7 +4952,6 @@ layout item_case_card
 layout item_report_card
 layout item_school_card
 layout item_user_card
->>>>>>> Stashed changes
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -5315,11 +5015,6 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
-<<<<<<< Updated upstream
-mipmap ic_launcher
-mipmap ic_launcher_round
-plurals mtrl_badge_content_description
-=======
 menu student_bottom_nav_menu
 menu teacher_bottom_nav_menu
 mipmap ic_launcher
@@ -5329,7 +5024,6 @@ navigation student_nav_graph
 navigation teacher_nav_graph
 plurals mtrl_badge_content_description
 raw firebase_common_keep
->>>>>>> Stashed changes
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -5376,8 +5070,6 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string clear_text_end_icon_content_description
-<<<<<<< Updated upstream
-=======
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text
 string common_google_play_services_enable_title
@@ -5399,14 +5091,11 @@ string common_signin_button_text_long
 string copy_toast_msg
 string default_web_client_id
 string dest_title
->>>>>>> Stashed changes
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
-<<<<<<< Updated upstream
-=======
 string fallback_menu_item_copy_link
 string fallback_menu_item_open_in_browser
 string fallback_menu_item_share_link
@@ -5416,7 +5105,6 @@ string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
 string hello_blank_fragment
->>>>>>> Stashed changes
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
@@ -5525,11 +5213,8 @@ string mtrl_switch_track_decoration_path
 string mtrl_switch_track_path
 string mtrl_timepicker_cancel
 string mtrl_timepicker_confirm
-<<<<<<< Updated upstream
-=======
 string nav_app_bar_navigate_up_description
 string nav_app_bar_open_drawer_description
->>>>>>> Stashed changes
 string nav_rail_collapsed_a11y_label
 string nav_rail_expanded_a11y_label
 string password_toggle_content_description
@@ -5537,10 +5222,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
-<<<<<<< Updated upstream
-=======
 string project_id
->>>>>>> Stashed changes
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
@@ -6785,12 +6467,9 @@ styleable ActionMenuItemView android_minWidth
 styleable ActionMenuView
 styleable ActionMode background backgroundSplit closeItemLayout height subtitleTextStyle titleTextStyle
 styleable ActivityChooserView expandActivityOverflowButtonDrawable initialActivityCount
-<<<<<<< Updated upstream
-=======
 styleable ActivityFilter activityAction activityName
 styleable ActivityNavigator android_name action data dataPattern targetPackage
 styleable ActivityRule alwaysExpand
->>>>>>> Stashed changes
 styleable AlertDialog android_layout buttonIconDimen buttonPanelSideLayout listItemLayout listLayout multiChoiceItemLayout showTitle singleChoiceItemLayout
 styleable AnimatedStateListDrawableCompat android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable AnimatedStateListDrawableItem android_id android_drawable
@@ -6832,10 +6511,7 @@ styleable ConstraintSet android_orientation android_id android_visibility androi
 styleable CoordinatorLayout keylines statusBarBackground
 styleable CoordinatorLayout_Layout android_layout_gravity layout_anchor layout_anchorGravity layout_behavior layout_dodgeInsetEdges layout_insetEdge layout_keyline
 styleable CustomAttribute attributeName customBoolean customColorDrawableValue customColorValue customDimension customFloatValue customIntegerValue customPixelDimension customReference customStringValue methodName
-<<<<<<< Updated upstream
-=======
 styleable DialogFragmentNavigator android_name
->>>>>>> Stashed changes
 styleable DockedToolbar backgroundTint paddingBottomSystemWindowInsets paddingTopSystemWindowInsets
 styleable DrawerArrowToggle arrowHeadLength arrowShaftLength barLength color drawableSize gapBetweenBars spinBars thickness
 styleable DrawerLayout elevation
@@ -6850,10 +6526,7 @@ styleable FontFamilyFont android_font android_fontWeight android_fontStyle andro
 styleable ForegroundLinearLayout android_foreground android_foregroundGravity foregroundInsidePadding
 styleable Fragment android_name android_id android_tag
 styleable FragmentContainerView android_name android_tag
-<<<<<<< Updated upstream
-=======
 styleable FragmentNavigator android_name
->>>>>>> Stashed changes
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
 styleable Grid grid_columnWeights grid_columns grid_horizontalGaps grid_orientation grid_rowWeights grid_rows grid_skips grid_spans grid_useRtl grid_validateInputs grid_verticalGaps
@@ -6872,10 +6545,7 @@ styleable LinearLayoutCompat android_gravity android_orientation android_baselin
 styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width android_layout_height android_layout_weight
 styleable LinearProgressIndicator indeterminateAnimationType indicatorDirectionLinear trackInnerCornerRadius trackStopIndicatorPadding trackStopIndicatorSize
 styleable ListPopupWindow android_dropDownHorizontalOffset android_dropDownVerticalOffset
-<<<<<<< Updated upstream
-=======
 styleable LoadingImageView circleCrop imageAspectRatio imageAspectRatioAdjust
->>>>>>> Stashed changes
 styleable LoadingIndicator containerColor containerHeight containerWidth indicatorColor indicatorSize
 styleable MaterialAlertDialog backgroundInsetBottom backgroundInsetEnd backgroundInsetStart backgroundInsetTop backgroundTint
 styleable MaterialAlertDialogTheme materialAlertDialogBodyTextStyle materialAlertDialogButtonSpacerVisibility materialAlertDialogTheme materialAlertDialogTitleIconStyle materialAlertDialogTitlePanelStyle materialAlertDialogTitleTextStyle
@@ -6908,8 +6578,6 @@ styleable MotionLabel android_textSize android_typeface android_textStyle androi
 styleable MotionLayout applyMotionScene currentState layoutDescription motionDebug motionProgress showPaths
 styleable MotionScene defaultDuration layoutDuringTransition
 styleable MotionTelltales telltales_tailColor telltales_tailScale telltales_velocityMode
-<<<<<<< Updated upstream
-=======
 styleable NavAction android_id destination enterAnim exitAnim launchSingleTop popEnterAnim popExitAnim popUpTo popUpToInclusive popUpToSaveState restoreState
 styleable NavArgument android_name android_defaultValue argType nullable
 styleable NavDeepLink android_autoVerify action mimeType uri
@@ -6917,15 +6585,11 @@ styleable NavGraphNavigator startDestination
 styleable NavHost navGraph
 styleable NavHostFragment defaultNavHost
 styleable NavInclude graph
->>>>>>> Stashed changes
 styleable NavigationBarActiveIndicator android_height android_width android_color expandedActiveIndicatorPaddingBottom expandedActiveIndicatorPaddingEnd expandedActiveIndicatorPaddingStart expandedActiveIndicatorPaddingTop expandedHeight expandedMarginHorizontal expandedWidth marginHorizontal shapeAppearance
 styleable NavigationBarView activeIndicatorLabelPadding backgroundTint elevation horizontalItemTextAppearanceActive horizontalItemTextAppearanceInactive iconLabelHorizontalSpacing itemActiveIndicatorStyle itemBackground itemGravity itemIconGravity itemIconSize itemIconTint itemPaddingBottom itemPaddingTop itemRippleColor itemTextAppearanceActive itemTextAppearanceActiveBoldEnabled itemTextAppearanceInactive itemTextColor labelFontScalingEnabled labelMaxLines labelVisibilityMode measureBottomPaddingFromLabelBaseline menu
 styleable NavigationRailView collapsedItemMinHeight contentMarginTop expanded expandedItemMinHeight expandedMaxWidth expandedMinWidth headerLayout headerMarginBottom itemMinHeight itemSpacing menuGravity paddingBottomSystemWindowInsets paddingStartSystemWindowInsets paddingTopSystemWindowInsets scrollingEnabled shapeAppearance shapeAppearanceOverlay submenuDividersEnabled
 styleable NavigationView android_layout_gravity android_background android_fitsSystemWindows android_maxWidth bottomInsetScrimEnabled dividerInsetEnd dividerInsetStart drawerLayoutCornerSize elevation endInsetScrimEnabled headerLayout itemBackground itemHorizontalPadding itemIconPadding itemIconSize itemIconTint itemMaxLines itemRippleColor itemShapeAppearance itemShapeAppearanceOverlay itemShapeFillColor itemShapeInsetBottom itemShapeInsetEnd itemShapeInsetStart itemShapeInsetTop itemTextAppearance itemTextAppearanceActiveBoldEnabled itemTextColor itemVerticalPadding menu shapeAppearance shapeAppearanceOverlay startInsetScrimEnabled subheaderColor subheaderInsetEnd subheaderInsetStart subheaderTextAppearance topInsetScrimEnabled
-<<<<<<< Updated upstream
-=======
 styleable Navigator android_label android_id route
->>>>>>> Stashed changes
 styleable OnClick clickAction targetId
 styleable OnSwipe autoCompleteMode dragDirection dragScale dragThreshold limitBoundsTo maxAcceleration maxVelocity moveWhenScrollAtTop nestedScrollFlags onTouchUp rotationCenterId springBoundary springDamping springMass springStiffness springStopThreshold touchAnchorId touchAnchorSide touchRegionId
 styleable PopupWindow android_popupBackground android_popupAnimationStyle overlapAnchor
@@ -6942,20 +6606,14 @@ styleable SearchView android_textAppearance android_focusable android_maxWidth a
 styleable ShapeAppearance cornerFamily cornerFamilyBottomLeft cornerFamilyBottomRight cornerFamilyTopLeft cornerFamilyTopRight cornerSize cornerSizeBottomLeft cornerSizeBottomRight cornerSizeTopLeft cornerSizeTopRight
 styleable ShapeableImageView contentPadding contentPaddingBottom contentPaddingEnd contentPaddingLeft contentPaddingRight contentPaddingStart contentPaddingTop shapeAppearance shapeAppearanceOverlay strokeColor strokeWidth
 styleable SideSheetBehavior_Layout android_maxWidth android_maxHeight android_elevation backgroundTint behavior_draggable coplanarSiblingViewId shapeAppearance shapeAppearanceOverlay
-<<<<<<< Updated upstream
-=======
 styleable SignInButton buttonSize colorScheme scopeUris
->>>>>>> Stashed changes
 styleable Slider android_enabled android_value android_orientation android_stepSize android_valueFrom android_valueTo centered haloColor haloRadius labelBehavior labelStyle minTouchTargetSize thumbColor thumbElevation thumbHeight thumbRadius thumbStrokeColor thumbStrokeWidth thumbTrackGapSize thumbWidth tickColor tickColorActive tickColorInactive tickRadiusActive tickRadiusInactive tickVisibilityMode tickVisible trackColor trackColorActive trackColorInactive trackCornerSize trackHeight trackIconActiveColor trackIconActiveEnd trackIconActiveStart trackIconInactiveColor trackIconInactiveEnd trackIconInactiveStart trackIconSize trackInsideCornerSize trackStopIndicatorSize
 styleable Snackbar snackbarButtonStyle snackbarStyle snackbarTextViewStyle
 styleable SnackbarLayout android_maxWidth actionTextColorAlpha animationMode backgroundOverlayColorAlpha backgroundTint backgroundTintMode elevation maxActionInlineWidth shapeAppearance shapeAppearanceOverlay
 styleable Spinner android_entries android_popupBackground android_prompt android_dropDownWidth popupTheme
-<<<<<<< Updated upstream
-=======
 styleable SplitPairFilter primaryActivityName secondaryActivityAction secondaryActivityName
 styleable SplitPairRule clearTop finishPrimaryWithSecondary finishSecondaryWithPrimary splitLayoutDirection splitMinSmallestWidth splitMinWidth splitRatio
 styleable SplitPlaceholderRule placeholderActivityName splitLayoutDirection splitMinSmallestWidth splitMinWidth splitRatio
->>>>>>> Stashed changes
 styleable State android_id constraints
 styleable StateListDrawable android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable StateListDrawableItem android_drawable
@@ -6983,10 +6641,7 @@ styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration
 styleable include constraintSet
 xml backup_rules
 xml data_extraction_rules
-<<<<<<< Updated upstream
-=======
 xml image_share_filepaths
->>>>>>> Stashed changes
 xml m3_button_group_child_size_change
 xml m3_split_button_inner_corner_size_state_list
 xml m3expressive_button_shape_state_list

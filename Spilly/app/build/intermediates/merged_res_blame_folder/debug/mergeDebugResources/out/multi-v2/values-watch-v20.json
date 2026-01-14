@@ -1,12 +1,6 @@
 {
     "logs": [
         {
-<<<<<<< Updated upstream
-            "outputFile": "com.example.spilly.app-mergeDebugResources-34:/values-watch-v20/values-watch-v20.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\irfan\\.gradle\\caches\\8.13\\transforms\\6d224fdb884dfc1e180b240711335638\\transformed\\appcompat-1.7.1\\res\\values-watch-v20\\values-watch-v20.xml",
-=======
             "outputFile": "com.example.spilly.app-mergeDebugResources-54:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
@@ -28,7 +22,6 @@
                 },
                 {
                     "source": "C:\\Users\\irfan\\.gradle\\caches\\9.0-milestone-1\\transforms\\4173488c9293eb48edcc3e52c270be90\\transformed\\appcompat-1.7.1\\res\\values-watch-v20\\values-watch-v20.xml",
->>>>>>> Stashed changes
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",
@@ -36,8 +29,6 @@
                         "endLines": "4,7,10",
                         "endColumns": "12,12,12",
                         "endOffsets": "209,380,553"
-<<<<<<< Updated upstream
-=======
                     },
                     "to": {
                         "startLines": "10,13,16",
@@ -46,7 +37,6 @@
                         "endLines": "12,15,18",
                         "endColumns": "12,12,12",
                         "endOffsets": "869,1040,1213"
->>>>>>> Stashed changes
                     }
                 }
             ]
