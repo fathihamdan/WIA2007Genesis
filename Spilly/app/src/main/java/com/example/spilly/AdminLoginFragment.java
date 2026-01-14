@@ -1,5 +1,6 @@
 package com.example.spilly;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,7 +12,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.navigation.Navigation;
+
 
 public class AdminLoginFragment extends Fragment {
 
@@ -36,6 +37,7 @@ public class AdminLoginFragment extends Fragment {
 
 
         btnLogin.setOnClickListener(v -> {
+
             String email = etEmail.getText().toString();
             String password = etPassword.getText().toString();
 
@@ -43,9 +45,16 @@ public class AdminLoginFragment extends Fragment {
             if(email.equals("admin") && password.equals("1234")) {
                 Toast.makeText(getContext(), "Login Successful", Toast.LENGTH_SHORT).show();
 
+                // 1. Create an Intent to switch from MainActivity to AdminActivity
+                Intent intent = new Intent(getActivity(), AdminActivity.class);
 
-                Navigation.findNavController(view)
-                        .navigate(R.id.action_adminLoginFragment_to_adminHomeFragment); //
+                // 2. Start the new Activity
+                startActivity(intent);
+
+                // 3. Optional: Finish the current activity so the user can't "Back" into the login screen
+                if (getActivity() != null) {
+                    getActivity().finish();
+                }
             } else {
                 Toast.makeText(getContext(), "Invalid Admin Credentials", Toast.LENGTH_SHORT).show();
             }

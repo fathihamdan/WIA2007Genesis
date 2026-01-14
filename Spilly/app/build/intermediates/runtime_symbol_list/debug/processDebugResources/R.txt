@@ -4095,9 +4095,11 @@ int id actionDown 0x7f08013e
 int id actionDownUp 0x7f08013f
 int id actionUp 0x7f080140
 int id action_adminHomeFragment_to_adminAnalyticsFragment 0x7f080141
-int id action_adminHomeFragment_to_adminProfileFragment 0x7f080142
+int id action_adminHomeFragment_to_adminCaseDetailsFragment 0x7f0803cf
 int id action_adminLoginFragment_to_adminHomeFragment 0x7f080143
 int id action_adminProfileFragment_to_adminChangePasswordFragment 0x7f080144
+int id action_adminProfileFragment_to_adminChangeSchool 0x7f0803d0
+int id action_adminProfileFragment_to_starterPage 0x7f0803d1
 int id action_bar 0x7f080145
 int id action_bar_activity_content 0x7f080146
 int id action_bar_container 0x7f080147

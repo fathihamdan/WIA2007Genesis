@@ -4,7 +4,7 @@
     <selectionStates>
       <SelectionState runConfigName="Spilly.app">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2026-01-14T15:20:47.487994300Z">
+        <DropdownSelection timestamp="2026-01-14T15:38:01.907014500Z">
           <Target type="DEFAULT_BOOT">
             <handle>
               <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\User\.android\avd\Pixel_9.avd" />

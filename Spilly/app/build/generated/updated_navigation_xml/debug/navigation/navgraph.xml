@@ -3,7 +3,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:app="http://schemas.android.com/apk/res-auto"
 xmlns:tools="http://schemas.android.com/tools"
 android:id="@+id/navgraph"
-app:startDestination="@id/starterPage" >
+app:startDestination="@+id/adminLoginFragment" >
 <fragment
     android:id="@+id/starterPage"
     android:name="com.example.spilly.StarterPage"
@@ -174,11 +174,11 @@ app:startDestination="@id/starterPage" >
     tools:layout="@layout/fragment_admin_home_page" >
 
     <action
-        android:id="@+id/action_adminHomeFragment_to_adminProfileFragment"
-        app:destination="@id/adminProfileFragment" />
-    <action
         android:id="@+id/action_adminHomeFragment_to_adminAnalyticsFragment"
         app:destination="@id/adminAnalyticsFragment" />
+    <action
+        android:id="@+id/action_adminHomeFragment_to_adminCaseDetailsFragment"
+        app:destination="@id/adminCaseDetailsFragment" />
 
 </fragment>
 <fragment
@@ -201,6 +201,12 @@ app:startDestination="@id/starterPage" >
     <action
         android:id="@+id/action_adminProfileFragment_to_adminChangePasswordFragment"
         app:destination="@id/adminChangePasswordFragment" />
+    <action
+        android:id="@+id/action_adminProfileFragment_to_adminChangeSchool"
+        app:destination="@id/adminChangeSchool" />
+    <action
+        android:id="@+id/action_adminProfileFragment_to_starterPage"
+        app:destination="@id/starterPage" />
 
 </fragment>
 <fragment
