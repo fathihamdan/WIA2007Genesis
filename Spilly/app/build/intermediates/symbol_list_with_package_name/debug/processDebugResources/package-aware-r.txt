@@ -3827,6 +3827,7 @@ id CaseUpdateIcon
 id CaseUpdateIcon2
 id ContinueButton
 id CounselorPhoneNum
+id Cyberbully12456
 id ETChangePassParent
 id ETChangePassStudent
 id ETChangePassTeacher
@@ -4057,6 +4058,7 @@ id TVsdg
 id TotalCasesNumber
 id TotalCasesTitle
 id TotalReports
+id Verbal12455
 id above
 id accelerate
 id accessibility_action_clickable_span

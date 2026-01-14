@@ -3826,6 +3826,7 @@ int id CaseUpdateIcon 0x7f080031
 int id CaseUpdateIcon2 0x7f080032
 int id ContinueButton 0x7f080033
 int id CounselorPhoneNum 0x7f080034
+int id Cyberbully12456 0x7f0803d2
 int id ETChangePassParent 0x7f080035
 int id ETChangePassStudent 0x7f080036
 int id ETChangePassTeacher 0x7f080037
@@ -4056,6 +4057,7 @@ int id TVsdg 0x7f080117
 int id TotalCasesNumber 0x7f080118
 int id TotalCasesTitle 0x7f080119
 int id TotalReports 0x7f08011a
+int id Verbal12455 0x7f0803d3
 int id above 0x7f08011b
 int id accelerate 0x7f08011c
 int id accessibility_action_clickable_span 0x7f08011d
