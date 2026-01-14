@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeacherLoginPage">
+
+    <!-- Header -->
+    <ImageView
+        android:id="@+id/IVShieldTeacher"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="64dp"
+        android:src="@drawable/shield"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVSignInTeacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Sign In"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/IVShieldTeacher" />
+
+    <TextView
+        android:id="@+id/TVTeacherPortal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teacher &amp; Admin Portal"
+        android:textColor="#9C27B0"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVSignInTeacher" />
+
+    <!-- Borang Input -->
+    <TextView
+        android:id="@+id/TVSelectPortal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="Select Portal"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVTeacherPortal" />
+
+    <Spinner
+        android:id="@+id/spinner_portal"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/spinner_background"
+        android:spinnerMode="dropdown"
+        app:layout_constraintEnd_toEndOf="@+id/TVSelectPortal"
+        app:layout_constraintStart_toStartOf="@+id/TVSelectPortal"
+        app:layout_constraintTop_toBottomOf="@+id/TVSelectPortal" />
+
+    <TextView
+        android:id="@+id/TVEmailTeacher"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Email"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/spinner_portal"
+        app:layout_constraintStart_toStartOf="@+id/spinner_portal"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_portal" />
+
+    <EditText
+        android:id="@+id/ETEmailTeacher"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="your.email@school.edu"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/TVEmailTeacher"
+        app:layout_constraintStart_toStartOf="@+id/TVEmailTeacher"
+        app:layout_constraintTop_toBottomOf="@+id/TVEmailTeacher" />
+
+    <TextView
+        android:id="@+id/TVPasswordTeacher"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Password"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/ETEmailTeacher"
+        app:layout_constraintStart_toStartOf="@+id/ETEmailTeacher"
+        app:layout_constraintTop_toBottomOf="@+id/ETEmailTeacher" />
+
+    <EditText
+        android:id="@+id/ETPasswordTeacher"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/TVPasswordTeacher"
+        app:layout_constraintStart_toStartOf="@+id/TVPasswordTeacher"
+        app:layout_constraintTop_toBottomOf="@+id/TVPasswordTeacher" />
+
+    <TextView
+        android:id="@+id/TVForgotPassTeacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Forgot Password?"
+        android:textColor="#9C27B0"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/ETPasswordTeacher"
+        app:layout_constraintTop_toBottomOf="@+id/ETPasswordTeacher" />
+
+
+    <!-- Butang dan Navigasi Lain -->
+    <Button
+        android:id="@+id/ButtonSignInTeacher"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Sign In"
+        app:layout_constraintBottom_toTopOf="@+id/TVDontHaveAccTeacher"
+        app:layout_constraintEnd_toEndOf="@+id/ETPasswordTeacher"
+        app:layout_constraintStart_toStartOf="@+id/ETPasswordTeacher" />
+
+    <TextView
+        android:id="@+id/TVDontHaveAccTeacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="Don't have an account?"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/TVSignUpTeacher"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/TVSignUpTeacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Sign Up"
+        android:textColor="#9C27B0"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/TVDontHaveAccTeacher"
+        app:layout_constraintStart_toEndOf="@+id/TVDontHaveAccTeacher"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/TVBackTeacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"
+        android:text="Back"
+        android:textColor="#3F51B5"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

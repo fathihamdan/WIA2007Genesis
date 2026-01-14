@@ -23,6 +23,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
+import androidx.navigation.Navigation;
+
 public class TeacherCasesPage extends Fragment {
 
     private static final String TAG = "TeacherCasesPage";
@@ -198,6 +200,13 @@ public class TeacherCasesPage extends Fragment {
 
         rowWrapper.addView(rowContent);
         rowWrapper.addView(divider);
+        rowWrapper.setOnClickListener(v -> {
+            Bundle bundle = new Bundle();
+            bundle.putString("reportId", report.getReportId());
+
+            Navigation.findNavController(v)
+                    .navigate(R.id.action_teacherCasesPage_to_teacherCaseDetailsFragment, bundle);
+        });
 
         return rowWrapper;
     }

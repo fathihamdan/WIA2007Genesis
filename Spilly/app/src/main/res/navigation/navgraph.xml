@@ -72,7 +72,15 @@
         <action
             android:id="@+id/action_teacherLoginPage_to_adminHomeFragment"
             app:destination="@id/adminHomeFragment" />
+
+        <action
+            android:id="@+id/action_teacherLoginPage_to_teacherCasesPage2"
+            app:destination="@id/teacherCasesPage" />
+        <action
+            android:id="@+id/action_teacherLoginPage_to_teacherMainContainer"
+            app:destination="@id/teacherMainContainer" />
     </fragment>
+
     <fragment
         android:id="@+id/parentLoginPage"
         android:name="com.example.spilly.ParentLoginPage"
@@ -151,10 +159,15 @@
         android:label="fragment_Student_change_school_page"
         tools:layout="@layout/fragment_student_change_school_page" />
     <fragment
+
         android:id="@+id/teacherCasesPage"
         android:name="com.example.spilly.TeacherCasesPage"
         android:label="fragment_teacher_cases_page"
-        tools:layout="@layout/fragment_teacher_cases_page" />
+        tools:layout="@layout/fragment_teacher_cases_page" >
+        <action
+            android:id="@+id/action_teacherCasesPage_to_teacherCaseDetailsFragment"
+            app:destination="@id/teacherCaseDetailsFragment" />
+    </fragment>
     <fragment
         android:id="@+id/teacherAnalyticsPage"
         android:name="com.example.spilly.TeacherAnalyticsPage"
@@ -185,6 +198,7 @@
         android:name="com.example.spilly.ParentProfilePage"
         android:label="fragment_parent_profile_page"
         tools:layout="@layout/fragment_parent_profile_page" />
+
     <fragment
         android:id="@+id/teacherChangePassword"
         android:name="com.example.spilly.TeacherChangePassword"
@@ -283,4 +297,14 @@
         android:name="com.example.spilly.AdminCaseDetailsFragment"
         android:label="AdminCaseDetailsFragment"
         tools:layout="@layout/fragment_admin_case_details"/>
+
+    <fragment
+        android:id="@+id/teacherCaseDetailsFragment"
+        android:name="com.example.spilly.TeacherCaseDetailsFragment"
+        android:label="TeacherCaseDetailsFragment" />
+    <fragment
+        android:id="@+id/teacherMainContainer"
+        android:name="com.example.spilly.TeacherMainContainer"
+        android:label="TeacherMainContainer" />
+
 </navigation>
