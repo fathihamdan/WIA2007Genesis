@@ -42,9 +42,18 @@
             android:id="@+id/action_studentLoginPage_to_starterPage"
             app:destination="@id/starterPage" />
         <action
-            android:id="@+id/action_studentLoginPage_to_studentHomePage"
-            app:destination="@id/studentHomePage" />
+            android:id="@+id/action_studentLoginPage_to_studentMainContainer"
+            app:destination="@id/studentMainContainer" />
+
     </fragment>
+    <!-- In StudentLoginPage -->
+
+    <!-- Add container fragment -->
+    <fragment
+        android:id="@+id/studentMainContainer"
+        android:name="com.example.spilly.StudentMainContainer"
+        android:label="Student"
+        tools:layout="@layout/fragment_student_main_container" />
     <fragment
         android:id="@+id/teacherLoginPage"
         android:name="com.example.spilly.TeacherLoginPage"
@@ -55,8 +64,14 @@
             app:destination="@id/starterPage" />
         <!-- ADD THIS ACTION - Navigate to Analytics after login -->
         <action
-            android:id="@+id/action_teacherLoginPage_to_teacherAnalyticsPage"
-            app:destination="@id/teacherAnalyticsPage" />
+            android:id="@+id/action_teacherLoginPage_to_teacherCasesPage"
+            app:destination="@id/teacherCasesPage" />
+        <action
+            android:id="@+id/action_teacherLoginPage_to_signUp"
+            app:destination="@id/signUp" />
+        <action
+            android:id="@+id/action_teacherLoginPage_to_adminHomeFragment"
+            app:destination="@id/adminHomeFragment" />
     </fragment>
     <fragment
         android:id="@+id/parentLoginPage"
@@ -76,7 +91,20 @@
         android:id="@+id/signUp"
         android:name="com.example.spilly.SignUp"
         android:label="fragment_sign_up"
-        tools:layout="@layout/fragment_sign_up" />
+        tools:layout="@layout/fragment_sign_up">
+
+        <action
+            android:id="@+id/action_signUp_to_studentHomePage"
+            app:destination="@id/studentHomePage" />
+
+        <action
+            android:id="@+id/action_signUp_to_teacherCasesPage"
+            app:destination="@id/teacherCasesPage" />
+
+        <action
+            android:id="@+id/action_signUp_to_adminHomeFragment"
+            app:destination="@id/adminHomeFragment" />
+    </fragment>
     <fragment
         android:id="@+id/studentHomePage"
         android:name="com.example.spilly.StudentHomePage"
