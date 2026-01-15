@@ -3667,6 +3667,7 @@ int drawable ic_clear_black_24 0x7f0700b0
 int drawable ic_clock_black_24dp 0x7f0700b1
 int drawable ic_expand_less_22px 0x7f0700b2
 int drawable ic_expand_more_22px 0x7f0700b3
+int drawable ic_home 0x7f07011e
 int drawable ic_keyboard_black_24dp 0x7f0700b4
 int drawable ic_launcher_background 0x7f0700b5
 int drawable ic_launcher_foreground 0x7f0700b6

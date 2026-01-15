@@ -42,7 +42,7 @@ public class AdminLoginFragment extends Fragment {
             String password = etPassword.getText().toString();
 
 
-            if(email.equals("admin") && password.equals("1234")) {
+            if(email.equals("admin@gmail.com") && password.equals("12345678")) {
                 Toast.makeText(getContext(), "Login Successful", Toast.LENGTH_SHORT).show();
 
                 // 1. Create an Intent to switch from MainActivity to AdminActivity

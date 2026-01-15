@@ -15,6 +15,7 @@ drawable dot_purple
 drawable family
 drawable ic_analytics
 drawable ic_cases
+drawable ic_home
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_profile
