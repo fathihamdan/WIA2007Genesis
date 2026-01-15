@@ -43,6 +43,17 @@ public class TeacherLoginPage extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
+        // 1. Find the "Sign Up" TextView (Check your XML for the exact ID)
+        TextView tvSignUp = view.findViewById(R.id.TVSignUpTeacher);
+
+        if (tvSignUp != null) {
+            tvSignUp.setOnClickListener(v -> {
+                // 2. Use the action defined in your navgraph.xml (Line 58)
+                Navigation.findNavController(v).navigate(
+                        R.id.action_teacherLoginPage_to_signUp
+                );
+            });
+        }
         // Inisialisasi Firebase Auth dan NavController
         mAuth = FirebaseAuth.getInstance();
         navController = Navigation.findNavController(view);

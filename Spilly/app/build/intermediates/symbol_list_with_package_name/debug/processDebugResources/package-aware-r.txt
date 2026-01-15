@@ -3657,6 +3657,8 @@ drawable dot_purple
 drawable family
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable green_approve_bg
+drawable grey_border_bg
 drawable ic_analytics
 drawable ic_arrow_back_black_24
 drawable ic_call_answer
@@ -3684,6 +3686,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_profile
 drawable ic_search_black_24
+drawable light_blue_rounded_bg
 drawable like
 drawable lock_icon
 drawable m3_avd_hide_password
@@ -3778,6 +3781,7 @@ drawable timeclock
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable updatenoti
+drawable yellow_pending_bg
 id ALT
 id ActiveCasesNumber
 id ActiveCasesTitle
@@ -4090,6 +4094,8 @@ id accessibility_custom_action_9
 id actionDown
 id actionDownUp
 id actionUp
+id action_adminCaseDetailsFragment_to_adminHomeFragment
+id action_adminCaseDetailsFragment_to_caseOutcomeReview
 id action_adminHomeFragment_to_adminAnalyticsFragment
 id action_adminHomeFragment_to_adminCaseDetails2
 id action_adminHomeFragment_to_adminCaseDetailsFragment
@@ -4103,6 +4109,8 @@ id action_bar_root
 id action_bar_spinner
 id action_bar_subtitle
 id action_bar_title
+id action_caseOutcomeReview_to_closeCaseOutcomeReview
+id action_closeCaseOutcomeReview_to_adminCaseDetailsFragment
 id action_container
 id action_context_bar
 id action_divider
@@ -4113,6 +4121,7 @@ id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
 id action_parentLoginPage_to_starterPage
+id action_signUp_to_teacherLoginPage
 id action_starterPage_to_parentLoginPage
 id action_starterPage_to_signUp
 id action_starterPage_to_signUp2
@@ -4123,6 +4132,7 @@ id action_starterPage_to_teacherLoginPage
 id action_studentLoginPage_to_starterPage
 id action_studentLoginPage_to_studentHomePage
 id action_teacherLoginPage_to_adminHomeFragment
+id action_teacherLoginPage_to_signUp
 id action_teacherLoginPage_to_starterPage
 id action_teacherLoginPage_to_teacherCasesPage
 id action_text
@@ -4133,6 +4143,7 @@ id activity_chooser_view_content
 id add
 id adjust_height
 id adjust_width
+id adminActions
 id adminAnalyticsFragment
 id adminCaseDetails2
 id adminCaseDetailsFragment
@@ -4183,18 +4194,23 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id btnBackFromAllCases
+id btnRevision
 id btn_add_school
+id btn_assign_teacher
 id btn_back_case_details
 id btn_back_schools
 id btn_back_users
+id btn_close_case_final
 id btn_contact_student
 id btn_mark_resolved
+id btn_review_outcome
 id buttonPanel
 id cache_measures
 id callMeasure
 id cancel_button
 id card_case_example
 id carryVelocity
+id caseOutcomeReview
 id case_id_12453
 id case_id_12456
 id cases_list
@@ -4214,6 +4230,7 @@ id clear_text
 id clip_horizontal
 id clip_vertical
 id clockwise
+id closeCaseOutcomeReview
 id closest
 id collapseActionView
 id compress
@@ -4262,6 +4279,8 @@ id disableIntraAutoTransition
 id disablePostScroll
 id disableScroll
 id disjoint
+id dot1
+id dot2
 id dragAnticlockwise
 id dragClockwise
 id dragDown
@@ -4346,6 +4365,7 @@ id honorRequest
 id horizontal
 id horizontal_only
 id icon
+id icon1
 id icon_group
 id icon_only
 id id_12452
@@ -4597,6 +4617,7 @@ id south
 id spacer
 id special_effects_controller_view_tag
 id spillylogo
+id spinner_assign_teacher
 id spinner_bullying_type
 id spinner_portal
 id spline
@@ -4618,6 +4639,8 @@ id starterPage
 id staticLayout
 id staticPostLayout
 id stats_row
+id statusContainer
+id statusText
 id status_12452
 id status_12453
 id status_12454
@@ -4728,6 +4751,7 @@ id useLogo
 id verbal_percent
 id vertical
 id vertical_only
+id view1
 id view_offset_helper
 id view_transition
 id view_tree_disjoint_parent
@@ -4897,6 +4921,8 @@ layout fragment_admin_home_page
 layout fragment_admin_manage_schools
 layout fragment_admin_manage_users
 layout fragment_admin_profile
+layout fragment_case_outcome_review
+layout fragment_close_case_outcome_review
 layout fragment_forgot_password_page
 layout fragment_parent_change_password
 layout fragment_parent_change_school_page

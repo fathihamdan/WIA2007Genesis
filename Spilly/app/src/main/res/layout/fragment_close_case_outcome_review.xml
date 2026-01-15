@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#A020F0"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Case Outcome Review"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:rowCount="2">
+
+                <LinearLayout android:layout_columnWeight="1" android:orientation="vertical" android:layout_marginBottom="12dp">
+                    <TextView android:text="Case ID" android:textColor="#757575" android:textSize="12sp"  android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+                    <TextView android:text="Case #12456" android:textSize="16sp" android:textStyle="bold" android:textColor="#212121"  android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+                </LinearLayout>
+
+                <LinearLayout android:layout_columnWeight="1" android:orientation="vertical">
+                    <TextView android:text="Incident Type" android:textColor="#757575" android:textSize="12sp" android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+                    <TextView android:text="Cyberbullying" android:textSize="16sp" android:textStyle="bold" android:textColor="#212121" android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+                </LinearLayout>
+
+                <LinearLayout android:layout_columnWeight="1" android:orientation="vertical">
+                    <TextView android:text="Date Reported" android:textColor="#757575" android:textSize="12sp" android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+                    <TextView android:text="12 Dec 2025" android:textSize="16sp" android:textStyle="bold" android:textColor="#212121" android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+                </LinearLayout>
+
+                <LinearLayout android:layout_columnWeight="1" android:orientation="vertical">
+                    <TextView android:text="Assigned Teacher" android:textColor="#757575" android:textSize="12sp" android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+                    <TextView android:text="Mr. David" android:textSize="16sp" android:textStyle="bold" android:textColor="#212121" android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+                </LinearLayout>
+            </GridLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Outcome Summary"
+                android:textColor="#757575" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/light_blue_rounded_bg"
+                android:padding="12dp"
+                android:text="“After reviewing the submitted evidence and speaking with the student involved, it was confirmed that several inappropriate messages were circulated via social media. The student responsible has been counseled by the school, and the recipient student has received emotional support from the counselor. Measures have been implemented to monitor online interactions to prevent further incidents.”"
+                android:textColor="#424242"
+                android:lineSpacingExtra="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Attachments / Evidence References"
+                android:textColor="#757575" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/grey_border_bg"
+                android:padding="12dp">
+                <ImageView android:id="@+id/icon1" android:layout_width="40dp" android:layout_height="40dp" />
+                <LinearLayout android:layout_toRightOf="@id/icon1" android:layout_toLeftOf="@+id/view1" android:layout_marginLeft="12dp" android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="wrap_content">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Screenshot 1 (submitted by student)" android:textColor="#212121" android:textStyle="bold"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Image - 234 KB" android:textSize="12sp"/>
+                </LinearLayout>
+                <TextView android:id="@+id/view1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:text="View" android:textColor="#2196F3" android:textStyle="bold"/>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Status"
+                android:textColor="#757575" />
+
+            <LinearLayout
+                android:id="@+id/statusContainer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/green_approve_bg"
+                android:padding="8dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+                <ImageView android:layout_width="18dp" android:layout_height="18dp"/>
+
+                <TextView
+                    android:id="@+id/statusText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:text="Approved - Ready to close"
+                    android:textColor="#4CAF50" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/adminActions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_close_case_final"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#00C853"
+                    android:text="Close Case"
+                    android:textColor="#FFF" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -13,8 +13,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="282" />
-                            <option name="y" value="1360" />
+                            <option name="x" value="-31" />
+                            <option name="y" value="1371" />
                           </Point>
                         </option>
                       </LayoutPositions>
@@ -25,8 +25,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="506" />
-                            <option name="y" value="1356" />
+                            <option name="x" value="745" />
+                            <option name="y" value="1366" />
                           </Point>
                         </option>
                       </LayoutPositions>
@@ -37,9 +37,23 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="496" />
-                            <option name="y" value="1051" />
+                            <option name="x" value="451" />
+                            <option name="y" value="1044" />
                           </Point>
+                        </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_adminCaseDetailsFragment_to_adminHomeFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_adminCaseDetailsFragment_to_caseOutcomeReview">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
                         </option>
                       </LayoutPositions>
                     </value>
@@ -73,8 +87,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="266" />
-                            <option name="y" value="1050" />
+                            <option name="x" value="171" />
+                            <option name="y" value="1033" />
                           </Point>
                         </option>
                         <option name="myPositions">
@@ -90,27 +104,6 @@
                               </value>
                             </entry>
                             <entry key="action_adminHomeFragment_to_adminCaseDetailsFragment">
-                              <value>
-                                <LayoutPositions />
-                              </value>
-                            </entry>
-                          </map>
-                        </option>
-                      </LayoutPositions>
-                    </value>
-                  </entry>
-                  <entry key="adminLoginFragment">
-                    <value>
-                      <LayoutPositions>
-                        <option name="myPosition">
-                          <Point>
-                            <option name="x" value="17" />
-                            <option name="y" value="1052" />
-                          </Point>
-                        </option>
-                        <option name="myPositions">
-                          <map>
-                            <entry key="action_adminLoginFragment_to_adminHomeFragment">
                               <value>
                                 <LayoutPositions />
                               </value>
@@ -142,6 +135,48 @@
                               </value>
                             </entry>
                             <entry key="action_adminProfileFragment_to_starterPage">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="caseOutcomeReview">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="277" />
+                            <option name="y" value="1355" />
+                          </Point>
+                        </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_caseOutcomeReview_to_closeCaseOutcomeReview">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="closeCaseOutcomeReview">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="509" />
+                            <option name="y" value="1361" />
+                          </Point>
+                        </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_closeCaseOutcomeReview_to_adminCaseDetailsFragment">
                               <value>
                                 <LayoutPositions />
                               </value>
@@ -249,8 +284,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="556" />
-                            <option name="y" value="-451" />
+                            <option name="x" value="-178" />
+                            <option name="y" value="719" />
                           </Point>
                         </option>
                       </LayoutPositions>
@@ -482,13 +517,28 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="16" />
-                            <option name="y" value="726" />
+                            <option name="x" value="26" />
+                            <option name="y" value="734" />
                           </Point>
                         </option>
                         <option name="myPositions">
                           <map>
+                            <entry key="action_teacherLoginPage_to_adminHomeFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_teacherLoginPage_to_signUp">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
                             <entry key="action_teacherLoginPage_to_starterPage">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_teacherLoginPage_to_teacherCasesPage">
                               <value>
                                 <LayoutPositions />
                               </value>

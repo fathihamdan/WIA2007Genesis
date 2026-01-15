@@ -139,6 +139,7 @@
         android:id="@+id/TVDontHaveAccTeacher"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
         android:layout_marginBottom="40dp"
         android:text="Don't have an account?"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -148,15 +149,18 @@
 
     <TextView
         android:id="@+id/TVSignUpTeacher"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
         android:layout_marginStart="8dp"
+        android:layout_marginBottom="11dp"
+        android:clickable="true"
         android:text="Sign Up"
         android:textColor="#9C27B0"
+        android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/TVDontHaveAccTeacher"
-        app:layout_constraintStart_toEndOf="@+id/TVDontHaveAccTeacher"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/TVDontHaveAccTeacher" />
 
     <TextView
         android:id="@+id/TVBackTeacher"
