@@ -3,7 +3,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:app="http://schemas.android.com/apk/res-auto"
 xmlns:tools="http://schemas.android.com/tools"
 android:id="@+id/navgraph"
-app:startDestination="@+id/adminLoginFragment" >
+app:startDestination="@+id/starterPage" >
 <fragment
     android:id="@+id/starterPage"
     android:name="com.example.spilly.StarterPage"
@@ -56,6 +56,12 @@ app:startDestination="@+id/adminLoginFragment" >
     <action
         android:id="@+id/action_teacherLoginPage_to_starterPage"
         app:destination="@id/starterPage" />
+    <action
+        android:id="@+id/action_teacherLoginPage_to_teacherCasesPage"
+        app:destination="@id/teacherCasesPage" />
+    <action
+        android:id="@+id/action_teacherLoginPage_to_adminHomeFragment"
+        app:destination="@id/adminHomeFragment" />
 
 </fragment>
 <fragment
@@ -179,17 +185,9 @@ app:startDestination="@+id/adminLoginFragment" >
     <action
         android:id="@+id/action_adminHomeFragment_to_adminCaseDetailsFragment"
         app:destination="@id/adminCaseDetailsFragment" />
-
-</fragment>
-<fragment
-    android:id="@+id/adminLoginFragment"
-    android:name="com.example.spilly.AdminLoginFragment"
-    android:label="fragment_admin_login_page"
-    tools:layout="@layout/fragment_admin_login_page" >
-
     <action
-        android:id="@+id/action_adminLoginFragment_to_adminHomeFragment"
-        app:destination="@id/adminHomeFragment" />
+        android:id="@+id/action_adminHomeFragment_to_adminCaseDetails2"
+        app:destination="@id/adminCaseDetails2" />
 
 </fragment>
 <fragment
@@ -229,4 +227,9 @@ app:startDestination="@+id/adminLoginFragment" >
     android:name="com.example.spilly.adminChangeSchool"
     android:label="fragment_admin_change_school"
     tools:layout="@layout/fragment_admin_change_school" />
+<fragment
+    android:id="@+id/adminCaseDetails2"
+    android:name="com.example.spilly.adminCaseDetails2"
+    android:label="fragment_admin_case_details2"
+    tools:layout="@layout/fragment_admin_case_details2" />
 </navigation>

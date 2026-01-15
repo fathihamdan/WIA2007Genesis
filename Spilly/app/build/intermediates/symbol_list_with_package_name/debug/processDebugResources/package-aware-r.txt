@@ -3612,8 +3612,10 @@ drawable account_icon
 drawable avd_hide_password
 drawable avd_show_password
 drawable backarrow
+drawable badge_
 drawable badge_purple
 drawable badge_red
+drawable badge_yellow
 drawable book
 drawable border_rounded_gray
 drawable btn_checkbox_checked_mtrl
@@ -3769,6 +3771,7 @@ drawable rounded_left_purple
 drawable rounded_left_yellow
 drawable school_information_icon
 drawable shield
+drawable spinner_background
 drawable status_pending
 drawable test_level_drawable
 drawable timeclock
@@ -3795,7 +3798,6 @@ id ButtonRequestSchoolChangeParent
 id ButtonRequestSchoolChangeStudent
 id ButtonRequestSchoolChangeTeacher
 id ButtonSendLink
-id ButtonSignInAdmin
 id ButtonSignInParent
 id ButtonSignInTeacher
 id ButtonSignUp
@@ -3838,7 +3840,6 @@ id ETConfirmPasswordChangeStudent
 id ETConfirmPasswordChangeTeacher
 id ETDate
 id ETEmail
-id ETEmailAdmin
 id ETEmailParent
 id ETEmailSignUp
 id ETEmailTeacher
@@ -3849,7 +3850,6 @@ id ETMReasonTransferStudent
 id ETMReasonTransferTeacher
 id ETNameSignUp
 id ETPassword
-id ETPasswordAdmin
 id ETPasswordParent
 id ETPasswordSignUp
 id ETPasswordTeacher
@@ -3865,7 +3865,6 @@ id IVHeart
 id IVParent
 id IVSecure
 id IVShield
-id IVShieldAdmin
 id IVShieldParent
 id IVShieldTeacher
 id IVStudent
@@ -3945,9 +3944,7 @@ id TVAccountActionsParent
 id TVAccountActionsStudent
 id TVAccountActionsTeacher
 id TVAddEvidence
-id TVAdminPortal
 id TVBack
-id TVBackAdmin
 id TVBackChangePassParent
 id TVBackChangePassStudent
 id TVBackChangePassTeacher
@@ -3966,8 +3963,6 @@ id TVConfirmPass
 id TVConfirmPassChangeParent
 id TVConfirmPassChangeStudent
 id TVConfirmPassChangeTeacher
-id TVCredentialAdmin
-id TVCredentialTeacher
 id TVCredentialsParent
 id TVCurrentSchoolParent
 id TVCurrentSchoolParentProfile
@@ -3975,10 +3970,9 @@ id TVCurrentSchoolStudent
 id TVCurrentSchoolStudentProfile
 id TVCurrentSchoolTeacher
 id TVCurrentSchoolTeacherProfile
-id TVDontHaceAccTeacher
 id TVDontHaveAccParent
+id TVDontHaveAccTeacher
 id TVEmail
-id TVEmailAdmin
 id TVEmailForgotPass
 id TVEmailParent
 id TVEmailSignUp
@@ -3986,7 +3980,6 @@ id TVEmailTeacher
 id TVEnterCredentials
 id TVEnterEmail
 id TVFillDetails
-id TVForgotPassAdmin
 id TVForgotPassParent
 id TVForgotPassTeacher
 id TVFullNameSignUp
@@ -4006,7 +3999,6 @@ id TVPassChangeParent
 id TVPassChangeStudent
 id TVPassChangeTeacher
 id TVPassword
-id TVPasswordAdmin
 id TVPasswordParent
 id TVPasswordSignUp
 id TVPasswordTeacher
@@ -4027,13 +4019,13 @@ id TVRoleTeacher
 id TVSafetyInfo
 id TVSchoolInformation
 id TVSearchSchool
+id TVSelectPortal
 id TVSeverityLevel
 id TVShowEvidence
 id TVShowRoleParent
 id TVShowRoleStudent
 id TVShowRoleTeacher
 id TVSignIn
-id TVSignInAdmin
 id TVSignInParent
 id TVSignInTeacher
 id TVSignUpPage
@@ -4099,8 +4091,8 @@ id actionDown
 id actionDownUp
 id actionUp
 id action_adminHomeFragment_to_adminAnalyticsFragment
+id action_adminHomeFragment_to_adminCaseDetails2
 id action_adminHomeFragment_to_adminCaseDetailsFragment
-id action_adminLoginFragment_to_adminHomeFragment
 id action_adminProfileFragment_to_adminChangePasswordFragment
 id action_adminProfileFragment_to_adminChangeSchool
 id action_adminProfileFragment_to_starterPage
@@ -4130,7 +4122,9 @@ id action_starterPage_to_studentLoginPage
 id action_starterPage_to_teacherLoginPage
 id action_studentLoginPage_to_starterPage
 id action_studentLoginPage_to_studentHomePage
+id action_teacherLoginPage_to_adminHomeFragment
 id action_teacherLoginPage_to_starterPage
+id action_teacherLoginPage_to_teacherCasesPage
 id action_text
 id actions
 id active_cases
@@ -4140,11 +4134,11 @@ id add
 id adjust_height
 id adjust_width
 id adminAnalyticsFragment
+id adminCaseDetails2
 id adminCaseDetailsFragment
 id adminChangePasswordFragment
 id adminChangeSchool
 id adminHomeFragment
-id adminLoginFragment
 id adminProfileFragment
 id admin_bottom_nav
 id admin_nav_host
@@ -4331,7 +4325,6 @@ id frameLayout6
 id frameLayout7
 id frameLayout8
 id frameLayout9
-id frameLayoutAdmin
 id frost
 id fullscreen_header
 id ghost_view
@@ -4605,6 +4598,7 @@ id spacer
 id special_effects_controller_view_tag
 id spillylogo
 id spinner_bullying_type
+id spinner_portal
 id spline
 id split_action_bar
 id spread
@@ -4896,10 +4890,10 @@ layout fragment_activity_admin
 layout fragment_admin_all_cases
 layout fragment_admin_analytics
 layout fragment_admin_case_details
+layout fragment_admin_case_details2
 layout fragment_admin_change_password
 layout fragment_admin_change_school
 layout fragment_admin_home_page
-layout fragment_admin_login_page
 layout fragment_admin_manage_schools
 layout fragment_admin_manage_users
 layout fragment_admin_profile

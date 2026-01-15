@@ -94,7 +94,7 @@
                     android:paddingHorizontal="12dp"
                     android:paddingVertical="4dp"
                     android:text="Cyberbullying"
-                    android:textColor="#6200EE" />
+                    android:textColor="#FFFFFF" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -111,7 +111,7 @@
                     android:paddingHorizontal="12dp"
                     android:paddingVertical="4dp"
                     android:text="High"
-                    android:textColor="#B00020" />
+                    android:textColor="#FFFFFF" />
 
                 <TextView
                     android:layout_width="wrap_content"

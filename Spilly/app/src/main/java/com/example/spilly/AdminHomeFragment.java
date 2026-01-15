@@ -42,7 +42,7 @@ public class AdminHomeFragment extends Fragment {
         if (row12455 != null) {
             row12455.setOnClickListener(v -> {
                 Navigation.findNavController(v).navigate(
-                        R.id.action_adminHomeFragment_to_adminCaseDetailsFragment
+                        R.id.action_adminHomeFragment_to_adminCaseDetails2
                 );
             });
         }

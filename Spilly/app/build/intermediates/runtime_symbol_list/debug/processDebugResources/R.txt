@@ -3611,8 +3611,10 @@ int drawable account_icon 0x7f070078
 int drawable avd_hide_password 0x7f070079
 int drawable avd_show_password 0x7f07007a
 int drawable backarrow 0x7f07007b
+int drawable badge_ 0x7f07011f
 int drawable badge_purple 0x7f07007c
 int drawable badge_red 0x7f07007d
+int drawable badge_yellow 0x7f070120
 int drawable book 0x7f07007e
 int drawable border_rounded_gray 0x7f07007f
 int drawable btn_checkbox_checked_mtrl 0x7f070080
@@ -3768,6 +3770,7 @@ int drawable rounded_left_purple 0x7f070114
 int drawable rounded_left_yellow 0x7f070115
 int drawable school_information_icon 0x7f070116
 int drawable shield 0x7f070117
+int drawable spinner_background 0x7f070121
 int drawable status_pending 0x7f070118
 int drawable test_level_drawable 0x7f070119
 int drawable timeclock 0x7f07011a
@@ -3794,7 +3797,6 @@ int id ButtonRequestSchoolChangeParent 0x7f080010
 int id ButtonRequestSchoolChangeStudent 0x7f080011
 int id ButtonRequestSchoolChangeTeacher 0x7f080012
 int id ButtonSendLink 0x7f080013
-int id ButtonSignInAdmin 0x7f080014
 int id ButtonSignInParent 0x7f080015
 int id ButtonSignInTeacher 0x7f080016
 int id ButtonSignUp 0x7f080017
@@ -3837,7 +3839,6 @@ int id ETConfirmPasswordChangeStudent 0x7f08003a
 int id ETConfirmPasswordChangeTeacher 0x7f08003b
 int id ETDate 0x7f08003c
 int id ETEmail 0x7f08003d
-int id ETEmailAdmin 0x7f08003e
 int id ETEmailParent 0x7f08003f
 int id ETEmailSignUp 0x7f080040
 int id ETEmailTeacher 0x7f080041
@@ -3848,7 +3849,6 @@ int id ETMReasonTransferStudent 0x7f080045
 int id ETMReasonTransferTeacher 0x7f080046
 int id ETNameSignUp 0x7f080047
 int id ETPassword 0x7f080048
-int id ETPasswordAdmin 0x7f080049
 int id ETPasswordParent 0x7f08004a
 int id ETPasswordSignUp 0x7f08004b
 int id ETPasswordTeacher 0x7f08004c
@@ -3864,7 +3864,6 @@ int id IVHeart 0x7f080055
 int id IVParent 0x7f080056
 int id IVSecure 0x7f080057
 int id IVShield 0x7f080058
-int id IVShieldAdmin 0x7f080059
 int id IVShieldParent 0x7f08005a
 int id IVShieldTeacher 0x7f08005b
 int id IVStudent 0x7f08005c
@@ -3944,9 +3943,7 @@ int id TVAccountActionsParent 0x7f0800a5
 int id TVAccountActionsStudent 0x7f0800a6
 int id TVAccountActionsTeacher 0x7f0800a7
 int id TVAddEvidence 0x7f0800a8
-int id TVAdminPortal 0x7f0800a9
 int id TVBack 0x7f0800aa
-int id TVBackAdmin 0x7f0800ab
 int id TVBackChangePassParent 0x7f0800ac
 int id TVBackChangePassStudent 0x7f0800ad
 int id TVBackChangePassTeacher 0x7f0800ae
@@ -3965,8 +3962,6 @@ int id TVConfirmPass 0x7f0800ba
 int id TVConfirmPassChangeParent 0x7f0800bb
 int id TVConfirmPassChangeStudent 0x7f0800bc
 int id TVConfirmPassChangeTeacher 0x7f0800bd
-int id TVCredentialAdmin 0x7f0800be
-int id TVCredentialTeacher 0x7f0800bf
 int id TVCredentialsParent 0x7f0800c0
 int id TVCurrentSchoolParent 0x7f0800c1
 int id TVCurrentSchoolParentProfile 0x7f0800c2
@@ -3974,10 +3969,9 @@ int id TVCurrentSchoolStudent 0x7f0800c3
 int id TVCurrentSchoolStudentProfile 0x7f0800c4
 int id TVCurrentSchoolTeacher 0x7f0800c5
 int id TVCurrentSchoolTeacherProfile 0x7f0800c6
-int id TVDontHaceAccTeacher 0x7f0800c7
 int id TVDontHaveAccParent 0x7f0800c8
+int id TVDontHaveAccTeacher 0x7f0803d6
 int id TVEmail 0x7f0800c9
-int id TVEmailAdmin 0x7f0800ca
 int id TVEmailForgotPass 0x7f0800cb
 int id TVEmailParent 0x7f0800cc
 int id TVEmailSignUp 0x7f0800cd
@@ -3985,7 +3979,6 @@ int id TVEmailTeacher 0x7f0800ce
 int id TVEnterCredentials 0x7f0800cf
 int id TVEnterEmail 0x7f0800d0
 int id TVFillDetails 0x7f0800d1
-int id TVForgotPassAdmin 0x7f0800d2
 int id TVForgotPassParent 0x7f0800d3
 int id TVForgotPassTeacher 0x7f0800d4
 int id TVFullNameSignUp 0x7f0800d5
@@ -4005,7 +3998,6 @@ int id TVPassChangeParent 0x7f0800e2
 int id TVPassChangeStudent 0x7f0800e3
 int id TVPassChangeTeacher 0x7f0800e4
 int id TVPassword 0x7f0800e5
-int id TVPasswordAdmin 0x7f0800e6
 int id TVPasswordParent 0x7f0800e7
 int id TVPasswordSignUp 0x7f0800e8
 int id TVPasswordTeacher 0x7f0800e9
@@ -4026,13 +4018,13 @@ int id TVRoleTeacher 0x7f0800f7
 int id TVSafetyInfo 0x7f0800f8
 int id TVSchoolInformation 0x7f0800f9
 int id TVSearchSchool 0x7f0800fa
+int id TVSelectPortal 0x7f0803d7
 int id TVSeverityLevel 0x7f0800fb
 int id TVShowEvidence 0x7f0800fc
 int id TVShowRoleParent 0x7f0800fd
 int id TVShowRoleStudent 0x7f0800fe
 int id TVShowRoleTeacher 0x7f0800ff
 int id TVSignIn 0x7f080100
-int id TVSignInAdmin 0x7f080101
 int id TVSignInParent 0x7f080102
 int id TVSignInTeacher 0x7f080103
 int id TVSignUpPage 0x7f080104
@@ -4098,8 +4090,8 @@ int id actionDown 0x7f08013e
 int id actionDownUp 0x7f08013f
 int id actionUp 0x7f080140
 int id action_adminHomeFragment_to_adminAnalyticsFragment 0x7f080141
+int id action_adminHomeFragment_to_adminCaseDetails2 0x7f0803d4
 int id action_adminHomeFragment_to_adminCaseDetailsFragment 0x7f0803cf
-int id action_adminLoginFragment_to_adminHomeFragment 0x7f080143
 int id action_adminProfileFragment_to_adminChangePasswordFragment 0x7f080144
 int id action_adminProfileFragment_to_adminChangeSchool 0x7f0803d0
 int id action_adminProfileFragment_to_starterPage 0x7f0803d1
@@ -4129,7 +4121,9 @@ int id action_starterPage_to_studentLoginPage 0x7f08015b
 int id action_starterPage_to_teacherLoginPage 0x7f08015c
 int id action_studentLoginPage_to_starterPage 0x7f08015d
 int id action_studentLoginPage_to_studentHomePage 0x7f08015e
+int id action_teacherLoginPage_to_adminHomeFragment 0x7f0803d8
 int id action_teacherLoginPage_to_starterPage 0x7f08015f
+int id action_teacherLoginPage_to_teacherCasesPage 0x7f0803d9
 int id action_text 0x7f080160
 int id actions 0x7f080161
 int id active_cases 0x7f080162
@@ -4139,11 +4133,11 @@ int id add 0x7f080165
 int id adjust_height 0x7f080166
 int id adjust_width 0x7f080167
 int id adminAnalyticsFragment 0x7f080168
+int id adminCaseDetails2 0x7f0803d5
 int id adminCaseDetailsFragment 0x7f080169
 int id adminChangePasswordFragment 0x7f08016a
 int id adminChangeSchool 0x7f08016b
 int id adminHomeFragment 0x7f08016c
-int id adminLoginFragment 0x7f08016d
 int id adminProfileFragment 0x7f08016e
 int id admin_bottom_nav 0x7f08016f
 int id admin_nav_host 0x7f080170
@@ -4330,7 +4324,6 @@ int id frameLayout6 0x7f080224
 int id frameLayout7 0x7f080225
 int id frameLayout8 0x7f080226
 int id frameLayout9 0x7f080227
-int id frameLayoutAdmin 0x7f080228
 int id frost 0x7f080229
 int id fullscreen_header 0x7f08022a
 int id ghost_view 0x7f08022b
@@ -4604,6 +4597,7 @@ int id spacer 0x7f080336
 int id special_effects_controller_view_tag 0x7f080337
 int id spillylogo 0x7f080338
 int id spinner_bullying_type 0x7f080339
+int id spinner_portal 0x7f0803da
 int id spline 0x7f08033a
 int id split_action_bar 0x7f08033b
 int id spread 0x7f08033c
@@ -4895,10 +4889,10 @@ int layout fragment_activity_admin 0x7f0b002f
 int layout fragment_admin_all_cases 0x7f0b0030
 int layout fragment_admin_analytics 0x7f0b0031
 int layout fragment_admin_case_details 0x7f0b0032
+int layout fragment_admin_case_details2 0x7f0b0096
 int layout fragment_admin_change_password 0x7f0b0033
 int layout fragment_admin_change_school 0x7f0b0034
 int layout fragment_admin_home_page 0x7f0b0035
-int layout fragment_admin_login_page 0x7f0b0036
 int layout fragment_admin_manage_schools 0x7f0b0037
 int layout fragment_admin_manage_users 0x7f0b0038
 int layout fragment_admin_profile 0x7f0b0039
