@@ -9,10 +9,3 @@ Team Member
 5. Irfan Fathi
 6. Zhang Yuzhe
 
-
-git add .
-git commit -m "Fix Gradle compatibility, update wrapper"
-git pull origin main --rebase
-
-
-git push origin main
