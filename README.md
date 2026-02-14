@@ -1,5 +1,5 @@
 # WIA2007Genesis
-Mobile Application Developement: Anti-Bullying Application
+SPILLY: Anti-Bullying Application
 
 Team Member
 1. Faris Dinie [Leader]
